@@ -121,7 +121,7 @@ class NLCConfig:
     
     # Device settings
     device: str = "auto"  # "auto", "cuda", "mps", "cpu"
-    num_workers: int = 4
+    num_workers: int = 0  # Use 0 for macOS to avoid multiprocessing issues
     
     # Logging
     log_dir: str = "logs"

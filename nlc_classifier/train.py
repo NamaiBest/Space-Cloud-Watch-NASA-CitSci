@@ -243,6 +243,7 @@ class Trainer:
         }
         
         self.best_val_f1 = 0.0
+        self.best_val_acc = 0.0  # Use accuracy for model selection (more stable with imbalanced data)
         self.best_epoch = 0
     
     def _setup_optimizer(self):
@@ -483,17 +484,18 @@ class Trainer:
                   f"Recall: {val_metrics['recall']:.4f}")
             print(f"  Time: {epoch_time:.1f}s, LR: {self.scheduler.get_lr():.2e}")
             
-            # Check if best model
-            is_best = val_metrics['f1'] > self.best_val_f1
+            # Check if best model (use accuracy for model selection - more stable with imbalanced data)
+            is_best = val_metrics['accuracy'] > self.best_val_acc
             if is_best:
+                self.best_val_acc = val_metrics['accuracy']
                 self.best_val_f1 = val_metrics['f1']
                 self.best_epoch = epoch + 1
             
             # Save checkpoint
             self.save_checkpoint(epoch + 1, val_metrics, is_best)
             
-            # Early stopping
-            if self.early_stopping(val_metrics['f1']):
+            # Early stopping (use accuracy instead of F1)
+            if self.early_stopping(val_metrics['accuracy']):
                 print(f"\nEarly stopping triggered at epoch {epoch+1}")
                 break
         
@@ -501,6 +503,7 @@ class Trainer:
         
         # Final summary
         results = {
+            'best_val_acc': self.best_val_acc,
             'best_val_f1': self.best_val_f1,
             'best_epoch': self.best_epoch,
             'total_epochs': epoch + 1,
@@ -511,7 +514,7 @@ class Trainer:
         
         print("\n" + "=" * 50)
         print("Training Complete!")
-        print(f"Best F1: {self.best_val_f1:.4f} at epoch {self.best_epoch}")
+        print(f"Best Accuracy: {self.best_val_acc:.4f}, F1: {self.best_val_f1:.4f} at epoch {self.best_epoch}")
         print(f"Total time: {total_time/60:.1f} minutes")
         print("=" * 50)
         

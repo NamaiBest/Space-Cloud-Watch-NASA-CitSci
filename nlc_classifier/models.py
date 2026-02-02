@@ -359,15 +359,25 @@ class ModelWithTemperature(nn.Module):
     
     def forward(self, x: torch.Tensor) -> Dict[str, torch.Tensor]:
         output = self.model(x)
-        logits = output['logits'] / self.temperature
+        # Ensure temperature is on the same device as logits
+        temp = self.temperature.to(output['logits'].device)
+        logits = output['logits'] / temp
         probabilities = F.softmax(logits, dim=1)
         
-        return {
+        result = {
             'logits': logits,
             'probabilities': probabilities,
             'features': output['features'],
             'temperature': self.temperature.item()
         }
+        
+        # Pass through type classification outputs if present
+        if 'type_logits' in output:
+            result['type_logits'] = output['type_logits']
+        if 'type_probabilities' in output:
+            result['type_probabilities'] = output['type_probabilities']
+            
+        return result
     
     def calibrate(self, val_loader, device: str = 'cpu'):
         """
