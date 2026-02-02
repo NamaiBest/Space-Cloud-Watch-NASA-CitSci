@@ -25,6 +25,17 @@ A vision-only deep learning pipeline for classifying noctilucent clouds (NLCs) i
 - **Temperature-Calibrated Confidence**: Reliable probability estimates for decision-making
 - **EfficientNet-B0 Backbone**: Efficient architecture with shared feature extraction
 
+### Technical Architecture
+- **Base Model**: EfficientNet-B0 pretrained on ImageNet (5.3M parameters)
+- **Multi-Task Learning**: Shared backbone with separate classification heads
+  - Binary head: NLC presence detection (CrossEntropyLoss)
+  - Type head: Multi-label classification (BCEWithLogitsLoss)
+- **Training Data**: 175 training images, 44 validation images (80/20 stratified split)
+- **Optimization**: AdamW optimizer with cosine annealing, differential learning rates
+- **Hardware**: MPS (Apple Silicon GPU) compatible, also supports CUDA
+- **Input**: 224×224 RGB images with ImageNet normalization
+- **Inference**: Fast predictions (~50-100ms per image on MPS/CUDA)
+
 ---
 
 ## Table of Contents
