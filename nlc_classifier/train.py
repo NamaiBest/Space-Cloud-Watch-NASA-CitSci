@@ -287,6 +287,10 @@ class Trainer:
             labels = labels.to(self.device)
             type_vectors = type_vectors.to(self.device)
             
+            # Extract has_type_label flag (5th element) and actual type vectors (first 4)
+            has_type_label = type_vectors[:, 4]
+            type_vectors = type_vectors[:, :4]
+            
             self.optimizer.zero_grad()
             
             # Forward pass with mixed precision
@@ -296,15 +300,14 @@ class Trainer:
                     # Binary classification loss
                     binary_loss = self.criterion(output['logits'], labels)
                     
-                    # Multi-label type classification loss (only for NLC-positive samples)
+                    # Type loss only for samples that are NLC-positive AND have type annotations
                     total_loss = binary_loss
                     if self.use_type_classification and 'type_logits' in output:
-                        # Mask: only compute type loss for samples with NLC (label=1)
-                        nlc_mask = labels == 1
-                        if nlc_mask.sum() > 0:
+                        type_mask = (labels == 1) & (has_type_label == 1)
+                        if type_mask.sum() > 0:
                             type_loss = self.type_criterion(
-                                output['type_logits'][nlc_mask],
-                                type_vectors[nlc_mask]
+                                output['type_logits'][type_mask],
+                                type_vectors[type_mask]
                             )
                             total_loss = binary_loss + self.type_loss_weight * type_loss
                 
@@ -316,14 +319,14 @@ class Trainer:
                 # Binary classification loss
                 binary_loss = self.criterion(output['logits'], labels)
                 
-                # Multi-label type classification loss
+                # Type loss only for samples that are NLC-positive AND have type annotations
                 total_loss = binary_loss
                 if self.use_type_classification and 'type_logits' in output:
-                    nlc_mask = labels == 1
-                    if nlc_mask.sum() > 0:
+                    type_mask = (labels == 1) & (has_type_label == 1)
+                    if type_mask.sum() > 0:
                         type_loss = self.type_criterion(
-                            output['type_logits'][nlc_mask],
-                            type_vectors[nlc_mask]
+                            output['type_logits'][type_mask],
+                            type_vectors[type_mask]
                         )
                         total_loss = binary_loss + self.type_loss_weight * type_loss
                 
@@ -365,26 +368,30 @@ class Trainer:
             labels = labels.to(self.device)
             type_vectors = type_vectors.to(self.device)
             
+            # Extract has_type_label flag (5th element) and actual type vectors (first 4)
+            has_type_label = type_vectors[:, 4]
+            type_vectors = type_vectors[:, :4]
+            
             output = self.model(images)
             
             # Binary loss
             binary_loss = self.criterion(output['logits'], labels)
             
-            # Type loss (only for NLC-positive)
+            # Type loss only for samples with NLC AND known type annotations
             total_loss = binary_loss
             if self.use_type_classification and 'type_logits' in output:
-                nlc_mask = labels == 1
-                if nlc_mask.sum() > 0:
+                type_mask = (labels == 1) & (has_type_label == 1)
+                if type_mask.sum() > 0:
                     type_loss = self.type_criterion(
-                        output['type_logits'][nlc_mask],
-                        type_vectors[nlc_mask]
+                        output['type_logits'][type_mask],
+                        type_vectors[type_mask]
                     )
                     total_loss = binary_loss + self.type_loss_weight * type_loss
                     
                     # Collect type predictions for metrics
-                    type_preds = (output['type_probabilities'][nlc_mask] > 0.5).float()
+                    type_preds = (output['type_probabilities'][type_mask] > 0.5).float()
                     all_type_preds.append(type_preds.cpu())
-                    all_type_targets.append(type_vectors[nlc_mask].cpu())
+                    all_type_targets.append(type_vectors[type_mask].cpu())
             
             preds = output['logits'].argmax(dim=1)
             metrics.update(

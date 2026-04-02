@@ -1,0 +1,53 @@
+{
+  "slug": "supralateral-arc",
+  "name": "Supralateral arc",
+  "url": "https://cloudappreciationsociety.org/cloud-library/supralateral-arc/",
+  "description": "The high, up-turned bow of the ice-crystal optical effect called a circumzenital arc is on rare occasions joined by a fainter and much rarer light effect. Known as a supralateral arc, this is the far broader bow than that circumzenithal arc, and it curves downwards rather than up. It only tends to appear about once a year over mainland Europe, according Claudia and Wolfgang Hinz of the German halo observation network Arbeitskreis Meteore, compared to the average of six occurrences of circumzenithal arcs. The supralateral arc has the potential to be a very broad arc of colour stretching across a lot of the sky, and so a particularly dramatic example will have ends that extend down into people’s normal field of vision. But it will only be that broad when just the right sort of ice crystals are distributed over enough of the sky. More typically, just a central segment of the arc appears up high in the sky above, positioned at a tangent to a circumzenithal arc. You are only likely therefore to spot a supralateral if you choose to pay attention to what happens up in the sky high above your head. The rare supralateral arc, like its circumzenithal arc sister, is a treasure hiding in plain sight from all but those with their heads in the clouds. Image: Spotted over South Pole Station, Antarctica by LCdr Heather Moe.",
+  "altitude": "Can form when the Sun is < 32° above the horizon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "9bd607ab2ae0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_LCdr_Heather_Moe_South_Pole_Station_Antarctica.jpg"
+    },
+    {
+      "filename": "a82a07724bc4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_joostvanekeris_Stadle_St._Anton_am_Arlberg_Tyrol_Austria.jpg"
+    },
+    {
+      "filename": "d2de14184772.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_Monica_Nitteberg_Eiksmarka_Baerum_Akershus_Norway.jpg"
+    },
+    {
+      "filename": "9c9fca6cc907.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "a6273b9c1b1e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-5739-4-700x525.jpg"
+    },
+    {
+      "filename": "e54ab29b3e17.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/09/Tracy-Hindle-700x467.jpg"
+    },
+    {
+      "filename": "9edb0d0a2dd1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/02/Malin-Redvall-700x525.jpg"
+    },
+    {
+      "filename": "291fd721b06e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2018/05/Anthony-Skellern-700x467.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "tangent-arc",
+    "cirrus",
+    "reflection-bow",
+    "cirrostratus",
+    "cirrocumulus",
+    "circumzenithal-arc"
+  ],
+  "label": "non-nlc"
+}

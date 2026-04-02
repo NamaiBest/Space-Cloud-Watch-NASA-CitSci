@@ -1,0 +1,63 @@
+{
+  "slug": "cavum",
+  "name": "Cavum",
+  "url": "https://cloudappreciationsociety.org/cloud-library/cavum/",
+  "description": "They look bizarre, but cavum, also known as fallstreak holes, are not actually that rare. They are crisp gaps in mid- or high-level cloud layers, below which dangle trails of ice crystals. To form a cavum, the cloud layer must consist of supercooled droplets – when its water is in liquid form despite temperatures at cloud level being well below 0˚C (32˚F). This is actually quite common, for pure water suspended as droplets in the air behaves very differently from tap water in the freezer. If there aren’t enough of the right sort of tiny particles in the atmosphere to act as icing nuclei, on to which they can start to freeze, droplets remain liquid until temperatures drop to around –40˚C (–40˚F). They ‘want’ to freeze, but can only do so when there are seeds on which the crystals can begin to grow. The fallstreak hole forms when one region of the cloud finally starts to freeze and begins a chain reaction. All the moisture from the supercooled droplets in the area rushes to join the ice crystals, which quickly grow big enough to fall below. A form of virga, the trail of ice crystals doesn’t tend to reach the ground, but evaporates before getting that far. What starts the freezing? Sometimes it’s ice crystals falling into the cloud’s droplets from a higher Cirrus cloud. Most often, it is caused by an aircraft climbing or descending through the cloud to form a ‘distrail’. Low pressure in the vortices around the plane’s wings can cool the air enough to set off the freezing. Image: Spotted over Manhattan Beach, Los Angeles County, California, United States by littlepond.",
+  "altitude": "Mid/High",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "e0703fbb3f41.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_diogorau_Sunnyvale_Santa_Clara_County_California_United_States.jpg"
+    },
+    {
+      "filename": "10e5417f06c1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_NintWardWeather_Magnolia_Terrace_East_Baton_Rouge_Parish_Louisiana_United_States.jpg"
+    },
+    {
+      "filename": "6e74b05074cc.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_fbdiniz_Tatuquara_Curitiba_Parana_Brazil.jpg"
+    },
+    {
+      "filename": "790529606b8e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_Julie_Redman_Nailsea_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "a7a54ea838b5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7637-2-700x525.jpg"
+    },
+    {
+      "filename": "eda8daceb8a9.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7135-1-700x525.jpeg"
+    },
+    {
+      "filename": "4a21393e89eb.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6809-1-525x700.jpeg"
+    },
+    {
+      "filename": "27c5500fb876.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6811-2-700x525.jpeg"
+    },
+    {
+      "filename": "f865c8b6a8d7.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6722-1-525x700.jpg"
+    },
+    {
+      "filename": "6b9cb34a085e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6716-1-525x700.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "distrail",
+    "reflection-bow",
+    "lacunosus",
+    "sun-dog",
+    "altostratus",
+    "altocumulus",
+    "cirrocumulus",
+    "circumzenithal-arc"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "noctilucent",
+  "name": "Noctilucent",
+  "url": "https://cloudappreciationsociety.org/cloud-library/noctilucent/",
+  "description": "The mysterious noctilucent clouds are higher than any other cloud in the atmosphere. Also known as ‘polar mesospheric clouds’, they have an eerie, bluish-white appearance, often showing delicate ripples or billows. Noctilucent clouds form in the mesosphere, at altitudes of 30–50 miles (50–80 km) – almost at the limit of the atmosphere. Being so high means that, in the higher latitudes, where they are most frequently seen, noctilucent clouds shine out against the night sky well after the Sun has dropped over the horizon. They still catch the sunlight when the rest of the sky is dark. Their name comes from Latin for ‘night shining’. Quite how noctilucent clouds form is by no means clear. The mesosphere is a region where air temperatures can be as low as –125˚C (–190˚F) but there is very little moisture at all. No one knows why the ice crystals that make up this cloud arise in such a dry and remote part of the atmosphere. Historically, noctilucent clouds have tended to be spotted at latitudes higher than 50˚ during the summer months. It now seems that they are appearing over much larger regions of the world and more frequently. Some scientists have speculated that this change might be related to global warming. The best times for CloudSpotters to try to add noctilucent clouds to their collections is a few hours after sunset or before sunrise from May to August in the Northern Hemisphere, and November to March in the Southern Hemisphere. Image: Spotted over Lombok, Utrecht, Netherlands by kevinvschie.",
+  "altitude": "Extreme",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "d59629c00374.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Noctilucent_Easton_Bangor_North_Down_Northern_Ireland.jpg"
+    },
+    {
+      "filename": "261602d77ae9.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Noctilucent_mickvegas_Dalkopinge_Trelleborg_Municipality_Skane_Sweden.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "53d30eafa34e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4743-1-700x467.jpg"
+    },
+    {
+      "filename": "8779896a38e9.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4560-1-700x395.jpg"
+    },
+    {
+      "filename": "193111a28766.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4552-1-700x418.jpeg"
+    },
+    {
+      "filename": "8eae56a4da47.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/11/cloud-gallery-2290-1-700x525.jpeg"
+    },
+    {
+      "filename": "de66b7dc4a64.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-812-1-700x323.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "nacreous",
+    "cirrostratus",
+    "undulatus"
+  ],
+  "label": "non-nlc"
+}

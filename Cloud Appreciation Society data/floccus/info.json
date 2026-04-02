@@ -1,0 +1,63 @@
+{
+  "slug": "floccus",
+  "name": "Floccus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/floccus/",
+  "description": "THE floccus species is found in four of the ten cloud genera: Stratocumulus , Altocumulus , Cirrocumulus , and Cirrus . It is a hard formation to spot – not because it is rare or restricted to certain locations or times of year, but because its appearance is not especially distinctive, and so is easily confused with other forms of these clouds. But we all know cloudspotters love a challenge. Whether you are considering low, mid-level, or high clouds, identifying floccus is about examining the tops and the bases of the cloudlets. A cloud of the floccus species will have soft-edged, rounded tops, like a blurred version of the tops of Cumulus clouds. The bases of its cloudlets will look diffuse and ragged. That’s because this is a cloud in transition, shifting from one state to another. Clouds of the floccus species often have trails of ice crystals, known as virga , falling from their cloudlets. The droplets in the clouds are in the process of freezing into ice crystals – or in the case of Cirrus floccus have completely done so. The ice crystals give floccus softer-looking edges compared to clouds composed only of droplets and can soon grow large enough to start to fall from the cloud. In short, floccus have rounded, bumpy tops with softened edges and ragged, indistinct bases often with trails of virga. Image: Spotted over Les Chosalets, Chamonix, Rhône-Alpes, France by eystein.",
+  "altitude": "Mid/High",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "7ede26c98344.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_HansStocker_Bloemendaal_Bloemendaal_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "02d919e78981.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_kkausikan_Machu_Picchu_Machupicchu_Cusco_Peru.jpg"
+    },
+    {
+      "filename": "d345a08a951f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_HansStocker_Groenenhoek_Antwerp_Province_Flemish_Region_Belgium_.jpg"
+    },
+    {
+      "filename": "9d12854cfcaf.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_floccus1_Haukomvatnet_Haukomvatnet_Aust-Agder_county_Norway.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "0d133234dce8.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5728-3-525x700.jpeg"
+    },
+    {
+      "filename": "106006d94a38.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4494-1-700x525.jpeg"
+    },
+    {
+      "filename": "c0e4b487239a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/03/cloud-gallery-3194-1-525x700.jpg"
+    },
+    {
+      "filename": "6f37277fbd74.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1954-5-700x525.jpeg"
+    },
+    {
+      "filename": "172a214ab9a1.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-590-3-525x700.jpeg"
+    },
+    {
+      "filename": "a162c49854c1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/04/Moriah-Rivas-1000-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cirrus",
+    "reflection-bow",
+    "stratocumulus",
+    "uncinus",
+    "altocumulus",
+    "virga",
+    "cirrocumulus",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "sun-dog",
+  "name": "Sun dog",
+  "url": "https://cloudappreciationsociety.org/cloud-library/sun-dog/",
+  "description": "Also known as ‘mock suns’ and ‘parhelia’, sun dogs are large spots of light that can appear on one or both sides of the Sun, and at the same level as it. The second most frequent halo phenomenon after the 22-degree halo, sun dogs appear on about 70 days of the year (over Western Europe). They are formed as sunlight is refracted through the ice crystals of thin layers of high clouds, such as Cirrus, Cirrostratus and Cirrocumulus, or those of the ground-level ice-crystal cloud, diamond dust. The distance from the Sun of both spots of light is equivalent to the outstretched span of a hand held up at arm’s length. Sun dogs are brightest when the Sun is low, and visible only when it’s below about 40˚ from the horizon. If the cloud isn’t in the right parts of the sky, just one sun dog appears. CloudSpotters should learn to recognise the sky that tends to produce sun dogs, as well as the other halo phenomena. Paying careful attention not to stare into the Sun, as it can damage your eyes, scan the blue for light effects when the sky first pales with the subtle veil of ice-crystal clouds. Once these high clouds have become white enough to be noticed by the riffraff, they’re generally too thick to produce sun dogs. Image: Spotted over Varsity, Alberta, Alberta, Canada by smokey.",
+  "altitude": "Can appear for all altitudes of the Sun/Moon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "5585572a8398.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_Kevin_Porter_North_Castine_Hancock_County_Maine_United_States.jpg"
+    },
+    {
+      "filename": "b51456f9e978.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_eystein_Chamonix_Mont_Blanc_Chamonix_Rhone-Alpes_France.jpg"
+    },
+    {
+      "filename": "e6740346a2b4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_Dolstad_Andover_Anoka_County_Minnesota_United_States.jpg"
+    },
+    {
+      "filename": "26378f79368a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_dannylaps_Sint-Anna_Antwerp_Province_Flanders_Belgium.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "5cb30ce52b5d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+    },
+    {
+      "filename": "6964bd70d8f0.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6988-1-700x527.jpeg"
+    },
+    {
+      "filename": "be57f034c384.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5923-1-700x525.jpg"
+    },
+    {
+      "filename": "7f1327873770.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4630-1-525x700.jpeg"
+    },
+    {
+      "filename": "9d6c756b5145.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/04/cloud-gallery-3768-4-700x456.jpg"
+    },
+    {
+      "filename": "2744a228a1bb.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/03/cloud-gallery-3412-1-700x527.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "22-degree-halo",
+    "tangent-arc",
+    "cirrus",
+    "reflection-bow",
+    "parhelic-circle",
+    "iridescence",
+    "cavum",
+    "cirrostratus",
+    "cirrocumulus",
+    "circumzenithal-arc"
+  ],
+  "label": "non-nlc"
+}

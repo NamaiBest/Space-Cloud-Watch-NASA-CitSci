@@ -1,0 +1,58 @@
+{
+  "slug": "arcus",
+  "name": "Arcus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/arcus/",
+  "description": "Storm chasers tend to have an abundance of arcus in their collections, for this formation, also known as a shelf cloud, is rather like the front bumper, or fender, of a storm cloud. It is a long, dark, horizontal roll or shelf running along the base of the storm cloud’s front edge (around the registration plate). So the shelf cloud is the first cloud feature to arrive as the storm runs you over. Like those other brute-cloud groupies, tuba and incus, arcus hang out only in the company of hefty Cumulus congestus or Cumulonimbus clouds or those most brutish of all cloud systems, the fierce multicell and supercell storms. They form as the cold air that is dragged down by all the precipitation falling within the storm splays outwards upon reaching the ground. As it spreads around the storm, it burrows beneath the warmer, less-dense air at ground level. This is lifted most forcefully in the direction of the cloud’s movement, forming a ‘gust front’, in which the warmer air’s moisture can condense into water droplets that appear as the shelf of cloud. More rarely, the lifting motion can cause a wave of rising and falling air that races ahead of the storm, causing a roll cloud, or volutus, which travels ahead of and separate from the storm. Image: Spotted over Bald Head Island, Brunswick County, North Carolina, United States by Callithrix.",
+  "altitude": "Low",
+  "precipitation": "Heavy",
+  "reference_images": [
+    {
+      "filename": "824a41beb7a0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_marka.n_Nupaky_Central_Bohemia_Central_Bohemia_Czech_Republic.jpg"
+    },
+    {
+      "filename": "d3ec0c401444.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_markjroberts_Armadale_Stonnington_Victoria_Australia.jpg"
+    },
+    {
+      "filename": "27a0a6fedc04.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_g.venturini92_Ol_Kiombo_Narok_Kenya.jpg"
+    },
+    {
+      "filename": "b1062bd9670a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_hrhartke_Charlottesville_Virginia_US.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "3a0d8a697e37.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7314-1-700x525.jpeg"
+    },
+    {
+      "filename": "6324682c2b39.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6894-1-525x700.jpg"
+    },
+    {
+      "filename": "90e0e82c9db1.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5188-1-700x525.jpeg"
+    },
+    {
+      "filename": "36ddffbfd012.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5144-2-700x527.jpg"
+    },
+    {
+      "filename": "c05d59ab040a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5012-4-700x525.jpeg"
+    },
+    {
+      "filename": "ebad1687d553.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4866-2-700x313.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cumulonimbus-2",
+    "volutus",
+    "murus"
+  ],
+  "label": "non-nlc"
+}

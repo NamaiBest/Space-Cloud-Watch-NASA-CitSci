@@ -1,0 +1,62 @@
+{
+  "slug": "fibratus",
+  "name": "Fibratus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/fibratus/",
+  "description": "The high, ice-crystal clouds of Cirrus and Cirrostratus are called fibratus when they have been drawn out by the wind into long, fine filaments. These close strands of cloud appear rather like hair run through with a comb. Such an orderly atmospheric hairstyle depends on high, continuous winds. These are more common up at Cirrus and Cirrostratus level, since the higher you climb through the troposphere, the faster the average wind speed becomes, and the less the wind is messed about by the influence of the ground. The way to distinguish fibratus from the other Cirrus species that can also have somewhat parallel filaments, floccus and uncinus, is to look at the ends of the strands. In fibratus, the filaments do not descend from the fluffy tufts of cloud found in floccus, nor do they curve down from thicker heads to give the hooked, comma-like appearance of uncinus. Fibratus are simply thin, delicate strands of high cloud. As expressions on the face of the sky, clouds can be indicators of the atmosphere’s moods, but not so in the case of fibratus clouds. Other than indicating high, continuous winds up at cloud level, they tell nothing of the weather in store. Perhaps they are just there to look nice. Image: Spotted over Somers, Victoria, Victoria, Australia by peterh.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "9528a5181558.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_de_jelt_Leusder-Kwartier_Amersfoort_Utrecht_Netherlands.jpg"
+    },
+    {
+      "filename": "3905d0a7fbb8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_William_A_Edmundson_Tullamore_Fulton_County_Georgia_United_States.jpg"
+    },
+    {
+      "filename": "2912dd212661.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_icumulus_Maitland_New_South_Wales_Australia.jpg"
+    },
+    {
+      "filename": "290a16938843.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_Astrid26_Obersetzen_Siegen_Germany.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "7e93d489e1d7.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5940-1-525x700.jpeg"
+    },
+    {
+      "filename": "7d0097a45733.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2724-3-525x700.jpeg"
+    },
+    {
+      "filename": "714e82a0d411.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/05/cloud-gallery-103-1-700x467.jpg"
+    },
+    {
+      "filename": "1fc95bdfacc2.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/05/Patrick-O-Sullivan-700x402.jpg"
+    },
+    {
+      "filename": "706a657d204c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/01/Linda-Field-525x700.jpg"
+    },
+    {
+      "filename": "cb7c27092da5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/04/Tom-Olson-700x394.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cirrus",
+    "reflection-bow",
+    "undulatus",
+    "radiatus",
+    "cirrostratus",
+    "contrail",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

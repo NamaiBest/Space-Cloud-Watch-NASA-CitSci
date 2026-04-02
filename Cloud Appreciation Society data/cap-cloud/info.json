@@ -1,0 +1,59 @@
+{
+  "slug": "cap-cloud",
+  "name": "Cap Cloud",
+  "url": "https://cloudappreciationsociety.org/cloud-library/cap-cloud/",
+  "description": "A cap cloud tends to look like an enormous hat, perched upon the mountain’s head. Sometimes it looks like a humble skullcap. Other times, it splays out in a full mother-in-law-at-a-wedding extravaganza. Occasionally, the mountain seems to be wearing one hat on top of another, which is surely a mountain fashion faux-pas. Whichever it is, a cap cloud forms as a stable airstream rises to pass over a peak, cooling as it does so. It is a particular example of a lenticularis cloud, in which the cloud lies over the mountaintop, rather than downwind from it. CloudSpotters should be careful not to add the wrong cloud to their collections. Clouds such as Stratus or Stratocumulus clinging to mountaintops won’t do. Only a smooth, jaunty cloud hat will count. Image: Spotted over San Cristóbal El Bajo, Sacatepéquez, Sacatepéquez, Guatemala by cloudsurfing.",
+  "altitude": "Low",
+  "precipitation": "Rarely",
+  "reference_images": [
+    {
+      "filename": "3495b7828a28.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_tryblinking_Valderhaug_Giske_More_og_Romsdal_Norway.jpg"
+    },
+    {
+      "filename": "09d2fa4a8655.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_Yukari_Hagiwara_Shizuoka_Japan.jpg"
+    },
+    {
+      "filename": "70fb9739fb5c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_Tom_Etridge_Las_Salinas_Formentera_Balearic_Islands_Spain.jpg"
+    },
+    {
+      "filename": "11a6c766b0e8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_einna_Clackamas_County_Oregon_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "cac3795d39f5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5804-1-700x476.jpg"
+    },
+    {
+      "filename": "f2b3f56bf9b3.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1916-5-700x394.jpg"
+    },
+    {
+      "filename": "5f0c28815488.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1464-2-525x700.jpeg"
+    },
+    {
+      "filename": "9bb190339f9f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/04/Russ-Hendricks-1200-586x700.jpg"
+    },
+    {
+      "filename": "a1f708dd07df.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/02/Kevin-Wesbroom-700x525.jpg"
+    },
+    {
+      "filename": "89c3c206cca6.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/10/Edward-Huijbens-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "lenticularis",
+    "fluctus",
+    "stratocumulus",
+    "pileus"
+  ],
+  "label": "non-nlc"
+}

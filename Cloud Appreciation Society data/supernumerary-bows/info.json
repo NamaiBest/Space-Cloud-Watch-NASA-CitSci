@@ -1,0 +1,35 @@
+{
+  "slug": "supernumerary-bows",
+  "name": "Supernumerary bows",
+  "url": "https://cloudappreciationsociety.org/cloud-library/supernumerary-bows/",
+  "description": "Supernumerary bows are repeating fringes of colours that can sometimes appear along the edge of a rainbow. They form at the inside of the primary rainbow. Where an outer, secondary bow is also present, faint supernumeraries can sometimes be seen along its outer edge. The fringes are caused by the interference of light waves emerging from the raindrops leading to brighter and darker bands. Supernumerary bows only appear bright like this when the raindrops are quite small and of consistent size. They are predominantly coloured purple, pink and green Image: Spotted over Setting Hen Butte in Valley Of The Gods, Utah, United States by Paul Martini.",
+  "altitude": "Can appear when the Sun is < 42° above the horizon",
+  "precipitation": "Showers",
+  "reference_images": [
+    {
+      "filename": "d9a2c3b88acd.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_margobe_Lupsingen_Basel-Landschaft_Switzerland.jpg"
+    },
+    {
+      "filename": "88b34b1722c0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_laconiclagomorph_Cosford_Rugby_District_England.jpg"
+    },
+    {
+      "filename": "d1062b1c0af2.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_ryanmyles_Fremantle_Western_Australia_Australia.jpg"
+    },
+    {
+      "filename": "51d74bf3bc56.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_Alicia_tejerizo_Horing_Flanders_Belgium.jpg"
+    }
+  ],
+  "gallery_images": [],
+  "linked_cloud_slugs": [
+    "rainbow",
+    "reflection-bow",
+    "rainbow-wheel",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

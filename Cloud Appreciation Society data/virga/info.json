@@ -1,0 +1,66 @@
+{
+  "slug": "virga",
+  "name": "Virga",
+  "url": "https://cloudappreciationsociety.org/cloud-library/virga/",
+  "description": "When you look up to find jellyfish floating above, you are either diving or beneath the cloud known as virga. In essence, this is just a cloud raining or snowing, but with one important difference: the precipitation never reaches the ground. If the droplets or ice crystals (or anything between the two) fall through air that is warm enough and/or dry enough, they can dissipate away before ever landing. The appearance of virga from the ground is of trails that hang down like tentacles from a clump or layer of cloud, waving not in the currents of the ocean, but in those of the atmosphere. When virga occur below low-level clouds, they are composed of water droplets, and appear grey. When they consist of ice crystals, having fallen from mid- or high-level clouds, they have a much paler appearance. But beware: this distinction is a tenuous one, because our eyes judge colour and tone relative to the brightness of the background. The same trail of virga can appear whiter or greyer depending on the sky behind. Fallstreak holes are specific cases of virga falling from a layer of supercooled droplets to leave a hole behind. When a cloud’s precipitation can be seen to reach all the way to the ground, it is no longer called virga, but ‘praecipitatio’. Image: Spotted over Schaarbeek, East Flanders Province, Flanders, Belgium by Jannick.",
+  "altitude": "Mid/High",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "b513a0da72f1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_ecbh01_Caminha_Caminha_Matriz_Viana_do_Castelo_Portugal.jpg"
+    },
+    {
+      "filename": "fc58a6fb2eac.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_friedtomatoes_Keno_Liberty_County_Texas_United_States.jpg"
+    },
+    {
+      "filename": "3ff292a19211.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_Matthew_Bettelheim_Cowell_Contra_Costa_County_California_United_States_.jpg"
+    },
+    {
+      "filename": "648d92124792.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_missnicole_Adelaide_South_Australia_Australia.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "c3aca6ae7829.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7577-1-700x525.jpeg"
+    },
+    {
+      "filename": "6dbe8ff9b809.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+    },
+    {
+      "filename": "2caf3dcf1a24.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7272-1-700x394.jpg"
+    },
+    {
+      "filename": "4bb51d6921de.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7121-1-700x394.jpg"
+    },
+    {
+      "filename": "864ccf1fdb8c.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6576-1-577x700.jpeg"
+    },
+    {
+      "filename": "afb6ae22d153.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5768-1-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cirrus",
+    "reflection-bow",
+    "floccus",
+    "stratocumulus",
+    "uncinus",
+    "altostratus",
+    "tuba",
+    "altocumulus",
+    "cirrocumulus",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

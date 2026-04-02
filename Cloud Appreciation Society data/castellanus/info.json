@@ -1,0 +1,40 @@
+{
+  "slug": "castellanus",
+  "name": "Castellanus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/castellanus/",
+  "description": "When a layer of cloud rises in distinct turrets with bumpy tops that resemble crenellations, it is of the species known as castellanus – and this one can give an early indication of unsettled weather to come later in the day. The turrets of castellanus can be found at all three cloud levels, but the ones that are hardest to identify are in the high clouds, Cirrocumulus and Cirrus. As much as anything, this is because the cloud elements are so far away that they appear tiny from the ground, making any observation of the subtle nature of their tops rather challenging. Luckily, these examples of castellanus are also the least indicative of unsettled weather. The low cloud Stratocumulus may be described as castellanus when at least some of the cauliflower mounds that form its upper surface have grown taller than they are wide. These rising turrets can sometimes continue to grow upwards and develop into rain-bearing Cumulus congestus, or even Cumulonimbus storm clouds. But it is in the mid-level cloud Altocumulus that the jagged crenellations of castellanus are most recognisable, and also where they best forecast unsettled weather. The vigorous turrets show that the air at the mid-cloud level is unstable. Any Cumulus that start to develop on thermals and build up from below will, upon reaching this mid-level, continue growing with extra vigour, and quite possibly develop into tall, stormy Cumulonimbus clouds. The castellanus term is never used to describe individual Cumulus clouds. When Cumulus grow tall like this, they are referred to as Cumulus congestus. Image: Spotted over Phoenix, Arizona, United States by Mike Lerch.",
+  "altitude": "Various",
+  "precipitation": "Likely coming soon",
+  "reference_images": [
+    {
+      "filename": "9a56e47e0085.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Castellanus_Sallie_Tisdale_Northwest_Oregon_United_States.jpg"
+    },
+    {
+      "filename": "148760aa220e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Castellanus_GavinPP_Somerton_Somerset_England.jpg"
+    },
+    {
+      "filename": "fd2de9366e1f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Castellanus_RendonLex_Anse_La_Raie_Mauritius.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "fffd8c38a1a8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/02/James-Cooper-700x398.jpg"
+    },
+    {
+      "filename": "e0d6a4c16964.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2014/08/HarryCastle-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "reflection-bow",
+    "cirrus",
+    "stratocumulus",
+    "altocumulus",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

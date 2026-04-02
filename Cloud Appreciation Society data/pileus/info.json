@@ -1,0 +1,62 @@
+{
+  "slug": "pileus",
+  "name": "Pileus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/pileus/",
+  "description": "Pileus is a fleeting and beautiful ‘accessory cloud’, which means it is only found attached to other cloud forms. It shares much in common with lenticularis and cap clouds, which form when a stable airstream rises to pass over raised ground. In the case of pileus, however, the obstacle is not rocky terrain, but something altogether more ephemeral – another cloud. Pileus looks rather like a smooth, white beret, or, perhaps, a comb-over hairstyle. It is a horizontal cap cloud that appears momentarily on top of the crisp, cauliflower summit of a large Cumulus, or the softer one of a young Cumulonimbus. Pileus can appear as one of these large convection clouds develops upwards and encounters a moist stable airstream blowing above. This is forced to rise by the vigorous currents surging up the centre of the cloud below, cooling it just enough for some of its moisture to condense into droplets. These evaporate as the airflow sinks back down again past the convection cloud. A pileus is prized by any cloud collector because, unlike its relation, velum, it never hangs around for long. Cloudspotters have to be sharp-eyed to add one to their collection. The vigorous convection cloud that made it inevitably continues its rise, pushing its bald head through the hairstyle. Image: Spotted over Fitchburg, Estill County, Kentucky, United States by friedtomatoes.",
+  "altitude": "",
+  "precipitation": "",
+  "reference_images": [
+    {
+      "filename": "6ad4719c5f29.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_cwvessels_Miami-Dade_Florida_United_States.jpg"
+    },
+    {
+      "filename": "6cd2831798a0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_medzz_Bukit_Kuin_Satu_Pahang_Pahang_Malaysia.jpg"
+    },
+    {
+      "filename": "5313b543a04b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_friedtomatoes_Fitchburg_Estill_County_Kentucky_United_States.jpg"
+    },
+    {
+      "filename": "fc87ff498d15.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_Roeland_Daalgrimbie_Limburg_Province_Flanders_Belgium.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "3bae7740b193.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5927-1-700x525.jpg"
+    },
+    {
+      "filename": "3fb0f56812e0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5490-1-525x700.jpg"
+    },
+    {
+      "filename": "b8aa905e975b.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4975-1-525x700.jpeg"
+    },
+    {
+      "filename": "8a6fcd88d39b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4896-1-700x525.jpg"
+    },
+    {
+      "filename": "4b4b79566045.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4742-1-amended-1000-700x467.jpg"
+    },
+    {
+      "filename": "395e44e55b60.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/04/cloud-gallery-3522-1-700x467.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "lenticularis",
+    "congestus",
+    "velum",
+    "iridescence",
+    "cap-cloud",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

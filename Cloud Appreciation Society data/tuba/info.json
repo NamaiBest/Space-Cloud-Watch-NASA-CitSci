@@ -1,0 +1,61 @@
+{
+  "slug": "tuba",
+  "name": "Tuba",
+  "url": "https://cloudappreciationsociety.org/cloud-library/tuba/",
+  "description": "The air below a storm cloud is often a wild confusion of blustery, gusty and not-at-all-tranquil winds. But when the storm develops from a single Cumulonimbus cloud into a co-ordinated system, known as a multicell or supercell storm, the mêlée of air currents becomes much more organised. This is when a tuba can form. Resembling a cloud finger descending from the storm’s base, the tuba forms in the air sucked upwards into the storm to feed its vigorous vertical growth. Like an upside-down version of bath water going down a plug hole, the rising air can start rotating in a vortex. In a big storm cell, the rapidly rising air expands and cools enough for some of its moisture to condense to form the walls of the tuba. Also known as a ‘funnel cloud’, it can be the birth of a tornado. A tuba can also form when the air is not rising but sinking from the base of individual clouds, such as Cumulus congestus and Cumulonimbus. Dragged towards the ground by the cloud’s heavy showers, this sinking air can cause vortices to form. These are rarely as violent as the upward ones, so tubas are less pronounced. They herald not tornadoes, but the less ferocious landspouts or waterspouts. Whatever a tuba is heralding, keep your distance when adding it to your cloud collection – just in case it has a mind to add a CloudSpotter to its own collection of flying debris. Image: Spotted over Keenesburg, Colorado, United States by Carlye Calvin.",
+  "altitude": "Low",
+  "precipitation": "Heavy nearby",
+  "reference_images": [
+    {
+      "filename": "cbc326709cbb.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_Martine_Praia_da_Falesia_Olhos_de_Agua_Faro_Portugal.jpg"
+    },
+    {
+      "filename": "c680350d522b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_pinkie_Hartington_Cedar_County_Nebraska_United_States.jpg"
+    },
+    {
+      "filename": "a2e408aced5c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_Ria_Cirella_Diamante_Calabria_Italy.jpg"
+    },
+    {
+      "filename": "b513703a2a3a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_Francoise_Chicot_Monaco_France.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "d6792f5f5cdb.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2688-1-525x700.jpeg"
+    },
+    {
+      "filename": "b4ebe6d2f685.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/12/cloud-gallery-2385-1-700x394.jpg"
+    },
+    {
+      "filename": "e2b29da7e129.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1842-1-700x467.jpg"
+    },
+    {
+      "filename": "578d050762a5.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1419-1-525x700.jpeg"
+    },
+    {
+      "filename": "2a19049a181a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1391-2-700x408.jpeg"
+    },
+    {
+      "filename": "bd3745857d9a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-393-1-525x700.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "murus",
+    "virga",
+    "horseshoe-vortex",
+    "contrail",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

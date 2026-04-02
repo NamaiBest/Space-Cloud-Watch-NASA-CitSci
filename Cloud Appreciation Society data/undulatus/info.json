@@ -1,0 +1,71 @@
+{
+  "slug": "undulatus",
+  "name": "Undulatus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/undulatus/",
+  "description": "When the surface of a cloud layer, or the arrangement of its cloudlets, develops an undulating appearance that suggests waves, it’s defined as the undulatus variety. Waves and clouds have always had a close relationship. The interaction of currents in the atmosphere, and the effects of the terrain on the passage of winds, can result in a whole range of undulating currents of air. Generally, these are invisible, unless the rising parts of the undulations cool the air enough to produce clouds of droplets or ice crystals, which are thinner or absent in the sinking parts of the undulations. In such circumstances, the waves show up on the surface of the cloud or as cloud billows with gaps in between. Undulatus usually forms when the air above and below the cloud layer is moving at differing speeds and/or in different directions. It is the shearing effect of the two airstreams that gives rise to the cloud billows, which form perpendicular to the wind direction and can resemble ripples on a sandy beach caused by the movement of water. Wave formations in clouds are so common that the undulatus variety is within six of the ten main cloud types. Their presence is a reminder, to any who might forget, that the atmosphere around us is just as much of an ocean as the sea below. Image: Spotted over Enborne, Enborne, England, United Kingdom by wallacal.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "69428d22ee18.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_margobe_Duvelycke_Almhults_Kommun_Kronoberg_Sweden.jpg"
+    },
+    {
+      "filename": "da3fb9009156.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_the_weather_man_Willunga_Onkaparinga_South_Australia_Australia.jpg"
+    },
+    {
+      "filename": "c0a135cac9dc.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_annenwood_Calshot_England.jpg"
+    },
+    {
+      "filename": "8320cf391713.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "e48509556802.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_MiloPBrown_Vermont_Hills_Portland_Oregon_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "6f24cac1879e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+    },
+    {
+      "filename": "6e31978d06bd.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7608-1-525x700.jpg"
+    },
+    {
+      "filename": "e9eb9b1e50e5.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7592-1-525x700.jpeg"
+    },
+    {
+      "filename": "b51f7826b177.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7569-1-525x700.jpg"
+    },
+    {
+      "filename": "c5e8e4842fc8.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7556-1-700x525.jpeg"
+    },
+    {
+      "filename": "c24233a51c88.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7317-1-700x621.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "asperitas",
+    "reflection-bow",
+    "fibratus",
+    "stratus",
+    "stratocumulus",
+    "noctilucent",
+    "radiatus",
+    "fluctus",
+    "altostratus",
+    "altocumulus",
+    "cirrostratus",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "iridescence",
+  "name": "Iridescence",
+  "url": "https://cloudappreciationsociety.org/cloud-library/iridescence/",
+  "description": "Iridescence is the beautiful effect of bands of pastel colours that can appear when sunlight or moonlight passes through thin cloud. Also known as ‘irisation’, these mother-of-pearl colours are caused by the light being diffracted as it passes through the cloud. It is the same process that gives rise to coloured discs around the Sun or Moon, called coronae. The light waves are dispersed as they pass around the cloud’s tiny droplets or ice crystals, with different wavelengths being spread out by different amounts. Each wavelength can also produce an interference pattern of light and dark fringes. All this means that the sunlight is separated into alternating fringes of colour. Any thin cloud with droplets or ice crystals small and uniform enough can produce iridescent colours. Best viewed through Sunglasses, the bands of pastel hues are reminiscent of those on oil slicks, and can be seen over thin Stratocumulus, Altocumulus, Cirrocumulus and Altostratus. Nacreous clouds in the stratosphere, high above most weather clouds, show the most intense iridescence of all. The colours can also appear at the edges of clouds thick enough to block much of the sunlight, such as lenticularis. To claim that every cloud has a silver lining is therefore wrong – some have tutti-frutti coloured ones. Image: Spotted over Napa Abajo, Napa County, California, United States by suzan.",
+  "altitude": "Can appear for all altitudes of the Sun/Moon",
+  "precipitation": "Unrelated",
+  "reference_images": [],
+  "gallery_images": [],
+  "linked_cloud_slugs": [
+    "lenticularis",
+    "nacreous",
+    "cirrus",
+    "reflection-bow",
+    "pileus",
+    "corona",
+    "sun-dog",
+    "cirrostratus",
+    "altocumulus",
+    "cirrocumulus",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

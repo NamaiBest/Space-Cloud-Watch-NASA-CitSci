@@ -179,15 +179,15 @@ class NLCInferenceEngine:
         nlc_type_probs = {}
         type_names = ['Type 1 (Veil)', 'Type 2 (Bands)', 'Type 3 (Waves)', 'Type 4 (Whirls)']
         
-        if 'type_probabilities' in output and predicted_class == 1:
+        if 'type_probabilities' in output:
             type_probs = output['type_probabilities'][0].cpu().numpy()
             for i, name in enumerate(type_names):
                 prob = float(type_probs[i])
                 nlc_type_probs[name] = prob
-                if prob > 0.5:  # Threshold for multi-label
+                if prob > 0.5 and predicted_class == 1:  # Only flag types when NLC is detected
                     nlc_types.append(name)
         else:
-            # Model doesn't support types or no NLC detected
+            # Model doesn't support type classification
             for name in type_names:
                 nlc_type_probs[name] = 0.0
         

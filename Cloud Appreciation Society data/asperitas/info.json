@@ -1,0 +1,61 @@
+{
+  "slug": "asperitas",
+  "name": "Asperitas",
+  "url": "https://cloudappreciationsociety.org/cloud-library/asperitas/",
+  "description": "Asperitas is a rare formation that seems to form in the vicinity of Cumulonimbus storm systems. It can be thought of as an undulatus gone crazy. Asperitas differs from undulatus by the fact that its waves are more chaotic and disorderly, lacking any of the regularity and organisation typical of undulatus. The chaotic waves of asperitas have a more crisply defined base, which sometimes descends into pointed features, resembling upside-down peaks of meringue. When the waves cause varying thickness of the cloud layer, the sunlight passing through it can lead to dramatic patches of bright and dark. This formation was only recognised as an official cloud classification in 2017, when the World Meteorological Organisation added it to the International Cloud Atlas, their official reference for cloud identification. It had first been proposed as a new cloud type by the Cloud Appreciation Society in 2008 and it acceptance as an official type was due largely to the examples submitted by members of the Cloud Appreciation Society. Image: Spotted over Zaventem, Zaventem, Flanders, Belgium by noabryan.",
+  "altitude": "Low",
+  "precipitation": "None/Heavy nearby",
+  "reference_images": [
+    {
+      "filename": "c8b304b0c713.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_Allison_Lecourt_Diksmuidsepoort_Flanders_Belgium.jpg"
+    },
+    {
+      "filename": "c2ee0aca0f49.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_Figgis_Longthorpe_Peterborough_England.jpg"
+    },
+    {
+      "filename": "c3d0f44a7c87.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_hazydaze_Southwick_East_Sussex_England.jpg"
+    },
+    {
+      "filename": "fe8953b1b0cd.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_nashjoseph_Tollard_Royal_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "6f24cac1879e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+    },
+    {
+      "filename": "c24233a51c88.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7317-1-700x621.jpeg"
+    },
+    {
+      "filename": "b30f2bdc4bd4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7300-1-700x467.jpg"
+    },
+    {
+      "filename": "db0e38ef543b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7214-1-700x525.jpg"
+    },
+    {
+      "filename": "bcc6acedcdaa.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7087-1-700x525.jpeg"
+    },
+    {
+      "filename": "518bdb217d26.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5325-1-700x525.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "stratocumulus",
+    "undulatus",
+    "lacunosus",
+    "altocumulus",
+    "cumulonimbus-2",
+    "mamma"
+  ],
+  "label": "non-nlc"
+}

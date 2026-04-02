@@ -1,0 +1,63 @@
+{
+  "slug": "radiatus",
+  "name": "Radiatus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/radiatus/",
+  "description": "When a layer of cloud rolls or clumps extends in long lines that stretch off to the horizon, the effect of perspective makes these lines converge, like railway tracks, towards a point. Such a formation is a variety known as radiatus, and it can be found at all three cloud levels. The parallel cloud lines form along the direction of the wind at cloud level. (When they form perpendicular to the wind, they are of the undulatus variety, rather than radiatus.) Radiatus in low Cumulus clouds are known as ‘cloud streets’. These formations cause glider pilots to wet themselves with excitement, for they indicate avenues of lifting air along which the pilots can reliably gain altitude. When it comes to high, ice-crystal clouds, the most dramatic examples of radiatus result from jet streams – the ribbons of 180mph winds that encircle the globe in the mid-latitudes at the top of the troposphere. Known as ‘jet-stream Cirrus’, these radiatus varieties of Cirrus can be spread over great distances by the high winds. Occasionally they appear to extend all the way from one horizon right overhead to the opposite one. The perspective causes the cloud rows to bulge dramatically above, while converging at ‘radiation points’ on each horizon. Such an impressive radiatus formation will be a source of great pride for any cloud collector but it is practically impossible to photograph in its entirety, since it stretches over such a large part of the sky. Image: Spotted over Kings County, Brooklyn, New York by ebloustein.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "5e60b3a4c77c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_pietjepi_Amsterdam_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "93e65c994010.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_Linda_Holtby_Salisbury_Wilshire_England.jpg"
+    },
+    {
+      "filename": "c27297ce107c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_mikeythrock_Phoenix_Arizona_United_States_.jpg"
+    },
+    {
+      "filename": "9851bf4a945d.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_gwyver_Southampton_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "ecbfb74c839e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7620-1-700x315.jpg"
+    },
+    {
+      "filename": "e9eb9b1e50e5.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7592-1-525x700.jpeg"
+    },
+    {
+      "filename": "7e93d489e1d7.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5940-1-525x700.jpeg"
+    },
+    {
+      "filename": "e7ddeba6a434.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5857-1-525x700.jpeg"
+    },
+    {
+      "filename": "0e51c40b7917.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4865-1-525x700.jpg"
+    },
+    {
+      "filename": "71ddfcc6dce3.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4833-3-525x700.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cirrus",
+    "fibratus",
+    "stratocumulus",
+    "undulatus",
+    "altostratus",
+    "altocumulus",
+    "contrail",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

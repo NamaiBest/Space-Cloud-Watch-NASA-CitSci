@@ -98,11 +98,13 @@ def parse_nlc_csv(csv_path: str, config: DataConfig) -> pd.DataFrame:
     # Apply mapping for columns that exist
     df = df.rename(columns={k: v for k, v in column_mapping.items() if k in df.columns})
     
-    # Extract image URLs from multiple possible columns
+    # Extract image URLs from multiple possible columns (HTTP URLs or local file paths)
     def get_image_url(row):
         for col in config.image_columns:
-            if col in row.index and pd.notna(row[col]) and str(row[col]).startswith('http'):
-                return str(row[col])
+            if col in row.index and pd.notna(row[col]):
+                val = str(row[col]).strip()
+                if val.startswith('http') or os.path.exists(val):
+                    return val
         return None
     
     df['image_url'] = df.apply(get_image_url, axis=1)
@@ -253,19 +255,23 @@ class NLCDataset(Dataset):
         self._preload_images()
     
     def _preload_images(self):
-        """Download and cache all images upfront."""
+        """Download/verify all images upfront. Supports HTTP URLs and local paths."""
         valid_indices = []
         print(f"Preloading {len(self.df)} images...")
         
         for idx in tqdm(range(len(self.df)), desc="Caching images"):
             url = self.df.loc[idx, 'image_url']
-            path = self.cache.download_and_cache(url)
+            if str(url).startswith('http'):
+                path = self.cache.download_and_cache(url)
+            else:
+                # Local file path — just verify it exists
+                path = Path(url) if os.path.exists(url) else None
             if path is not None:
                 valid_indices.append(idx)
         
-        # Keep only samples with successfully downloaded images
+        # Keep only samples with successfully loaded images
         self.df = self.df.loc[valid_indices].reset_index(drop=True)
-        print(f"Successfully cached {len(self.df)} images")
+        print(f"Successfully loaded {len(self.df)} images")
     
     def __len__(self) -> int:
         return len(self.df)
@@ -273,8 +279,12 @@ class NLCDataset(Dataset):
     def __getitem__(self, idx: int) -> Tuple[torch.Tensor, int, Dict[str, Any]]:
         row = self.df.iloc[idx]
         
-        # Load image from cache
-        image_path = self.cache.get_cached_path(row['image_url'])
+        # Load image from local path or URL cache
+        url = row['image_url']
+        if str(url).startswith('http'):
+            image_path = self.cache.get_cached_path(url)
+        else:
+            image_path = Path(url)
         try:
             image = Image.open(image_path).convert('RGB')
         except Exception as e:
@@ -291,16 +301,22 @@ class NLCDataset(Dataset):
         
         # Get NLC type labels (multi-label binary vector)
         nlc_type_vector = torch.zeros(4, dtype=torch.float32)  # 4 types
-        for type_idx in row.get('nlc_type_indices', []):
+        type_indices = row.get('nlc_type_indices', [])
+        for type_idx in type_indices:
             if 0 <= type_idx < 4:
                 nlc_type_vector[type_idx] = 1.0
+        
+        # 5th element: has_type_label flag.
+        # 1.0 = NLC present AND type annotation exists → include in type loss.
+        # 0.0 = no annotation (scraped images or unlabelled CitSci rows) → skip type loss.
+        has_type_label = 1.0 if (label == 1 and len(type_indices) > 0) else 0.0
+        nlc_type_vector = torch.cat([nlc_type_vector, torch.tensor([has_type_label])])
         
         # Additional metadata for analysis
         metadata = {
             'observation_id': row.get('observation_id', ''),
             'image_url': row['image_url'],
-            'nlc_types': row.get('nlc_type_indices', []),
-            'nlc_type_vector': nlc_type_vector,
+            'nlc_types': type_indices,
             'latitude': row.get('latitude', 0),
             'longitude': row.get('longitude', 0)
         }
@@ -438,6 +454,139 @@ def create_dataloaders(
         collate_fn=collate_fn
     )
     
+    return train_loader, val_loader, stats
+
+
+def create_dataloaders_multi(
+    df: pd.DataFrame,
+    config: NLCConfig
+) -> Tuple[DataLoader, DataLoader, Dict[str, Any]]:
+    """Create dataloaders from a pre-built unified DataFrame.
+
+    This accepts the output of ``data_sources.build_unified_dataset()``
+    instead of reading a single CSV.  The DataFrame must contain at least
+    ``image_url`` and ``label`` columns.
+
+    Missing columns (``nlc_type_indices``, ``observation_id``, etc.) are
+    filled with safe defaults so that the rest of the pipeline works
+    unchanged.
+    """
+    # ---- ensure required columns exist with safe defaults ----
+    if "nlc_type_indices" not in df.columns:
+        df["nlc_type_indices"] = [[] for _ in range(len(df))]
+    if "observation_id" not in df.columns:
+        df["observation_id"] = [f"row_{i}" for i in range(len(df))]
+    if "latitude" not in df.columns:
+        df["latitude"] = 0.0
+    if "longitude" not in df.columns:
+        df["longitude"] = 0.0
+
+    # ---- compute light statistics ----
+    total = len(df)
+    with_images = df["image_url"].notna().sum()
+    label_counts = df["label"].value_counts().to_dict()
+    imbalance = label_counts.get(0, 0) / max(label_counts.get(1, 1), 1)
+
+    stats = {
+        "total_observations": total,
+        "observations_with_images": int(with_images),
+        "label_distribution": label_counts,
+        "class_imbalance_ratio": imbalance,
+        "usable_samples": int(with_images),
+    }
+
+    print(f"\nUnified Dataset Statistics:")
+    print(f"  Total observations: {total}")
+    print(f"  With images: {with_images}")
+    print(f"  Class distribution: {label_counts}")
+    print(f"  Class imbalance ratio: {imbalance:.2f}")
+
+    # ---- filter to rows with images ----
+    df_with_images = df[df["image_url"].notna()].copy()
+    if len(df_with_images) == 0:
+        raise ValueError("No samples with images found in the unified dataset!")
+
+    # ---- stratified split ----
+    def _stratify_key(row):
+        if row["label"] == 0:
+            src = row.get("source", "unk")
+            return f"neg_{src}"
+        types = sorted(row.get("nlc_type_indices", []))
+        if not types:
+            return "nlc_no_type"
+        return f"nlc_{'_'.join(map(str, types))}"
+
+    df_with_images["stratify_key"] = df_with_images.apply(_stratify_key, axis=1)
+
+    # Group rare keys
+    key_counts = df_with_images["stratify_key"].value_counts()
+    rare = key_counts[key_counts < 2].index.tolist()
+    df_with_images.loc[
+        df_with_images["stratify_key"].isin(rare), "stratify_key"
+    ] = df_with_images.loc[
+        df_with_images["stratify_key"].isin(rare), "label"
+    ].apply(lambda x: "nlc_other" if x == 1 else "no_nlc")
+
+    train_df, val_df = train_test_split(
+        df_with_images,
+        test_size=1 - config.data.train_split,
+        stratify=df_with_images["stratify_key"],
+        random_state=config.data.random_seed,
+    )
+
+    print(f"\nSplit sizes:  Training: {len(train_df)},  Validation: {len(val_df)}")
+    print(f"  Train NLC: {(train_df['label']==1).sum()}, No-NLC: {(train_df['label']==0).sum()}")
+    print(f"  Val   NLC: {(val_df['label']==1).sum()}, No-NLC: {(val_df['label']==0).sum()}")
+
+    # ---- transforms & datasets ----
+    train_transform = get_augmentation_transforms(config)
+    val_transform = get_validation_transforms(config)
+
+    cache = ImageCache(config.data.image_cache_dir)
+    train_dataset = NLCDataset(train_df, config, train_transform, is_training=True, cache=cache)
+    val_dataset = NLCDataset(val_df, config, val_transform, is_training=False, cache=cache)
+
+    use_pin_memory = torch.cuda.is_available()
+
+    # Weighted sampling for class imbalance
+    if imbalance > 2:
+        print("\nUsing weighted sampling to handle class imbalance...")
+        labels = train_dataset.df["label"].values
+        class_counts = np.bincount(labels)
+        class_weights = 1.0 / class_counts
+        sample_weights = class_weights[labels]
+        sampler = WeightedRandomSampler(
+            weights=sample_weights,
+            num_samples=len(sample_weights),
+            replacement=True,
+        )
+        train_loader = DataLoader(
+            train_dataset,
+            batch_size=config.training.batch_size,
+            sampler=sampler,
+            num_workers=config.num_workers,
+            pin_memory=use_pin_memory,
+            collate_fn=collate_fn,
+        )
+    else:
+        train_loader = DataLoader(
+            train_dataset,
+            batch_size=config.training.batch_size,
+            shuffle=True,
+            num_workers=config.num_workers,
+            pin_memory=use_pin_memory,
+            collate_fn=collate_fn,
+        )
+
+    val_loader = DataLoader(
+        val_dataset,
+        batch_size=config.training.batch_size,
+        shuffle=False,
+        num_workers=config.num_workers,
+        pin_memory=use_pin_memory,
+        collate_fn=collate_fn,
+    )
+
     return train_loader, val_loader, stats
 
 

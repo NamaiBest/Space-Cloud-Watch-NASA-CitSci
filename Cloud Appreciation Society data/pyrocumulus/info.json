@@ -1,0 +1,58 @@
+{
+  "slug": "pyrocumulus",
+  "name": "Pyrocumulus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/pyrocumulus/",
+  "description": "When clouds form in the columns of air above forest fires, they are known as pyrocumulus. Anything hot enough to produce strong convection currents can give rise to clouds so long as there is enough moisture around. Large volcanic eruptions can lead to pyrocumulus clouds too. Either way, pyrocumulus can sometimes grow large enough to produce thunder and lightning or tuba cloud features that can develop into landspouts or waterspouts. The more technical name for pyrocumulus clouds formed over wildfires or volcanoes would be Cumulus flammagenitus and, when they develop enough to produce precipitation and lightning, Cumulonimbus flammagenitus (which people sometimes describe as pyrocumulonimbus). Pyrocumulus can also form over the cooling towers of power stations. These too produce heat and water vapour, which when the air is cool enough can condense into droplets of cloud. Technically speaking, you’d call these manmade ones Cumulus homogenitus. Forest fires, volcanoes and power stations also introduce countless microscopic particles into the air. These act as condensation nuclei – tiny seeds onto which the water droplets start to condense. With such a plentiful supply of these condensation nuclei, pyrocumulus tend to consist of very plentiful and small droplets. This, along with all the larger particles of ash or smoke, gives the cloud a very dense, sometimes yellowish, appearance. Image: Spotted over Balsareny, Catalonia, Spain by macape.",
+  "altitude": "Low",
+  "precipitation": "Possible, when tall",
+  "reference_images": [
+    {
+      "filename": "43f734764f0b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_JeremyaGreene_Angeles_National_Forest_California_United_States.jpg"
+    },
+    {
+      "filename": "c731f2850ac0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_Maria_Rosaria_Milone_Cologne_Germany.jpg"
+    },
+    {
+      "filename": "c8bb7874f47f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_suzannevanveen_Disteldorp_Gemeente_Amsterdam_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "c36c98f88ced.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_Raymond_Kenward_Isle_of_Grain_Kent_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "959112d01326.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5187-2-700x525.jpeg"
+    },
+    {
+      "filename": "66db14b23572.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4796-1-539x700.jpg"
+    },
+    {
+      "filename": "d5f442cc2568.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/12/cloud-gallery-2375-1-700x315.jpg"
+    },
+    {
+      "filename": "198a734eff9f.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1280-1-700x501.jpeg"
+    },
+    {
+      "filename": "441a91145f23.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/08/cloud-gallery-1011-3-525x700.jpeg"
+    },
+    {
+      "filename": "fe0f82c1d760.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-699-1-525x700.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "congestus",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

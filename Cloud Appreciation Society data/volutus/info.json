@@ -1,0 +1,57 @@
+{
+  "slug": "volutus",
+  "name": "Volutus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/volutus/",
+  "description": "This is a long, low tube of cloud, which can appear to extend horizontally from horizon to horizon. Known more generally as a roll cloud, it often has a very smooth, silky surface. At other times, it can appear quite rough and bumpy. Volutus can move at speeds of up to 35mph (55km/h), with the roll appearing to rotate as it travels along. The direction of rotation is not as it would be for a solid tube rolling along the ground. In fact, the roll cloud rotates against its direction of travel – the cloud surface lifting at the front and dropping down at the back. One famous volutus, the Morning Glory cloud, appears in Northern Queensland, Australia. This forms in a solitary wave of air and is caused by colliding sea breezes over the Cape York Peninsula. Volutus are often associated with sea breezes, and so they tend to be found in coastal waters. At other times, volutus are caused by storm systems. In this case they are rather like arcus, or shelf clouds, that have become detached from the storm system that produced them. As the storm dissipates, gusting winds of cold air can continue to spread out ahead of it, and form a roll of cloud that separates away from the rest of the storm. Image: Spotted over Pulaski, Lawrence County, Pennsylvania, United States by b2397.",
+  "altitude": "Low",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "e1677490a0a1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_laine_Achterheide_Antwerp_Province_Flanders_Belgium.jpg"
+    },
+    {
+      "filename": "50a661a31dbc.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_laura_moehrke_Charlestown_Beach_Washington_County_Rhode_Island_United_States.jpg"
+    },
+    {
+      "filename": "4b86002707b8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_cathietinn_Auchencrow_Scottish_Borders_Scotland.jpg"
+    },
+    {
+      "filename": "c7f9064b37e2.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_kowen84_Miami_Wijk_West_Flanders_Province_Flanders_Belgium.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "36ddffbfd012.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5144-2-700x527.jpg"
+    },
+    {
+      "filename": "521db63b21e1.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/08/cloud-gallery-1126-1-700x445.jpeg"
+    },
+    {
+      "filename": "34e857574b82.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-362-2-700x525.jpeg"
+    },
+    {
+      "filename": "0ec8241dd802.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-353-1-700x367.jpg"
+    },
+    {
+      "filename": "2915a7fb69ca.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-335-2-700x525.jpg"
+    },
+    {
+      "filename": "fb996b2995ac.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/01/John-Riedl-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cumulonimbus-2",
+    "arcus"
+  ],
+  "label": "non-nlc"
+}

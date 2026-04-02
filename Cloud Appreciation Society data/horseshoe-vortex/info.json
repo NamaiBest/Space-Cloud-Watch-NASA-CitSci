@@ -1,0 +1,57 @@
+{
+  "slug": "horseshoe-vortex",
+  "name": "Horseshoe vortex",
+  "url": "https://cloudappreciationsociety.org/cloud-library/horseshoe-vortex/",
+  "description": "What a subtle little wisp of cloud the horseshoe vortex is! It is easily missed by anyone other than the most keen-eyed cloudspotter, intent on adding it to their collection. The rare and fleeting horseshoe vortex cloud appears for just a few minutes before breaking up or evaporating away. Anyone lucky enough to spot one must take a photo if they want to be believed by their cloud-collecting friends. This cloud forms in a region of rotating air, or vortex. While the familiar orientation for a vortex is vertical (see tuba ), they can occasionally develop on a horizontal axis. This is when the gently rotating crescent of the horseshoe vortex cloud can form. The movement of air seems to result from a thermal updraught that is sent into a spin as it reaches a horizontal crosswinds overhead. Rarely are conditions right for a cloud to appear within the vortex but, when they are, the rotating air cools enough to develop a twisting crescent of cloud. It starts out mostly horizontal, but it is soon distorted into a curve as the thermal below continues to push upwards. It lifts the middle of the rotating tube of cloud more than the sides and – hey presto! – the horseshoe shape is formed. This beautiful little cloud may not lead to any precipitation, but it will rain down luck upon anyone fortunate enough to spot it. Image: Spotted over Salo Corner, Saint Louis County, Minnesota, United States by Suzanne Winckler.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "ac4cb0073886.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_Jesper_Burgemeesterswijk_Gemeente_Arnhem_Gelderland_Netherlands.jpg"
+    },
+    {
+      "filename": "760a008f0167.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_robard_Wonga_Cairns_Queensland_Australia_.jpg"
+    },
+    {
+      "filename": "ea498de8774a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_lillian_Wood_Green_Haringey_England.jpg"
+    },
+    {
+      "filename": "872c3373b110.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_nicesaraht_La_Baume_Castellane_Provence-Alpes-Cote_d_Azur_France.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "806365ff2c84.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7566-2-525x700.jpeg"
+    },
+    {
+      "filename": "9d7e0236ba3d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7406-1-624x700.jpeg"
+    },
+    {
+      "filename": "0832f61f537a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7358-1-700x525.jpeg"
+    },
+    {
+      "filename": "c23532d7b517.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6323-1-525x700.jpg"
+    },
+    {
+      "filename": "5a662d75dd1e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6152-1-525x700.jpeg"
+    },
+    {
+      "filename": "ef1c2558c93f.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5048-1-525x700.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cumulonimbus-2",
+    "tuba"
+  ],
+  "label": "non-nlc"
+}

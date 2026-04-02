@@ -1,0 +1,63 @@
+{
+  "slug": "lenticularis",
+  "name": "Lenticularis",
+  "url": "https://cloudappreciationsociety.org/cloud-library/lenticularis/",
+  "description": "Lenticularis clouds are contenders for the Weirdest-Looking-Clouds-in-the-Sky awards. Their name is Latin for a lentil, on account of their very distinctive lens shapes. They often look remarkably like flying saucers. Presumably, when they were named, no one could think of the Latin word for ‘shaped like a UFO’. Lenticularis can be found at low, medium and high cloud levels, although the most striking and dramatic ones tend to be the mid-level Altocumulus lenticularis. At whatever altitude they form, they are usually caused by a moist airstream flowing over raised ground, such as a hill or mountain peak. When the atmosphere in the area is stable, the air can develop a wave-like motion downstream, invisibly rising and dipping in the lee of the peak. If the air rises and cools enough, lenticularis clouds can appear at the crests of these waves. Unlike most clouds that drift along with the breeze, these hover even in the strongest winds (so long as air speed remains constant). Their positions in the airstream remain fixed, like the stationary waves of water behind a boulder in the current of a fast-moving stream. When the airstream contains layers of moist air separated by drier air, a stacked formation can appear, known as ‘pile d’assiettes’ (which is French for ‘your turn for the washing up’). Image: Spotted over La Estación, Galapagar, Madrid, Spain by Paco R Campo.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "6b9abea6f276.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_ormaza_Playa_Granada_Motril_Andalusia_Spain.jpg"
+    },
+    {
+      "filename": "394efd70cd7a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_anneekin_Westcliffe_Colorado_United_States.jpg"
+    },
+    {
+      "filename": "c6325db068d3.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_susigu_Navallar_Colmenar_Viejo_Madrid_Spain.jpg"
+    },
+    {
+      "filename": "4c0c23ba6b1f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_CuBean_Cosnino_Coconino_County_Arizona_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "781662d1d317.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7617-1-700x525.jpg"
+    },
+    {
+      "filename": "b51f7826b177.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7569-1-525x700.jpg"
+    },
+    {
+      "filename": "1811f8957ad9.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7441-1-525x700.jpeg"
+    },
+    {
+      "filename": "bf2f0c900e75.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7401-1-700x431.jpg"
+    },
+    {
+      "filename": "8cd016fbdc01.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7285-1-700x394.jpeg"
+    },
+    {
+      "filename": "6af5fe7e4cb5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7226-1-700x323.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "reflection-bow",
+    "pileus",
+    "stratocumulus",
+    "fluctus",
+    "iridescence",
+    "altocumulus",
+    "cap-cloud",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "22-degree-halo",
+  "name": "22-degree halo",
+  "url": "https://cloudappreciationsociety.org/cloud-library/22-degree-halo/",
+  "description": "The 22-degree halo is the most frequent of the many halo phenomena that can appear as sunlight is refracted through the ice crystals of thin layers of high clouds, such as Cirrus, Cirrostratus and Cirrocumulus, or the ground-level ice-crystal cloud, diamond dust. Appearing on about 100 days of the year (in Western Europe), the 22-degree halo looks like a large ring around the sun or moon. Its inner edge generally has a reddish tinge to it, with the region of the sky between halo and sun appearing darker than that just outside the halo. When cloud cover is less than extensive, only parts of the halo appear. CloudSpotters observing a 22-degree halo for the first time will be surprised at how much larger it appears compared with photographs. This can present challenges when trying to photograph one on your phone. The distance from sun or moon to the edge of the ring is equivalent to the outstretched span of a hand held up at arm’s length. Though it’s worth two stars, a 22-degree halo is not worth screwing up your eyesight for, so take especial care never to stare directly at the sun. Be sure to photograph from the shade of a tree, lamppost or building in order to block out the sun itself, and reveal the part of the sky showing the halo. Image: Spotted over The Basin, Knox, Victoria, Australia by eight skies.",
+  "altitude": "Can appear for all altitudes of the Sun/Moon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "4010f3ddc85b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_medzz_Kampung_Baru_Subang_Selangor_Selangor_Malaysia.jpg"
+    },
+    {
+      "filename": "a6e730b443e5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_Fallout_Catamaran_Tasmania_Australia.jpg"
+    },
+    {
+      "filename": "a8a0c89862bc.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_gillianevans_Merewether_Newcastle_New_South_Wales_Australia.jpg"
+    },
+    {
+      "filename": "12c36674aedf.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_Perle_Warnemunde_Rostock_Mecklenburg-Vorpommern_Germany.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "47b9955cee33.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7641-1-700x525.jpeg"
+    },
+    {
+      "filename": "2235d2394235.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7554-1-525x700.jpg"
+    },
+    {
+      "filename": "dad5fd361d7a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7407-1-700x525.jpeg"
+    },
+    {
+      "filename": "564989266d13.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7248-1-525x700.jpg"
+    },
+    {
+      "filename": "5cb30ce52b5d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+    },
+    {
+      "filename": "6964bd70d8f0.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6988-1-700x527.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "tangent-arc",
+    "cirrus",
+    "corona",
+    "reflection-bow",
+    "parhelic-circle",
+    "glory",
+    "sun-dog",
+    "cirrostratus",
+    "cirrocumulus",
+    "cloudbow"
+  ],
+  "label": "non-nlc"
+}

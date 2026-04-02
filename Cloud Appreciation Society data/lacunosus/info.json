@@ -1,0 +1,60 @@
+{
+  "slug": "lacunosus",
+  "name": "Lacunosus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/lacunosus/",
+  "description": "A rare, fleeting formation, the lacunosus variety is identified in terms of the gaps between cloud elements, rather than the clouds themselves. It is when a cloud layer is composed of more or less regular holes, around which fringes of cloud form, like a net or rough honeycomb. Even though lacunosus forms at all three cloud levels, it is an elusive prize for any cloud collector, since it is so short-lived. The holes of this variety are formed by sinking pockets of air, and the cloud fringes around them by air rising up between the pockets to replace them. Such sinking can occur when a layer of cooler air finds itself over a warmer one. Being more dense, the cooler air sinks down through the warmer air. The appearance is similar to the rough honeycomb pattern you occasionally see on the surface of a hot cup of tea. As the tea on the surface cools and contracts, it sinks in pockets through the hotter tea below, which bubbles up in between to replace it. That said, no one is completely sure why sometimes the cool air sinks to form lacunosus, while other times the warm air rises in pockets to form the opposite arrangement of cloudlets with gaps between. Image: Spotted over Valladolid, Valladolid, Castille and León, Spain by Paco R Campo.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "f242589c965c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_sherry_Ivarea_Erie_County_Pennsylvania_United_States.jpg"
+    },
+    {
+      "filename": "e338cd28e352.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_Paco_R_Campo_Valladolid_Valladolid_Castille_and_Leon_Spain.jpg"
+    },
+    {
+      "filename": "da63f788a072.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_FranciscaF_Culemborg_Culemborg_Gelderland_Netherlands.jpg"
+    },
+    {
+      "filename": "7d3b61a73286.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_wangi_Rijken_Lichtervelde_Flanders_Belgium.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "6f24cac1879e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+    },
+    {
+      "filename": "6e31978d06bd.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7608-1-525x700.jpg"
+    },
+    {
+      "filename": "b30f2bdc4bd4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7300-1-700x467.jpg"
+    },
+    {
+      "filename": "16548f4ad53b.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7170-2-700x525.jpeg"
+    },
+    {
+      "filename": "bcc6acedcdaa.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7087-1-700x525.jpeg"
+    },
+    {
+      "filename": "14e490eb8765.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6659-1-700x394.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "asperitas",
+    "stratocumulus",
+    "cavum",
+    "altocumulus",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

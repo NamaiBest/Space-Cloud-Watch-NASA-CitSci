@@ -1,0 +1,59 @@
+{
+  "slug": "velum",
+  "name": "Velum",
+  "url": "https://cloudappreciationsociety.org/cloud-library/velum/",
+  "description": "Like one of those tiny fish that swim in the slipstream of sharks, the accessory cloud known as velum is easily missed beside the mighty forms of its companion Cumulus congestus or Cumulonimbus clouds. It usually appears here as a thin, dark horizontal streak half-way up the side of the main cloud. Named from the Latin for the sail of a ship, or the flap of a tent, velum are found in the vicinity of large convection clouds that have spread outwards for a time during their growth before breaking through and continuing their ascent. A strip of cloud is left behind, which lingers at the flanks of the towering mounds. Despite their flimsy appearance, velum often hang in the sky long after the showy convection clouds that formed them have dissipated. We are sure there is a lesson hidden in there somewhere. Image: Spotted over Delhi, India by Dolores Palma.",
+  "altitude": "Mid",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "49c71961c219.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_sarahfburns_Phoenix_Jackson_County_Oregon_United_States.jpg"
+    },
+    {
+      "filename": "6dbe742aef09.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_packyman_Morey_Boulder_County_Colorado_United_States.jpg"
+    },
+    {
+      "filename": "b9fc8d89e427.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_HansStocker_Charigny_Charigny_Bourgogne-Franche-Comte_France.jpg"
+    },
+    {
+      "filename": "abeae0c3327b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_HansStocker_San_Terenziano_Gualdo_Cattaneo_Umbria_Italy.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "66db14b23572.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4796-1-539x700.jpg"
+    },
+    {
+      "filename": "0e987993eedc.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4724-1-700x525.jpeg"
+    },
+    {
+      "filename": "708f22d29f3c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2777-1-700x487.jpg"
+    },
+    {
+      "filename": "ae454b8679e0.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/08/cloud-gallery-1000-1-700x276.jpeg"
+    },
+    {
+      "filename": "98ded3681fd4.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/05/cloud-gallery-123-1-700x525.jpeg"
+    },
+    {
+      "filename": "309a2482ee10.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/06/Ruth-Quist-4-700x467.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "pileus",
+    "cumulonimbus-2",
+    "altostratus",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

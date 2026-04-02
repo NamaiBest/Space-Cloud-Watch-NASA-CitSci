@@ -1,0 +1,61 @@
+{
+  "slug": "distrail",
+  "name": "Distrail",
+  "url": "https://cloudappreciationsociety.org/cloud-library/distrail/",
+  "description": "An aircraft dissipation trail, or distrail, is a specific example of the cloud hole known as a cavum, or fallstreak hole. In the case of a distrail, the cloud hole is formed by the passage of an aircraft through the cloud layer, and so it shaped more like a line than a circular hole. As with a regular cavum, a distrail forms when very cold droplets in a cloud layer start to freeze in one region and fall below as ice crystals. If these dissipate away in warmer, drier air below the cloud, all that is left is a hole – or in this case, a line. An aircraft can trigger this freezing process by the cooling that happens within its wing vortices or by the tiny particles in its exhaust acting as ‘freezing nuclei’. Airborne particles, whether natural ones like dust, ash or plant material or ones introduced artificially like this, serve as the tiny seeds onto which cloud droplets can begin to freeze. Without them droplets can stay in ‘supercooled’ liquid state at temperatures as low as –40°C (–40°F). Depending on whether or not the ice crystals evaporate in the air below, a distrail can appear as a completely clear line cut out of a cloud layer or one with a trail of ice falling crystals visible beneath it. Image: Spotted over Felsted, Uttlesford District, England by twinklespinalot.",
+  "altitude": "Mid/High",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "293bfda1de1f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_Jesper_Muiderberg_Muiden_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "2ccd7cba3767.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_ebloustein_Park_Slope_Kings_County_New_York_United_States.jpg"
+    },
+    {
+      "filename": "886b42d3db7e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_Lady_Grey_Zurich_Switzerland_.jpg"
+    },
+    {
+      "filename": "05af38312c7d.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_ebloustein_Prospect_Heights_Kings_County_New_York_United_States_.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "93a244dec3f1.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7430-1-700x525.jpeg"
+    },
+    {
+      "filename": "ed2fc178e8e8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7174-1-700x700.jpg"
+    },
+    {
+      "filename": "1f75b7730f93.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5522-1-700x525.jpg"
+    },
+    {
+      "filename": "d33e503a5dbd.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5203-2-525x700.jpg"
+    },
+    {
+      "filename": "e8eb1d91df99.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4258-1-700x403.jpeg"
+    },
+    {
+      "filename": "a5ade390d81d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/05/cloud-gallery-4064-1-700x456.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "reflection-bow",
+    "cavum",
+    "altostratus",
+    "altocumulus",
+    "contrail",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

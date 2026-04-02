@@ -1,0 +1,59 @@
+{
+  "slug": "fractus",
+  "name": "Fractus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/fractus/",
+  "description": "When Stratus clouds or Cumulus clouds appear as broken fragments, they are known by the species fractus. And while all example of fractus clouds are united by their frayed, shred-like appearance, they can form in a number of quite different ways. Cumulus fractus is the more straightforward. This is when a fair-weather Cumulus cloud is just beginning to form or is in the process of dissipating away. In both cases, the cloud lacks the crisp outlines and solid appearance of a fully-fledged Cumulus, looking instead rather more wispy and translucent. When viewing photographs, cloudspotter have been known to confuse Cumulus fractus with the high, wispy trails of ice crystals known as Cirrus.The distinction is clearer viewing the cloud in reality, since the fractus formation is much lower and soon changes either into Cumulus or just clear air. The fractus form of Stratus tends to appear in two contexts. One is in the form of dark shreds beneath a raincloud. This form of Stratus fractus has the more specific name of pannus. The other appears as wisps of cloud snagging on hillsides, where they catch in the trees, forming as damp air gently ascends up the slopes. Image: Spotted over Westfjords, Iceland by Gillian Edkins.",
+  "altitude": "Low",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "bd5b8c916756.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_mikeythrock_Phoenix_Arizona_United_States.jpg"
+    },
+    {
+      "filename": "80294ef2e566.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_CuBean_Jo_Don_Mobile_Home_Park_Coconino_County_Arizona_United_States.jpg"
+    },
+    {
+      "filename": "2a006a789d44.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_snowiiie_Pyrmont_City_of_Sydney_New_South_Wales_Australia_.jpg"
+    },
+    {
+      "filename": "fac16ca7d7a4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_CuBean_Ore_q_historical_Humboldt_County_California_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "806365ff2c84.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7566-2-525x700.jpeg"
+    },
+    {
+      "filename": "1c5edd23f839.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+    },
+    {
+      "filename": "6dbe8ff9b809.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+    },
+    {
+      "filename": "0832f61f537a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7358-1-700x525.jpeg"
+    },
+    {
+      "filename": "64fa895893ed.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7186-1-700x394.jpeg"
+    },
+    {
+      "filename": "16548f4ad53b.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7170-2-700x525.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cirrus",
+    "pannus",
+    "stratus",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

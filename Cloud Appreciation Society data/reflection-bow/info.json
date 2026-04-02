@@ -1,0 +1,29 @@
+{
+  "slug": "reflection-bow",
+  "name": "Reflection bow",
+  "url": "https://cloudappreciationsociety.org/cloud-library/reflection-bow/",
+  "description": "A reflection bow is a form of rainbow that appears between the primary and secondary rainbows and looks to be bent at an odd angle. Like the usual rainbows, this rare optical effect is formed by the reflection and refraction of sunlight shining from behind the viewer onto a shower of raindrops up ahead. But in the case of the reflection bow, the sunlight that forms it has been reflected up off a surface such as a smooth body of water behind the viewer. Thanks to the reflection, the bow appears at a different angle from the other rainbows since it is being formed as if by light shining from a Sun beneath, rather than above, the horizon. Should you are ever lucky enough to spot a reflection rainbow – and you’ll have to be rainbow spotting with a large body of water behind you – you’ll find that a reflection bow always meets its regular-rainbow counterpart at exactly the level of the horizon. Image: Spotted over Loch Dunvegan, Isle of Skye, Scotland by Mike Cullen.",
+  "altitude": "Can form when the Sun is < 42° from the horizon",
+  "precipitation": "Showers",
+  "reference_images": [
+    {
+      "filename": "3112a3274b6e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Reflection_bow_Mike_Cullen_Loch_Dunvegan_Isle_of_Skye_Scotland.jpg"
+    },
+    {
+      "filename": "27f135e6e5e4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Reflection_bow_ingodingo_Aure_Sykkylven_More_og_Romsdal_Norway.jpg"
+    },
+    {
+      "filename": "9ccf08d243e5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Reflection_bow_vincentmills_Auckland_New_Zealand.jpg"
+    }
+  ],
+  "gallery_images": [],
+  "linked_cloud_slugs": [
+    "rainbow",
+    "rainbow-wheel",
+    "supernumerary-bows"
+  ],
+  "label": "non-nlc"
+}

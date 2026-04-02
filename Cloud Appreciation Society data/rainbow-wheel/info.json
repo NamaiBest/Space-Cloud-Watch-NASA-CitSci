@@ -1,0 +1,36 @@
+{
+  "slug": "rainbow-wheel",
+  "name": "Rainbow wheel",
+  "url": "https://cloudappreciationsociety.org/cloud-library/rainbow-wheel/",
+  "description": "When a rainbow appears as if pierced with rays of light, the effect is called a rainbow wheel. This is because the rays can occasionally appear right around the whole arc of the bow. They are forms of anti-crepuscular rays, shadows cast from tall clouds in front of the Sun, which is shining from behind the viewer. These rays of light and shadow appear to converge as they recede towards the horizon. This is just perspective – they are in fact parallel to each other – and it means they seem to fan out from the ‘anti-solar point’, which is in the opposite direction from that of the Sun. A rainbow is always centred on the anti-solar point too, and so the rays appear within it like spokes of a bicycle wheel. A very hippy-looking bicycle wheel. Image: Spotted over Merewether Beach, New South Wales, Australia by Elizabeth Freihaut.",
+  "altitude": "Can appear when the Sun is < 42° above the horizon",
+  "precipitation": "Showers",
+  "reference_images": [
+    {
+      "filename": "74ac95a7eb97.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_Anjarama_Arnside_South_Lakeland_District_England.jpg"
+    },
+    {
+      "filename": "cde700e1827f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_Mr_Womby_Blackbushe_Hart_District_England.jpg"
+    },
+    {
+      "filename": "f2cdce4c2a46.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_nelly_Marton_North_Yorkshire_England.jpg"
+    },
+    {
+      "filename": "ae8dfec9acb9.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_specialk_Jutland_Union_Township_New_Jersey_United_States.jpg"
+    }
+  ],
+  "gallery_images": [],
+  "linked_cloud_slugs": [
+    "rainbow",
+    "reflection-bow",
+    "supernumerary-bows",
+    "crepuscular-rays",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "mamma",
+  "name": "Mamma",
+  "url": "https://cloudappreciationsociety.org/cloud-library/mamma/",
+  "description": "‘What on Earth are those?’ is the usual reaction when people see photographs of mamma clouds. Also known as ‘mammatus’, these ‘supplementary features’ hang down from a layer of cloud in smooth or rough pouches that often have the appearance of udders (which is what ‘mamma’ means in Latin). With such an otherworldly appearance, mamma are a must-have for any cloud collection. They can be found on a whole range of cloud types but the most dramatic examples occur on the underside of the huge anvils, known as incus, that spread out at the top of mature Cumulonimbus storm clouds and can cover all the visible sky. Some claim that mamma are harbingers of stormy weather, and what with the association between these cloud pouches and Cumulonimbus, you might think they have a point. But mamma tend to form at the rear, rather than the front, of storms. Once you see mamma formations above you, the storm has usually passed over, or missed you entirely. Each lobe of mamma is typically one to two miles across, and appears for around ten minutes. There are several theories about why they form, but an extensive 2006 scientific review of all the studies to date concluded that no one’s really sure. Image: Spotted over Cap Ferret, Lège-Cap-Ferret, Aquitaine, France by samli.",
+  "altitude": "Various",
+  "precipitation": "Sometimes heavy nearby",
+  "reference_images": [
+    {
+      "filename": "9ed4768f7333.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_szsenai_Flagstaff_Arizona_United_States_.jpg"
+    },
+    {
+      "filename": "b5a0d5dc238b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_cloudiris_Boydston_Gray_County_Texas_United_States.jpg"
+    },
+    {
+      "filename": "a8f25983077f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_maxime_bridlance_La_Teste-de-Buch_Nouvelle-Aquitaine_France.jpg"
+    },
+    {
+      "filename": "ff952691c708.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_lucyboo1987_Drayton_Oxfordshire_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "87542e449542.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7390-1-700x525.jpeg"
+    },
+    {
+      "filename": "552397bde147.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6990-1-700x393.jpg"
+    },
+    {
+      "filename": "6a771445eeac.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6217-1-700x617.jpeg"
+    },
+    {
+      "filename": "3be63df49d30.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6145-1-525x700.jpg"
+    },
+    {
+      "filename": "eba591490c38.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5777-1-700x527.jpg"
+    },
+    {
+      "filename": "ed8b510d5376.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5685-1-525x700.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "asperitas",
+    "cirrus",
+    "stratocumulus",
+    "altostratus",
+    "altocumulus",
+    "cumulonimbus-2"
+  ],
+  "label": "non-nlc"
+}

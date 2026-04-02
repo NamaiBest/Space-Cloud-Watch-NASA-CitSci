@@ -1,0 +1,2867 @@
+{
+  "source": "Cloud Appreciation Society — https://cloudappreciationsociety.org/cloud-library/",
+  "purpose": "Hard-negative examples for NLC (Noctilucent Cloud) binary classifier",
+  "total_cloud_types": 49,
+  "clouds": {
+    "cumulus": {
+      "slug": "cumulus",
+      "name": "Cumulus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/cumulus/",
+      "description": "If you’ve never spotted a Cumulus cloud, then you need to get out more. This has to be one of the easiest types to add to your cloud collection. Cumulus clouds are the cotton-wool puffs, with flat bases, that drift lazily across the sky on a sunny day. Generally forming a few hours after daybreak, they tend to dissipate before sundown, for they form on thermals – invisible columns of air rising from the ground as it is warmed by the sun. Most forms of Cumulus produce no rain or snow, and so are known as fair-weather clouds. But in unstable air, their bright, crisp cauliflower mounds can build upwards so that they develop from the small humilis species, through mediocris to the largest form, Cumulus congestus. With its ominous, shadowy base, this cloud is no longer fair-weather. Congestus can produce brief but sizeable showers, and can keep growing into fierce Cumulonimbus storm clouds. The little ones, by contrast, are scary only when they take the form of David Hasselhoff. Image: Spotted over Eldorado Springs, Boulder County, Colorado, United States by gcgoodson.",
+      "altitude": "Low",
+      "precipitation": "When very tall (congestus) can produce showers",
+      "reference_images": [
+        {
+          "filename": "78cd248c89af.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulus_Ring-bo-ree_Dundee_Scotland.jpg"
+        },
+        {
+          "filename": "c447ecc565ad.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulus_drydenite_Dryden_Ontario_Canada.jpg"
+        },
+        {
+          "filename": "a3e3b1b9cff0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulus_mercy_Zunderdorp_Gemeente_Amsterdam_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "6720e546c61b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulus_colinofwales_Swansea_Wales_United_Kingdom.jpg"
+        },
+        {
+          "filename": "59bc1f3976fa.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulus_mk2984_Costa_de_la_Calma_Calvia_Balearic_Islands_Spain.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "781662d1d317.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7617-1-700x525.jpg"
+        },
+        {
+          "filename": "17b78d5e00e1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7572-1-394x700.jpg"
+        },
+        {
+          "filename": "806365ff2c84.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7566-2-525x700.jpeg"
+        },
+        {
+          "filename": "1c5edd23f839.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+        },
+        {
+          "filename": "9d7e0236ba3d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7406-1-624x700.jpeg"
+        },
+        {
+          "filename": "6dbe8ff9b809.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "anti-crepuscular-rays",
+        "radiatus",
+        "fluctus",
+        "rainbow",
+        "pyrocumulus",
+        "pileus",
+        "iridescence",
+        "altocumulus",
+        "crepuscular-rays",
+        "virga",
+        "tuba",
+        "cumulonimbus-2",
+        "congestus",
+        "velum",
+        "reflection-bow",
+        "rainbow-wheel",
+        "stratocumulus",
+        "supernumerary-bows",
+        "fractus"
+      ],
+      "label": "non-nlc"
+    },
+    "stratus": {
+      "slug": "stratus",
+      "name": "Stratus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/stratus/",
+      "description": "The lowest-forming of all the cloud types, Stratus can give you a strangely claustrophobic feeling, even though you’re outside. It is a featureless, grey overcast layer, which lurks around with its base generally no higher than 1,500ft from the ground. This is much lower than its equally charisma-free cousin, the Altostratus cloud. Stratus can sometimes obscure the tops of tall buildings. When a cloud like this forms so low that it is at ground level, it is known as fog or mist. Since fog can sometimes form in a different way from airborne Stratus, it has a page of its own. One way that Stratus forms is when moist air cools as it blows over a relatively cold surface, such as a cold sea or land covered in thawing snow (‘advection fog’ is formed in the same way when winds are gentler). Another is when air cools as it rises. This might be as it blows up the lower slopes of a mountainside or as warmer air slowly rides up over a region of colder (denser) air. Finally, Stratus can appear when fog, which has formed overnight, lifts from the ground as it is stirred by a freshening wind. Image: Spotted over ukovník, Plzeňský Kraj, Plzeňský Kraj, Czechia by Jero.",
+      "altitude": "Low",
+      "precipitation": "None/Light",
+      "reference_images": [
+        {
+          "filename": "7237ecce90f7.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_William_A_Edmundson_Coniston_South_Lakeland_District_England.jpg"
+        },
+        {
+          "filename": "e51885a8acca.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_cara147m_Clevedon_England.jpg"
+        },
+        {
+          "filename": "67f572431752.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_unkai_Roppongi_Japan_.jpg"
+        },
+        {
+          "filename": "5040b7e7c29c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_Judithkate_Englefield_Green_Runnymede_District_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "1c5edd23f839.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+        },
+        {
+          "filename": "7fa93f8f2ce8.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7339-1-700x525.jpeg"
+        },
+        {
+          "filename": "16548f4ad53b.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7170-2-700x525.jpeg"
+        },
+        {
+          "filename": "4bb51d6921de.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7121-1-700x394.jpg"
+        },
+        {
+          "filename": "ea6a73529c0b.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7022-1-700x525.jpeg"
+        },
+        {
+          "filename": "5cb30ce52b5d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "nimbostratus",
+        "corona",
+        "stratocumulus",
+        "undulatus",
+        "glory",
+        "fractus",
+        "fluctus",
+        "altostratus",
+        "fog",
+        "cirrostratus",
+        "cloudbow"
+      ],
+      "label": "non-nlc"
+    },
+    "stratocumulus": {
+      "slug": "stratocumulus",
+      "name": "Stratocumulus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/stratocumulus/",
+      "description": "The most widespread of all cloud types, Stratocumulus is a low layer or patch of cloud that has a well-defined, clumpy base. The patches are either joined up, or have gaps in between. When the sky is overcast, and the cloud base appears to be low, with tones from white to dark grey, cloudspotters can confidently add Stratocumulus to their cloud collections. High Stratocumulus that have cloudlets with gaps in between – a variety known as perlucidus – can be confused with the mid-level cloud Altocumulus. But Stratocumulus is usually less orderly in appearance and its cloudlets are bigger (appearing larger than the width of three fingers, held at arm’s length, when they are more than 30˚ above the horizon). Due to its sun-blocking tendencies, Stratocumulus may not be the most popular cloud, but it is one of the most varied. Image: Spotted over Nassau County, Florida, United States by puffy.",
+      "altitude": "Low",
+      "precipitation": "None/Light",
+      "reference_images": [
+        {
+          "filename": "72a1ce943083.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_Keith_Owens_Napton_on_the_Hill_Stratford-on-Avon_District_England.jpg"
+        },
+        {
+          "filename": "0ce5400f718f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_gvpreo_Middle_Village_Queens_New_York_United_States.jpg"
+        },
+        {
+          "filename": "c69ac41d3500.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_CuBean_San_Juan_Utah_United_States.jpg"
+        },
+        {
+          "filename": "245b17d83e28.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_urbanswine_March_Fenland_District_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "db0e38ef543b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7214-1-700x525.jpg"
+        },
+        {
+          "filename": "525f316dac8f.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6976-1-700x525.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "anti-crepuscular-rays",
+        "lenticularis",
+        "crepuscular-rays",
+        "asperitas",
+        "castellanus",
+        "stratus",
+        "undulatus",
+        "radiatus",
+        "glory",
+        "lacunosus",
+        "fluctus",
+        "altocumulus",
+        "cap-cloud",
+        "virga",
+        "mamma",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "noctilucent": {
+      "slug": "noctilucent",
+      "name": "Noctilucent",
+      "url": "https://cloudappreciationsociety.org/cloud-library/noctilucent/",
+      "description": "The mysterious noctilucent clouds are higher than any other cloud in the atmosphere. Also known as ‘polar mesospheric clouds’, they have an eerie, bluish-white appearance, often showing delicate ripples or billows. Noctilucent clouds form in the mesosphere, at altitudes of 30–50 miles (50–80 km) – almost at the limit of the atmosphere. Being so high means that, in the higher latitudes, where they are most frequently seen, noctilucent clouds shine out against the night sky well after the Sun has dropped over the horizon. They still catch the sunlight when the rest of the sky is dark. Their name comes from Latin for ‘night shining’. Quite how noctilucent clouds form is by no means clear. The mesosphere is a region where air temperatures can be as low as –125˚C (–190˚F) but there is very little moisture at all. No one knows why the ice crystals that make up this cloud arise in such a dry and remote part of the atmosphere. Historically, noctilucent clouds have tended to be spotted at latitudes higher than 50˚ during the summer months. It now seems that they are appearing over much larger regions of the world and more frequently. Some scientists have speculated that this change might be related to global warming. The best times for CloudSpotters to try to add noctilucent clouds to their collections is a few hours after sunset or before sunrise from May to August in the Northern Hemisphere, and November to March in the Southern Hemisphere. Image: Spotted over Lombok, Utrecht, Netherlands by kevinvschie.",
+      "altitude": "Extreme",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "d59629c00374.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Noctilucent_Easton_Bangor_North_Down_Northern_Ireland.jpg"
+        },
+        {
+          "filename": "261602d77ae9.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Noctilucent_mickvegas_Dalkopinge_Trelleborg_Municipality_Skane_Sweden.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "53d30eafa34e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4743-1-700x467.jpg"
+        },
+        {
+          "filename": "8779896a38e9.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4560-1-700x395.jpg"
+        },
+        {
+          "filename": "193111a28766.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4552-1-700x418.jpeg"
+        },
+        {
+          "filename": "8eae56a4da47.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/11/cloud-gallery-2290-1-700x525.jpeg"
+        },
+        {
+          "filename": "de66b7dc4a64.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-812-1-700x323.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "nacreous",
+        "cirrostratus",
+        "undulatus"
+      ],
+      "label": "non-nlc"
+    },
+    "contrail": {
+      "slug": "contrail",
+      "name": "Contrail",
+      "url": "https://cloudappreciationsociety.org/cloud-library/contrail/",
+      "description": "Before the start of the First World War and the advent of high-altitude flight, our skies appeared very different from the way they do today – there were no condensation trails, or contrails, which form in the exhaust of aircraft. There’s no confusing these man-made clouds with the natural ones. Following the aircraft’s path, contrails tend to appear as long, straight slashes of white across the blue. In the vicinity of airports, however, they can sometimes form large loops, due to the stacking formation of aircraft waiting to land. The length of time contrails remain in the sky – or indeed whether they form at all – varies greatly depending on the air conditions up at cruising altitude. When it’s cold enough and moist enough, the water vapour contained in the plane’s hot exhaust gases mixes with the very cold air to condense and form ice crystals. In some conditions, these soon evaporate. In others, they can persist for hours, the ice crystals absorbing water vapour from the surrounding air to grow in size and spread out in the high winds. In this way, contrails often encourage the formation of Cirrus, Cirrocumulus and Cirrostratus ice-crystal clouds. Image: Spotted over Churánov, Jihočeský, Jihočeský, Czechia by Jero.",
+      "altitude": "High",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "ddc6643b4085.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_lucky_blaze_Bernal_Heights_San_Francisco_County_California_United_States.jpg"
+        },
+        {
+          "filename": "d38b51111cb1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_jentedeschepper_Rumst_Flemish_Belgium.jpg"
+        },
+        {
+          "filename": "c92b879ecdab.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_mercy_Sint-Anna_Antwerp_Province_Flanders_Belgium.jpg"
+        },
+        {
+          "filename": "b0dec91e1cad.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_William_A_Edmundson_Tullamore_Fulton_County_Georgia_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "a704612fef90.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/04/cloud-gallery-7647-1-700x466.jpg"
+        },
+        {
+          "filename": "dad5fd361d7a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7407-1-700x525.jpeg"
+        },
+        {
+          "filename": "ed2fc178e8e8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7174-1-700x700.jpg"
+        },
+        {
+          "filename": "eda8daceb8a9.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7135-1-700x525.jpeg"
+        },
+        {
+          "filename": "a6273b9c1b1e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-5739-4-700x525.jpg"
+        },
+        {
+          "filename": "bc6bf8caae3c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6598-1-700x447.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "distrail",
+        "cirrus",
+        "reflection-bow",
+        "fibratus",
+        "radiatus",
+        "cirrostratus",
+        "tuba",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "lenticularis": {
+      "slug": "lenticularis",
+      "name": "Lenticularis",
+      "url": "https://cloudappreciationsociety.org/cloud-library/lenticularis/",
+      "description": "Lenticularis clouds are contenders for the Weirdest-Looking-Clouds-in-the-Sky awards. Their name is Latin for a lentil, on account of their very distinctive lens shapes. They often look remarkably like flying saucers. Presumably, when they were named, no one could think of the Latin word for ‘shaped like a UFO’. Lenticularis can be found at low, medium and high cloud levels, although the most striking and dramatic ones tend to be the mid-level Altocumulus lenticularis. At whatever altitude they form, they are usually caused by a moist airstream flowing over raised ground, such as a hill or mountain peak. When the atmosphere in the area is stable, the air can develop a wave-like motion downstream, invisibly rising and dipping in the lee of the peak. If the air rises and cools enough, lenticularis clouds can appear at the crests of these waves. Unlike most clouds that drift along with the breeze, these hover even in the strongest winds (so long as air speed remains constant). Their positions in the airstream remain fixed, like the stationary waves of water behind a boulder in the current of a fast-moving stream. When the airstream contains layers of moist air separated by drier air, a stacked formation can appear, known as ‘pile d’assiettes’ (which is French for ‘your turn for the washing up’). Image: Spotted over La Estación, Galapagar, Madrid, Spain by Paco R Campo.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "6b9abea6f276.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_ormaza_Playa_Granada_Motril_Andalusia_Spain.jpg"
+        },
+        {
+          "filename": "394efd70cd7a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_anneekin_Westcliffe_Colorado_United_States.jpg"
+        },
+        {
+          "filename": "c6325db068d3.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_susigu_Navallar_Colmenar_Viejo_Madrid_Spain.jpg"
+        },
+        {
+          "filename": "4c0c23ba6b1f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lenticularis_CuBean_Cosnino_Coconino_County_Arizona_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "781662d1d317.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7617-1-700x525.jpg"
+        },
+        {
+          "filename": "b51f7826b177.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7569-1-525x700.jpg"
+        },
+        {
+          "filename": "1811f8957ad9.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7441-1-525x700.jpeg"
+        },
+        {
+          "filename": "bf2f0c900e75.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7401-1-700x431.jpg"
+        },
+        {
+          "filename": "8cd016fbdc01.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7285-1-700x394.jpeg"
+        },
+        {
+          "filename": "6af5fe7e4cb5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7226-1-700x323.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "reflection-bow",
+        "pileus",
+        "stratocumulus",
+        "fluctus",
+        "iridescence",
+        "altocumulus",
+        "cap-cloud",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "mamma": {
+      "slug": "mamma",
+      "name": "Mamma",
+      "url": "https://cloudappreciationsociety.org/cloud-library/mamma/",
+      "description": "‘What on Earth are those?’ is the usual reaction when people see photographs of mamma clouds. Also known as ‘mammatus’, these ‘supplementary features’ hang down from a layer of cloud in smooth or rough pouches that often have the appearance of udders (which is what ‘mamma’ means in Latin). With such an otherworldly appearance, mamma are a must-have for any cloud collection. They can be found on a whole range of cloud types but the most dramatic examples occur on the underside of the huge anvils, known as incus, that spread out at the top of mature Cumulonimbus storm clouds and can cover all the visible sky. Some claim that mamma are harbingers of stormy weather, and what with the association between these cloud pouches and Cumulonimbus, you might think they have a point. But mamma tend to form at the rear, rather than the front, of storms. Once you see mamma formations above you, the storm has usually passed over, or missed you entirely. Each lobe of mamma is typically one to two miles across, and appears for around ten minutes. There are several theories about why they form, but an extensive 2006 scientific review of all the studies to date concluded that no one’s really sure. Image: Spotted over Cap Ferret, Lège-Cap-Ferret, Aquitaine, France by samli.",
+      "altitude": "Various",
+      "precipitation": "Sometimes heavy nearby",
+      "reference_images": [
+        {
+          "filename": "9ed4768f7333.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_szsenai_Flagstaff_Arizona_United_States_.jpg"
+        },
+        {
+          "filename": "b5a0d5dc238b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_cloudiris_Boydston_Gray_County_Texas_United_States.jpg"
+        },
+        {
+          "filename": "a8f25983077f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_maxime_bridlance_La_Teste-de-Buch_Nouvelle-Aquitaine_France.jpg"
+        },
+        {
+          "filename": "ff952691c708.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Mamma_lucyboo1987_Drayton_Oxfordshire_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "87542e449542.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7390-1-700x525.jpeg"
+        },
+        {
+          "filename": "552397bde147.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6990-1-700x393.jpg"
+        },
+        {
+          "filename": "6a771445eeac.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6217-1-700x617.jpeg"
+        },
+        {
+          "filename": "3be63df49d30.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6145-1-525x700.jpg"
+        },
+        {
+          "filename": "eba591490c38.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5777-1-700x527.jpg"
+        },
+        {
+          "filename": "ed8b510d5376.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5685-1-525x700.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "asperitas",
+        "cirrus",
+        "stratocumulus",
+        "altostratus",
+        "altocumulus",
+        "cumulonimbus-2"
+      ],
+      "label": "non-nlc"
+    },
+    "virga": {
+      "slug": "virga",
+      "name": "Virga",
+      "url": "https://cloudappreciationsociety.org/cloud-library/virga/",
+      "description": "When you look up to find jellyfish floating above, you are either diving or beneath the cloud known as virga. In essence, this is just a cloud raining or snowing, but with one important difference: the precipitation never reaches the ground. If the droplets or ice crystals (or anything between the two) fall through air that is warm enough and/or dry enough, they can dissipate away before ever landing. The appearance of virga from the ground is of trails that hang down like tentacles from a clump or layer of cloud, waving not in the currents of the ocean, but in those of the atmosphere. When virga occur below low-level clouds, they are composed of water droplets, and appear grey. When they consist of ice crystals, having fallen from mid- or high-level clouds, they have a much paler appearance. But beware: this distinction is a tenuous one, because our eyes judge colour and tone relative to the brightness of the background. The same trail of virga can appear whiter or greyer depending on the sky behind. Fallstreak holes are specific cases of virga falling from a layer of supercooled droplets to leave a hole behind. When a cloud’s precipitation can be seen to reach all the way to the ground, it is no longer called virga, but ‘praecipitatio’. Image: Spotted over Schaarbeek, East Flanders Province, Flanders, Belgium by Jannick.",
+      "altitude": "Mid/High",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "b513a0da72f1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_ecbh01_Caminha_Caminha_Matriz_Viana_do_Castelo_Portugal.jpg"
+        },
+        {
+          "filename": "fc58a6fb2eac.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_friedtomatoes_Keno_Liberty_County_Texas_United_States.jpg"
+        },
+        {
+          "filename": "3ff292a19211.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_Matthew_Bettelheim_Cowell_Contra_Costa_County_California_United_States_.jpg"
+        },
+        {
+          "filename": "648d92124792.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Virga_missnicole_Adelaide_South_Australia_Australia.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "c3aca6ae7829.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7577-1-700x525.jpeg"
+        },
+        {
+          "filename": "6dbe8ff9b809.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+        },
+        {
+          "filename": "2caf3dcf1a24.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7272-1-700x394.jpg"
+        },
+        {
+          "filename": "4bb51d6921de.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7121-1-700x394.jpg"
+        },
+        {
+          "filename": "864ccf1fdb8c.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6576-1-577x700.jpeg"
+        },
+        {
+          "filename": "afb6ae22d153.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5768-1-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cirrus",
+        "reflection-bow",
+        "floccus",
+        "stratocumulus",
+        "uncinus",
+        "altostratus",
+        "tuba",
+        "altocumulus",
+        "cirrocumulus",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "arcus": {
+      "slug": "arcus",
+      "name": "Arcus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/arcus/",
+      "description": "Storm chasers tend to have an abundance of arcus in their collections, for this formation, also known as a shelf cloud, is rather like the front bumper, or fender, of a storm cloud. It is a long, dark, horizontal roll or shelf running along the base of the storm cloud’s front edge (around the registration plate). So the shelf cloud is the first cloud feature to arrive as the storm runs you over. Like those other brute-cloud groupies, tuba and incus, arcus hang out only in the company of hefty Cumulus congestus or Cumulonimbus clouds or those most brutish of all cloud systems, the fierce multicell and supercell storms. They form as the cold air that is dragged down by all the precipitation falling within the storm splays outwards upon reaching the ground. As it spreads around the storm, it burrows beneath the warmer, less-dense air at ground level. This is lifted most forcefully in the direction of the cloud’s movement, forming a ‘gust front’, in which the warmer air’s moisture can condense into water droplets that appear as the shelf of cloud. More rarely, the lifting motion can cause a wave of rising and falling air that races ahead of the storm, causing a roll cloud, or volutus, which travels ahead of and separate from the storm. Image: Spotted over Bald Head Island, Brunswick County, North Carolina, United States by Callithrix.",
+      "altitude": "Low",
+      "precipitation": "Heavy",
+      "reference_images": [
+        {
+          "filename": "824a41beb7a0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_marka.n_Nupaky_Central_Bohemia_Central_Bohemia_Czech_Republic.jpg"
+        },
+        {
+          "filename": "d3ec0c401444.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_markjroberts_Armadale_Stonnington_Victoria_Australia.jpg"
+        },
+        {
+          "filename": "27a0a6fedc04.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_g.venturini92_Ol_Kiombo_Narok_Kenya.jpg"
+        },
+        {
+          "filename": "b1062bd9670a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Arcus_hrhartke_Charlottesville_Virginia_US.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "3a0d8a697e37.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7314-1-700x525.jpeg"
+        },
+        {
+          "filename": "6324682c2b39.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6894-1-525x700.jpg"
+        },
+        {
+          "filename": "90e0e82c9db1.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5188-1-700x525.jpeg"
+        },
+        {
+          "filename": "36ddffbfd012.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5144-2-700x527.jpg"
+        },
+        {
+          "filename": "c05d59ab040a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5012-4-700x525.jpeg"
+        },
+        {
+          "filename": "ebad1687d553.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4866-2-700x313.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cumulonimbus-2",
+        "volutus",
+        "murus"
+      ],
+      "label": "non-nlc"
+    },
+    "pileus": {
+      "slug": "pileus",
+      "name": "Pileus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/pileus/",
+      "description": "Pileus is a fleeting and beautiful ‘accessory cloud’, which means it is only found attached to other cloud forms. It shares much in common with lenticularis and cap clouds, which form when a stable airstream rises to pass over raised ground. In the case of pileus, however, the obstacle is not rocky terrain, but something altogether more ephemeral – another cloud. Pileus looks rather like a smooth, white beret, or, perhaps, a comb-over hairstyle. It is a horizontal cap cloud that appears momentarily on top of the crisp, cauliflower summit of a large Cumulus, or the softer one of a young Cumulonimbus. Pileus can appear as one of these large convection clouds develops upwards and encounters a moist stable airstream blowing above. This is forced to rise by the vigorous currents surging up the centre of the cloud below, cooling it just enough for some of its moisture to condense into droplets. These evaporate as the airflow sinks back down again past the convection cloud. A pileus is prized by any cloud collector because, unlike its relation, velum, it never hangs around for long. Cloudspotters have to be sharp-eyed to add one to their collection. The vigorous convection cloud that made it inevitably continues its rise, pushing its bald head through the hairstyle. Image: Spotted over Fitchburg, Estill County, Kentucky, United States by friedtomatoes.",
+      "altitude": "",
+      "precipitation": "",
+      "reference_images": [
+        {
+          "filename": "6ad4719c5f29.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_cwvessels_Miami-Dade_Florida_United_States.jpg"
+        },
+        {
+          "filename": "6cd2831798a0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_medzz_Bukit_Kuin_Satu_Pahang_Pahang_Malaysia.jpg"
+        },
+        {
+          "filename": "5313b543a04b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_friedtomatoes_Fitchburg_Estill_County_Kentucky_United_States.jpg"
+        },
+        {
+          "filename": "fc87ff498d15.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pileus_Roeland_Daalgrimbie_Limburg_Province_Flanders_Belgium.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "3bae7740b193.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5927-1-700x525.jpg"
+        },
+        {
+          "filename": "3fb0f56812e0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5490-1-525x700.jpg"
+        },
+        {
+          "filename": "b8aa905e975b.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4975-1-525x700.jpeg"
+        },
+        {
+          "filename": "8a6fcd88d39b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4896-1-700x525.jpg"
+        },
+        {
+          "filename": "4b4b79566045.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4742-1-amended-1000-700x467.jpg"
+        },
+        {
+          "filename": "395e44e55b60.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/04/cloud-gallery-3522-1-700x467.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "lenticularis",
+        "congestus",
+        "velum",
+        "iridescence",
+        "cap-cloud",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "velum": {
+      "slug": "velum",
+      "name": "Velum",
+      "url": "https://cloudappreciationsociety.org/cloud-library/velum/",
+      "description": "Like one of those tiny fish that swim in the slipstream of sharks, the accessory cloud known as velum is easily missed beside the mighty forms of its companion Cumulus congestus or Cumulonimbus clouds. It usually appears here as a thin, dark horizontal streak half-way up the side of the main cloud. Named from the Latin for the sail of a ship, or the flap of a tent, velum are found in the vicinity of large convection clouds that have spread outwards for a time during their growth before breaking through and continuing their ascent. A strip of cloud is left behind, which lingers at the flanks of the towering mounds. Despite their flimsy appearance, velum often hang in the sky long after the showy convection clouds that formed them have dissipated. We are sure there is a lesson hidden in there somewhere. Image: Spotted over Delhi, India by Dolores Palma.",
+      "altitude": "Mid",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "49c71961c219.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_sarahfburns_Phoenix_Jackson_County_Oregon_United_States.jpg"
+        },
+        {
+          "filename": "6dbe742aef09.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_packyman_Morey_Boulder_County_Colorado_United_States.jpg"
+        },
+        {
+          "filename": "b9fc8d89e427.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_HansStocker_Charigny_Charigny_Bourgogne-Franche-Comte_France.jpg"
+        },
+        {
+          "filename": "abeae0c3327b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Velum_HansStocker_San_Terenziano_Gualdo_Cattaneo_Umbria_Italy.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "66db14b23572.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4796-1-539x700.jpg"
+        },
+        {
+          "filename": "0e987993eedc.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4724-1-700x525.jpeg"
+        },
+        {
+          "filename": "708f22d29f3c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2777-1-700x487.jpg"
+        },
+        {
+          "filename": "ae454b8679e0.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/08/cloud-gallery-1000-1-700x276.jpeg"
+        },
+        {
+          "filename": "98ded3681fd4.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/05/cloud-gallery-123-1-700x525.jpeg"
+        },
+        {
+          "filename": "309a2482ee10.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/06/Ruth-Quist-4-700x467.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "pileus",
+        "cumulonimbus-2",
+        "altostratus",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "asperitas": {
+      "slug": "asperitas",
+      "name": "Asperitas",
+      "url": "https://cloudappreciationsociety.org/cloud-library/asperitas/",
+      "description": "Asperitas is a rare formation that seems to form in the vicinity of Cumulonimbus storm systems. It can be thought of as an undulatus gone crazy. Asperitas differs from undulatus by the fact that its waves are more chaotic and disorderly, lacking any of the regularity and organisation typical of undulatus. The chaotic waves of asperitas have a more crisply defined base, which sometimes descends into pointed features, resembling upside-down peaks of meringue. When the waves cause varying thickness of the cloud layer, the sunlight passing through it can lead to dramatic patches of bright and dark. This formation was only recognised as an official cloud classification in 2017, when the World Meteorological Organisation added it to the International Cloud Atlas, their official reference for cloud identification. It had first been proposed as a new cloud type by the Cloud Appreciation Society in 2008 and it acceptance as an official type was due largely to the examples submitted by members of the Cloud Appreciation Society. Image: Spotted over Zaventem, Zaventem, Flanders, Belgium by noabryan.",
+      "altitude": "Low",
+      "precipitation": "None/Heavy nearby",
+      "reference_images": [
+        {
+          "filename": "c8b304b0c713.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_Allison_Lecourt_Diksmuidsepoort_Flanders_Belgium.jpg"
+        },
+        {
+          "filename": "c2ee0aca0f49.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_Figgis_Longthorpe_Peterborough_England.jpg"
+        },
+        {
+          "filename": "c3d0f44a7c87.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_hazydaze_Southwick_East_Sussex_England.jpg"
+        },
+        {
+          "filename": "fe8953b1b0cd.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Asperitas_nashjoseph_Tollard_Royal_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "6f24cac1879e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+        },
+        {
+          "filename": "c24233a51c88.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7317-1-700x621.jpeg"
+        },
+        {
+          "filename": "b30f2bdc4bd4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7300-1-700x467.jpg"
+        },
+        {
+          "filename": "db0e38ef543b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7214-1-700x525.jpg"
+        },
+        {
+          "filename": "bcc6acedcdaa.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7087-1-700x525.jpeg"
+        },
+        {
+          "filename": "518bdb217d26.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5325-1-700x525.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "stratocumulus",
+        "undulatus",
+        "lacunosus",
+        "altocumulus",
+        "cumulonimbus-2",
+        "mamma"
+      ],
+      "label": "non-nlc"
+    },
+    "undulatus": {
+      "slug": "undulatus",
+      "name": "Undulatus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/undulatus/",
+      "description": "When the surface of a cloud layer, or the arrangement of its cloudlets, develops an undulating appearance that suggests waves, it’s defined as the undulatus variety. Waves and clouds have always had a close relationship. The interaction of currents in the atmosphere, and the effects of the terrain on the passage of winds, can result in a whole range of undulating currents of air. Generally, these are invisible, unless the rising parts of the undulations cool the air enough to produce clouds of droplets or ice crystals, which are thinner or absent in the sinking parts of the undulations. In such circumstances, the waves show up on the surface of the cloud or as cloud billows with gaps in between. Undulatus usually forms when the air above and below the cloud layer is moving at differing speeds and/or in different directions. It is the shearing effect of the two airstreams that gives rise to the cloud billows, which form perpendicular to the wind direction and can resemble ripples on a sandy beach caused by the movement of water. Wave formations in clouds are so common that the undulatus variety is within six of the ten main cloud types. Their presence is a reminder, to any who might forget, that the atmosphere around us is just as much of an ocean as the sea below. Image: Spotted over Enborne, Enborne, England, United Kingdom by wallacal.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "69428d22ee18.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_margobe_Duvelycke_Almhults_Kommun_Kronoberg_Sweden.jpg"
+        },
+        {
+          "filename": "da3fb9009156.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_the_weather_man_Willunga_Onkaparinga_South_Australia_Australia.jpg"
+        },
+        {
+          "filename": "c0a135cac9dc.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_annenwood_Calshot_England.jpg"
+        },
+        {
+          "filename": "8320cf391713.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "e48509556802.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Undulatus_MiloPBrown_Vermont_Hills_Portland_Oregon_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "6f24cac1879e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+        },
+        {
+          "filename": "6e31978d06bd.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7608-1-525x700.jpg"
+        },
+        {
+          "filename": "e9eb9b1e50e5.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7592-1-525x700.jpeg"
+        },
+        {
+          "filename": "b51f7826b177.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7569-1-525x700.jpg"
+        },
+        {
+          "filename": "c5e8e4842fc8.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7556-1-700x525.jpeg"
+        },
+        {
+          "filename": "c24233a51c88.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7317-1-700x621.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "asperitas",
+        "reflection-bow",
+        "fibratus",
+        "stratus",
+        "stratocumulus",
+        "noctilucent",
+        "radiatus",
+        "fluctus",
+        "altostratus",
+        "altocumulus",
+        "cirrostratus",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "fractus": {
+      "slug": "fractus",
+      "name": "Fractus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/fractus/",
+      "description": "When Stratus clouds or Cumulus clouds appear as broken fragments, they are known by the species fractus. And while all example of fractus clouds are united by their frayed, shred-like appearance, they can form in a number of quite different ways. Cumulus fractus is the more straightforward. This is when a fair-weather Cumulus cloud is just beginning to form or is in the process of dissipating away. In both cases, the cloud lacks the crisp outlines and solid appearance of a fully-fledged Cumulus, looking instead rather more wispy and translucent. When viewing photographs, cloudspotter have been known to confuse Cumulus fractus with the high, wispy trails of ice crystals known as Cirrus.The distinction is clearer viewing the cloud in reality, since the fractus formation is much lower and soon changes either into Cumulus or just clear air. The fractus form of Stratus tends to appear in two contexts. One is in the form of dark shreds beneath a raincloud. This form of Stratus fractus has the more specific name of pannus. The other appears as wisps of cloud snagging on hillsides, where they catch in the trees, forming as damp air gently ascends up the slopes. Image: Spotted over Westfjords, Iceland by Gillian Edkins.",
+      "altitude": "Low",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "bd5b8c916756.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_mikeythrock_Phoenix_Arizona_United_States.jpg"
+        },
+        {
+          "filename": "80294ef2e566.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_CuBean_Jo_Don_Mobile_Home_Park_Coconino_County_Arizona_United_States.jpg"
+        },
+        {
+          "filename": "2a006a789d44.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_snowiiie_Pyrmont_City_of_Sydney_New_South_Wales_Australia_.jpg"
+        },
+        {
+          "filename": "fac16ca7d7a4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fractus_CuBean_Ore_q_historical_Humboldt_County_California_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "806365ff2c84.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7566-2-525x700.jpeg"
+        },
+        {
+          "filename": "1c5edd23f839.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+        },
+        {
+          "filename": "6dbe8ff9b809.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+        },
+        {
+          "filename": "0832f61f537a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7358-1-700x525.jpeg"
+        },
+        {
+          "filename": "64fa895893ed.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7186-1-700x394.jpeg"
+        },
+        {
+          "filename": "16548f4ad53b.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7170-2-700x525.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cirrus",
+        "pannus",
+        "stratus",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "fluctus": {
+      "slug": "fluctus",
+      "name": "Fluctus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/fluctus/",
+      "description": "The fluctus cloud, also known as the Kelvin-Helmholtz wave cloud, looks just like a series of enormous waves breaking on the shore. It is rare, fleeting and the favourite of surfing CloudSpotters. A well-defined fluctus is the crown jewel in many a cloud collection, for it requires the CloudSpotter to be blessed with eagle-eyed sky awareness and sheer blind luck. In one spotting alone, this cloud can help observers overtake their fiercest cloud-collecting rivals. It appears at all three cloud levels, and can be thought of as a very specific example of the undulatus cloud variety, tending to be found in Stratocumulus, Altocumulus or Cirrus clouds. The distinctive curling waves can also sometimes be spotted along the top edge of a lenticularis cloud, a small Cumulus or even a layer of fog. In all cases, the formation lasts no more than a minute or two. The breaking-wave appearance is caused by wind shear. When cloud develops at an abrupt boundary between layers of colder air below and warmer air above, and the upper layer is moving more rapidly than the lower one, undulations can develop along its upper surface. If the amount of shearing is just right, these undulations can roll up into a succession of vortices. The mechanism is rather different from that of ocean breakers, but fluctus cloud do look like a cloudspotting surfer’s idea of heaven. Image: Spotted over Gunbarrel, Boulder County, Colorado, United States by beiyou.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "e6984ee158d2.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_Jelte_Futrikelv_Tromso_Troms_Norway.jpg"
+        },
+        {
+          "filename": "5e17b1218669.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_ugmug000_Wedekind_Washoe_County_Nevada_United_States.jpg"
+        },
+        {
+          "filename": "65feb1efc6bf.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_Andreas_Berger_Cape_Town_Western_Cape_South_Africa_.jpg"
+        },
+        {
+          "filename": "e235b86a5f97.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_sorenhauge_Aarhus_Central_Jutland_Denmark.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "7fa93f8f2ce8.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7339-1-700x525.jpeg"
+        },
+        {
+          "filename": "9b00d99f2c83.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6946-1-700x524.jpg"
+        },
+        {
+          "filename": "bf83dd3dea96.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6885-4-525x700.jpeg"
+        },
+        {
+          "filename": "19991d0457c4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6753-1-700x525.jpg"
+        },
+        {
+          "filename": "5a1ad0525394.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6481-1-700x560.jpg"
+        },
+        {
+          "filename": "42c5afa34d62.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6330-1-700x394.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "lenticularis",
+        "cirrus",
+        "stratus",
+        "stratocumulus",
+        "undulatus",
+        "fog",
+        "altocumulus",
+        "cap-cloud",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "cavum": {
+      "slug": "cavum",
+      "name": "Cavum",
+      "url": "https://cloudappreciationsociety.org/cloud-library/cavum/",
+      "description": "They look bizarre, but cavum, also known as fallstreak holes, are not actually that rare. They are crisp gaps in mid- or high-level cloud layers, below which dangle trails of ice crystals. To form a cavum, the cloud layer must consist of supercooled droplets – when its water is in liquid form despite temperatures at cloud level being well below 0˚C (32˚F). This is actually quite common, for pure water suspended as droplets in the air behaves very differently from tap water in the freezer. If there aren’t enough of the right sort of tiny particles in the atmosphere to act as icing nuclei, on to which they can start to freeze, droplets remain liquid until temperatures drop to around –40˚C (–40˚F). They ‘want’ to freeze, but can only do so when there are seeds on which the crystals can begin to grow. The fallstreak hole forms when one region of the cloud finally starts to freeze and begins a chain reaction. All the moisture from the supercooled droplets in the area rushes to join the ice crystals, which quickly grow big enough to fall below. A form of virga, the trail of ice crystals doesn’t tend to reach the ground, but evaporates before getting that far. What starts the freezing? Sometimes it’s ice crystals falling into the cloud’s droplets from a higher Cirrus cloud. Most often, it is caused by an aircraft climbing or descending through the cloud to form a ‘distrail’. Low pressure in the vortices around the plane’s wings can cool the air enough to set off the freezing. Image: Spotted over Manhattan Beach, Los Angeles County, California, United States by littlepond.",
+      "altitude": "Mid/High",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "e0703fbb3f41.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_diogorau_Sunnyvale_Santa_Clara_County_California_United_States.jpg"
+        },
+        {
+          "filename": "10e5417f06c1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_NintWardWeather_Magnolia_Terrace_East_Baton_Rouge_Parish_Louisiana_United_States.jpg"
+        },
+        {
+          "filename": "6e74b05074cc.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_fbdiniz_Tatuquara_Curitiba_Parana_Brazil.jpg"
+        },
+        {
+          "filename": "790529606b8e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cavum_Julie_Redman_Nailsea_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "a7a54ea838b5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7637-2-700x525.jpg"
+        },
+        {
+          "filename": "eda8daceb8a9.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7135-1-700x525.jpeg"
+        },
+        {
+          "filename": "4a21393e89eb.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6809-1-525x700.jpeg"
+        },
+        {
+          "filename": "27c5500fb876.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6811-2-700x525.jpeg"
+        },
+        {
+          "filename": "f865c8b6a8d7.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6722-1-525x700.jpg"
+        },
+        {
+          "filename": "6b9cb34a085e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6716-1-525x700.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "distrail",
+        "reflection-bow",
+        "lacunosus",
+        "sun-dog",
+        "altostratus",
+        "altocumulus",
+        "cirrocumulus",
+        "circumzenithal-arc"
+      ],
+      "label": "non-nlc"
+    },
+    "corona": {
+      "slug": "corona",
+      "name": "Corona",
+      "url": "https://cloudappreciationsociety.org/cloud-library/corona/",
+      "description": "Look towards the Sun shining through thin cloud and you might find that it is surrounded by a corona. This is a bluish-white disc of light with a ruddy outer edge, often surrounded by rings of iridescent colours. CloudSpotters should be careful to protect their eyes by blocking the Sun with a hand. Coronae can be seen less painfully when clouds drift in front of a bright Moon. Closely related to cloud iridescence, coronae are caused when the light is diffracted as it passes around a cloud’s particles. Only if these are all very small and the cloud layer is thin will the colours of the corona appear distinct around the central bright disc. The smaller the cloud droplets, the larger the corona. CloudSpotters should take care not to confuse a corona with a 22-degree halo. Not only is the corona much smaller (the outer edge usually being less than 5˚ from the Sun or Moon – the width of three fingers, at arm’s length), it also has a bright central disc, or ‘aureole’, while the halo is just a ring of light. Nor should they confuse it with a glory, which appears in the opposite direction, looking away from the Sun. Coronae can also be seen around car headlights viewed through a windscreen misted up with condensation. Anyone claiming credit for this is a terrible cheat. Image: Spotted over Unterwand, Großarl, Salzburg, Austria by GillesPieters.",
+      "altitude": "Can appear for all altitudes of the Sun/Moon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "86835d1171eb.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_packyman_Morey_Boulder_County_Colorado_United_States.jpg"
+        },
+        {
+          "filename": "6f49785e9eab.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_terenciano_Jundiai_Jundiai_Sao_Paulo_Brazil_.jpg"
+        },
+        {
+          "filename": "32f3760c1f51.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_LiziWai_Blackpool_Auckland_Auckland_New_Zealand.jpg"
+        },
+        {
+          "filename": "b179ea885c53.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_TyFLy_London_England.jpg"
+        },
+        {
+          "filename": "28cf29f46335.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_wayvie_Elbe_Washington_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "1d3b6ed9a6c5.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7447-1-700x525.jpeg"
+        },
+        {
+          "filename": "38ded4fff85d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7395-2-700x394.jpeg"
+        },
+        {
+          "filename": "ed2fc178e8e8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7174-1-700x700.jpg"
+        },
+        {
+          "filename": "3dd7d1f401be.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6761-1-525x700.jpg"
+        },
+        {
+          "filename": "d2a3beebb178.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4285-1-700x503.jpg"
+        },
+        {
+          "filename": "dc524cca3f06.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/03/cloud-gallery-3219-1-700x393.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "22-degree-halo",
+        "reflection-bow",
+        "stratus",
+        "glory",
+        "iridescence",
+        "cirrostratus",
+        "altocumulus",
+        "fog",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "glory": {
+      "slug": "glory",
+      "name": "Glory",
+      "url": "https://cloudappreciationsociety.org/cloud-library/glory/",
+      "description": "CloudSpotters must gain some elevation to add a glory to their collection of cloud optical effects, for this striking phenomenon is seen only with the Sun directly behind you, as it casts your shadow on to a layer of cloud. The glory, which looks like a series of rainbow rings around the shadow, is produced by cloud droplets reflecting, refracting and diffracting sunlight, although the exact optics are still not fully understood. One of the easiest places to spot a glory is from that great cloudspotting location, the window of a plane. It can sometimes appear around the plane’s shadow, cast on to a nearby layer of cloud or fog. When the cloud’s some distance away, the shadow is absent and you just see the coloured rings. The most eerie form of glory, the ‘Brocken spectre’, is when the rings appear around your own shadow as you look at cloud from a mountain ridge. The perspective can make the legs of your shadow flare out. What with the multicoloured halo, it looks like a ghost from the 1970s. Image: Spotted over New South Wales, Australia by Jessica.",
+      "altitude": "Can appear for all altitudes of the Sun, when shadow is cast onto cloud",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "5e167c930950.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_futurshox_Kemp_Bryan_County_Oklahoma_United_States.jpg"
+        },
+        {
+          "filename": "d111a25c6056.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_lillian_Matlock_Derbyshire_Dales_District_England.jpg"
+        },
+        {
+          "filename": "751d435cebb7.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_leeatkin_Wythburn_Allerdale_District_England.jpg"
+        },
+        {
+          "filename": "a839c73e1383.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_cannoncat_Shipile_Shanghai_China.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "69b77366b2e9.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4350-1-700x525.jpeg"
+        },
+        {
+          "filename": "7cbd81f83bdb.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1902-1-525x700.jpeg"
+        },
+        {
+          "filename": "4bf6dd013a9e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1762-1-662x700.jpeg"
+        },
+        {
+          "filename": "afd11cada162.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/03/Paul-Hodkiewicz-525x700.jpg"
+        },
+        {
+          "filename": "f029b99d3167.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/03/Harvey-Madison-700x700.jpg"
+        },
+        {
+          "filename": "b4794e785843.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/12/Stefano-Poli-525x700.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "22-degree-halo",
+        "corona",
+        "stratus",
+        "stratocumulus",
+        "fog"
+      ],
+      "label": "non-nlc"
+    },
+    "cloudbow": {
+      "slug": "cloudbow",
+      "name": "Cloudbow",
+      "url": "https://cloudappreciationsociety.org/cloud-library/cloudbow/",
+      "description": "Cloudbows are like rainbows, but with much paler colours. In fact, they often don’t show any discernible colours at all – looking like albino rainbows, or the ghosts of rainbows past. They appear as the sunlight is reflected and refracted by the tiny droplets that make up low and mid-level clouds, rather than the much larger raindrops that produce rainbows. In order to see a cloudbow, you have to be looking towards cloud droplets on to which the Sun is shining from directly behind your line of vision. Such a viewpoint is possible only from above clouds, which is why cloudbows are usually seen from a plane, or a mountaintop. These are the same conditions in which to see the multicoloured ring around your shadow, called a glory. If you see one, look for the other. CloudSpotters wanting to add an albino rainbow to their collection, without taking to the air, should seek ‘fogbows’. These are exactly the same, but appear in fog or mist. Cloud/fogbow colours are pale or absent because, at less than 0.1mm across, cloud droplets diffract sunlight more efficiently than larger raindrops, causing the colours to overlap and blur into each other more than those of a rainbow. Image: Spotted over Mountainaire, Coconino County, Arizona, United States by CuBean.",
+      "altitude": "Can appear when Sun is < 42° above horizon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "8285d83852b5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_Shorticus_.jpg"
+        },
+        {
+          "filename": "855ca4d467ce.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_teralligator_SeaTac_King_County_Washington_United_States.jpg"
+        },
+        {
+          "filename": "0d6ddd2a0340.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_margweb_Fort_Preble_Cumberland_County_Maine_United_States.jpg"
+        },
+        {
+          "filename": "da3f204b276d.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_margobe_.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "8d28f1917119.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6526-1-700x467.jpeg"
+        },
+        {
+          "filename": "9514d8b63017.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6231-1-700x700.jpg"
+        },
+        {
+          "filename": "69b77366b2e9.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4350-1-700x525.jpeg"
+        },
+        {
+          "filename": "3136aedd3046.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4298-2-700x467.jpg"
+        },
+        {
+          "filename": "21756a3e4171.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/12/cloud-gallery-2596-1-700x467.jpg"
+        },
+        {
+          "filename": "22748c9e3033.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1658-1-700x626.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "rainbow",
+        "22-degree-halo",
+        "stratus",
+        "fog"
+      ],
+      "label": "non-nlc"
+    },
+    "rainbow": {
+      "slug": "rainbow",
+      "name": "Rainbow",
+      "url": "https://cloudappreciationsociety.org/cloud-library/rainbow/",
+      "description": "We all love rainbows, but don’t expect to win any awards for spotting one because they’re just too easy to notice. How ironic that rainbows, appearing on average about ten times a year (over Western Europe), are actually less frequent than some halo phenomena (caused by cloud ice crystals, rather than raindrops) that most people never even notice. To see a rainbow, look towards a rain shower with your back to the sun, which must be no higher than 42˚ above the horizon (unless you are looking down onto rain, say from a mountain or high building). Passing into each raindrop and reflecting off the back inner surface, the sunlight is refracted as it enters and leaves each drop. The paths of its constituent wavelengths are bent by different amounts, separating out the colours. Convection clouds like Cumulus and Cumulonimbus are the best sort for making rainbows, as they’re more likely to produce showers when the sky around is clear, allowing direct sunlight to shine on them. Besides the primary bow, a larger, fainter secondary bow can appear – the darker sky between the two being known as ‘Alexander’s dark band’. Within the primary bow, there are sometimes faint coloured fringes, called ‘supernumerary bows’. Image: Spotted over Sun Valley, Blaine County, Idaho, United States by robbietopo.",
+      "altitude": "Can appear when Sun is < 42° above horizon",
+      "precipitation": "Showers",
+      "reference_images": [
+        {
+          "filename": "4cf8f61e1682.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_Peglet_Illgen_City_Lake_County_Minnesota_United_States_.jpg"
+        },
+        {
+          "filename": "95abf0ff915c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow__ilsjepilsje_Oudehaske_Skarsterlan_Friesland_Netherlands.jpg"
+        },
+        {
+          "filename": "4fca143aee0e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_helenahigwig_Appersett_Richmondshire_District_England.jpg"
+        },
+        {
+          "filename": "e3af4b18d610.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_Gindylow_Muckross_Abbey_Munster_Munster_Ireland.jpg"
+        },
+        {
+          "filename": "e50771dca63c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_Suzanne_Winckler_Embarrass_Minnesota_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "76a8727f9d2e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/04/cloud-gallery-7646-1-700x525.jpg"
+        },
+        {
+          "filename": "5a5cb2019b0e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7532-1-700x525.jpeg"
+        },
+        {
+          "filename": "df87c91685ca.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7054-1-700x525.jpeg"
+        },
+        {
+          "filename": "2a5741b9debb.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7011-1-700x410.jpeg"
+        },
+        {
+          "filename": "fbb25d552346.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6703-1-700x364.jpeg"
+        },
+        {
+          "filename": "17ca4ff74a61.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6567-1-700x525.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "reflection-bow",
+        "circumhorizon-arc",
+        "rainbow-wheel",
+        "supernumerary-bows",
+        "circumzenithal-arc",
+        "cloudbow",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "crepuscular-rays": {
+      "slug": "crepuscular-rays",
+      "name": "Crepuscular rays",
+      "url": "https://cloudappreciationsociety.org/cloud-library/crepuscular-rays/",
+      "description": "Even if they don’t know the name, most CloudSpotters will have plenty of opportunities to add crepuscular rays to their collection of cloud optical effects. They’re the familiar Sunbeams that appear to burst from behind a Cumulus cloud, or shine down through a hole in a Stratocumulus. Crepuscular rays appear when the path of sunlight is made visible by tiny atmospheric particles, too scarce to appear as cloud, but plentiful enough to scatter the light noticeably. Like fingers through a torch beam, the cloud shadows give edges to the rays. In spite of being almost parallel, these rays seem to radiate outwards from behind the cloud. This is just the same perspective effect as railway tracks seeming to widen as they get nearer. Whenever you notice crepuscular rays from a low Sun, look to the opposite horizon for the far less obvious ‘anti-crepuscular rays’. Appearing to emanate from a point directly opposite the Sun, these are the shadows cast by clouds behind you, like the shadow of someone shuffling behind you in a dusty cinema. Perspective makes them appear to converge in the distance. Few people ever notice anti-crepuscular rays – except vampire CloudSpotters, eager for the arrival of night. Image: Spotted over Morey, Boulder County, Colorado, United States by packyman.",
+      "altitude": "Can appear for all altitudes of the Sun",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "ea05666798af.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_shan_jay_.jpg"
+        },
+        {
+          "filename": "3e3063773d37.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_suzielillyvet_.jpg"
+        },
+        {
+          "filename": "8e18bb217e4e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_TizianoB91_Montegambero_Rieti_Latium_Italy.jpg"
+        },
+        {
+          "filename": "6c9771b75637.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_JohnF_Arnisdale_Highland_Scotland.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "17b78d5e00e1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7572-1-394x700.jpg"
+        },
+        {
+          "filename": "1c5edd23f839.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+        },
+        {
+          "filename": "64fa895893ed.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7186-1-700x394.jpeg"
+        },
+        {
+          "filename": "525f316dac8f.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6976-1-700x525.jpeg"
+        },
+        {
+          "filename": "a4dff23dec54.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6964-1-700x395.jpg"
+        },
+        {
+          "filename": "800167c07b19.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6305-1-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "anti-crepuscular-rays",
+        "rainbow-wheel",
+        "stratocumulus",
+        "sun-pillar",
+        "fog",
+        "altocumulus",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "iridescence": {
+      "slug": "iridescence",
+      "name": "Iridescence",
+      "url": "https://cloudappreciationsociety.org/cloud-library/iridescence/",
+      "description": "Iridescence is the beautiful effect of bands of pastel colours that can appear when sunlight or moonlight passes through thin cloud. Also known as ‘irisation’, these mother-of-pearl colours are caused by the light being diffracted as it passes through the cloud. It is the same process that gives rise to coloured discs around the Sun or Moon, called coronae. The light waves are dispersed as they pass around the cloud’s tiny droplets or ice crystals, with different wavelengths being spread out by different amounts. Each wavelength can also produce an interference pattern of light and dark fringes. All this means that the sunlight is separated into alternating fringes of colour. Any thin cloud with droplets or ice crystals small and uniform enough can produce iridescent colours. Best viewed through Sunglasses, the bands of pastel hues are reminiscent of those on oil slicks, and can be seen over thin Stratocumulus, Altocumulus, Cirrocumulus and Altostratus. Nacreous clouds in the stratosphere, high above most weather clouds, show the most intense iridescence of all. The colours can also appear at the edges of clouds thick enough to block much of the sunlight, such as lenticularis. To claim that every cloud has a silver lining is therefore wrong – some have tutti-frutti coloured ones. Image: Spotted over Napa Abajo, Napa County, California, United States by suzan.",
+      "altitude": "Can appear for all altitudes of the Sun/Moon",
+      "precipitation": "Unrelated",
+      "reference_images": [],
+      "gallery_images": [],
+      "linked_cloud_slugs": [
+        "lenticularis",
+        "nacreous",
+        "cirrus",
+        "reflection-bow",
+        "pileus",
+        "corona",
+        "sun-dog",
+        "cirrostratus",
+        "altocumulus",
+        "cirrocumulus",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "radiatus": {
+      "slug": "radiatus",
+      "name": "Radiatus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/radiatus/",
+      "description": "When a layer of cloud rolls or clumps extends in long lines that stretch off to the horizon, the effect of perspective makes these lines converge, like railway tracks, towards a point. Such a formation is a variety known as radiatus, and it can be found at all three cloud levels. The parallel cloud lines form along the direction of the wind at cloud level. (When they form perpendicular to the wind, they are of the undulatus variety, rather than radiatus.) Radiatus in low Cumulus clouds are known as ‘cloud streets’. These formations cause glider pilots to wet themselves with excitement, for they indicate avenues of lifting air along which the pilots can reliably gain altitude. When it comes to high, ice-crystal clouds, the most dramatic examples of radiatus result from jet streams – the ribbons of 180mph winds that encircle the globe in the mid-latitudes at the top of the troposphere. Known as ‘jet-stream Cirrus’, these radiatus varieties of Cirrus can be spread over great distances by the high winds. Occasionally they appear to extend all the way from one horizon right overhead to the opposite one. The perspective causes the cloud rows to bulge dramatically above, while converging at ‘radiation points’ on each horizon. Such an impressive radiatus formation will be a source of great pride for any cloud collector but it is practically impossible to photograph in its entirety, since it stretches over such a large part of the sky. Image: Spotted over Kings County, Brooklyn, New York by ebloustein.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "5e60b3a4c77c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_pietjepi_Amsterdam_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "93e65c994010.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_Linda_Holtby_Salisbury_Wilshire_England.jpg"
+        },
+        {
+          "filename": "c27297ce107c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_mikeythrock_Phoenix_Arizona_United_States_.jpg"
+        },
+        {
+          "filename": "9851bf4a945d.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Radiatus_gwyver_Southampton_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "ecbfb74c839e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7620-1-700x315.jpg"
+        },
+        {
+          "filename": "e9eb9b1e50e5.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7592-1-525x700.jpeg"
+        },
+        {
+          "filename": "7e93d489e1d7.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5940-1-525x700.jpeg"
+        },
+        {
+          "filename": "e7ddeba6a434.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5857-1-525x700.jpeg"
+        },
+        {
+          "filename": "0e51c40b7917.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4865-1-525x700.jpg"
+        },
+        {
+          "filename": "71ddfcc6dce3.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4833-3-525x700.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cirrus",
+        "fibratus",
+        "stratocumulus",
+        "undulatus",
+        "altostratus",
+        "altocumulus",
+        "contrail",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "pyrocumulus": {
+      "slug": "pyrocumulus",
+      "name": "Pyrocumulus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/pyrocumulus/",
+      "description": "When clouds form in the columns of air above forest fires, they are known as pyrocumulus. Anything hot enough to produce strong convection currents can give rise to clouds so long as there is enough moisture around. Large volcanic eruptions can lead to pyrocumulus clouds too. Either way, pyrocumulus can sometimes grow large enough to produce thunder and lightning or tuba cloud features that can develop into landspouts or waterspouts. The more technical name for pyrocumulus clouds formed over wildfires or volcanoes would be Cumulus flammagenitus and, when they develop enough to produce precipitation and lightning, Cumulonimbus flammagenitus (which people sometimes describe as pyrocumulonimbus). Pyrocumulus can also form over the cooling towers of power stations. These too produce heat and water vapour, which when the air is cool enough can condense into droplets of cloud. Technically speaking, you’d call these manmade ones Cumulus homogenitus. Forest fires, volcanoes and power stations also introduce countless microscopic particles into the air. These act as condensation nuclei – tiny seeds onto which the water droplets start to condense. With such a plentiful supply of these condensation nuclei, pyrocumulus tend to consist of very plentiful and small droplets. This, along with all the larger particles of ash or smoke, gives the cloud a very dense, sometimes yellowish, appearance. Image: Spotted over Balsareny, Catalonia, Spain by macape.",
+      "altitude": "Low",
+      "precipitation": "Possible, when tall",
+      "reference_images": [
+        {
+          "filename": "43f734764f0b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_JeremyaGreene_Angeles_National_Forest_California_United_States.jpg"
+        },
+        {
+          "filename": "c731f2850ac0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_Maria_Rosaria_Milone_Cologne_Germany.jpg"
+        },
+        {
+          "filename": "c8bb7874f47f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_suzannevanveen_Disteldorp_Gemeente_Amsterdam_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "c36c98f88ced.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pyrocumulus_Raymond_Kenward_Isle_of_Grain_Kent_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "959112d01326.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5187-2-700x525.jpeg"
+        },
+        {
+          "filename": "66db14b23572.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4796-1-539x700.jpg"
+        },
+        {
+          "filename": "d5f442cc2568.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/12/cloud-gallery-2375-1-700x315.jpg"
+        },
+        {
+          "filename": "198a734eff9f.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1280-1-700x501.jpeg"
+        },
+        {
+          "filename": "441a91145f23.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/08/cloud-gallery-1011-3-525x700.jpeg"
+        },
+        {
+          "filename": "fe0f82c1d760.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-699-1-525x700.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "congestus",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "tuba": {
+      "slug": "tuba",
+      "name": "Tuba",
+      "url": "https://cloudappreciationsociety.org/cloud-library/tuba/",
+      "description": "The air below a storm cloud is often a wild confusion of blustery, gusty and not-at-all-tranquil winds. But when the storm develops from a single Cumulonimbus cloud into a co-ordinated system, known as a multicell or supercell storm, the mêlée of air currents becomes much more organised. This is when a tuba can form. Resembling a cloud finger descending from the storm’s base, the tuba forms in the air sucked upwards into the storm to feed its vigorous vertical growth. Like an upside-down version of bath water going down a plug hole, the rising air can start rotating in a vortex. In a big storm cell, the rapidly rising air expands and cools enough for some of its moisture to condense to form the walls of the tuba. Also known as a ‘funnel cloud’, it can be the birth of a tornado. A tuba can also form when the air is not rising but sinking from the base of individual clouds, such as Cumulus congestus and Cumulonimbus. Dragged towards the ground by the cloud’s heavy showers, this sinking air can cause vortices to form. These are rarely as violent as the upward ones, so tubas are less pronounced. They herald not tornadoes, but the less ferocious landspouts or waterspouts. Whatever a tuba is heralding, keep your distance when adding it to your cloud collection – just in case it has a mind to add a CloudSpotter to its own collection of flying debris. Image: Spotted over Keenesburg, Colorado, United States by Carlye Calvin.",
+      "altitude": "Low",
+      "precipitation": "Heavy nearby",
+      "reference_images": [
+        {
+          "filename": "cbc326709cbb.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_Martine_Praia_da_Falesia_Olhos_de_Agua_Faro_Portugal.jpg"
+        },
+        {
+          "filename": "c680350d522b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_pinkie_Hartington_Cedar_County_Nebraska_United_States.jpg"
+        },
+        {
+          "filename": "a2e408aced5c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_Ria_Cirella_Diamante_Calabria_Italy.jpg"
+        },
+        {
+          "filename": "b513703a2a3a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tuba_Francoise_Chicot_Monaco_France.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "d6792f5f5cdb.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2688-1-525x700.jpeg"
+        },
+        {
+          "filename": "b4ebe6d2f685.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/12/cloud-gallery-2385-1-700x394.jpg"
+        },
+        {
+          "filename": "e2b29da7e129.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1842-1-700x467.jpg"
+        },
+        {
+          "filename": "578d050762a5.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1419-1-525x700.jpeg"
+        },
+        {
+          "filename": "2a19049a181a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1391-2-700x408.jpeg"
+        },
+        {
+          "filename": "bd3745857d9a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-393-1-525x700.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "murus",
+        "virga",
+        "horseshoe-vortex",
+        "contrail",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "cumulonimbus-2": {
+      "slug": "cumulonimbus-2",
+      "name": "Cumulonimbus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/cumulonimbus-2/",
+      "description": "No cloud collection is complete without the big one, the boss, the King or Queen of Clouds: Cumulonimbus. This enormous storm cloud, which often spreads out at the top to resemble a blacksmith’s anvil, can form individually or co-ordinate with neighbours to form multicell and supercell storms. CloudSpotters should note that the cloud’s anvil shape is visible only when spotting it from many miles away. It develops from a very large Cumulus, known as Cumulus congestus, and has officially grown into a Cumulonimbus only once its summit has ‘glaciated’, meaning that its particles have changed from droplets to ice crystals. This is revealed by the cloud top developing softer edges. Below a Cumulonimbus, you will see just its dark, ragged underside, which (being so low) appears to cover the whole sky. In this case, you can distinguish it from similar-looking Nimbostratus by the fact that its precipitation is in the form of sudden, heavy showers and the fact that it produces thunder, lightning and often hail. Cumulonimbus also gives rise to a whole range of distinctive cloud features, such as incus, mamma, pileus, velum, shelf clouds, roll clouds and tuba. Image: Spotted over Østerby, Frederikshavn Kommune, North Denmark, Denmark by Yalla.",
+      "altitude": "Multiple",
+      "precipitation": "Heavy",
+      "reference_images": [
+        {
+          "filename": "56e057d1b653.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Watto_Lee_Point_Darwin_Northern_Territory_Australia_.jpg"
+        },
+        {
+          "filename": "8a5f335ba93f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_fbdiniz_Curitiba_Parana_Brazil.jpg"
+        },
+        {
+          "filename": "fe6cf6218a96.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Fallout_Catamaran_Tasmania_Australia.jpg"
+        },
+        {
+          "filename": "6f60958becf9.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Ulli_Proske_Michelago_Cooma-Monaro_New_South_Wales_Australia.jpg"
+        },
+        {
+          "filename": "ff667223e00e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Lyrah_Den_Duivel_Flemish_Belgium.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "76a8727f9d2e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/04/cloud-gallery-7646-1-700x525.jpg"
+        },
+        {
+          "filename": "230c1395d573.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7625-1-700x467.jpg"
+        },
+        {
+          "filename": "6f24cac1879e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+        },
+        {
+          "filename": "c3aca6ae7829.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7577-1-700x525.jpeg"
+        },
+        {
+          "filename": "5a5cb2019b0e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7532-1-700x525.jpeg"
+        },
+        {
+          "filename": "0f804cb74757.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7389-1-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "anti-crepuscular-rays",
+        "horseshoe-vortex",
+        "cumulus",
+        "rainbow",
+        "arcus",
+        "pyrocumulus",
+        "murus",
+        "pileus",
+        "virga",
+        "crepuscular-rays",
+        "tuba",
+        "congestus",
+        "pannus",
+        "velum",
+        "asperitas",
+        "reflection-bow",
+        "nimbostratus",
+        "rainbow-wheel",
+        "supernumerary-bows",
+        "volutus",
+        "mamma"
+      ],
+      "label": "non-nlc"
+    },
+    "congestus": {
+      "slug": "congestus",
+      "name": "Congestus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/congestus/",
+      "description": "Congestus is a towering Cumulus cloud – one that has developed in unstable atmospheric conditions and is well on its way to turning into a Cumulonimbus storm cloud. It is th largest of the three Cumulus species that describe the cloud’s size, the other two being the small Cumulus humilis and the medium sized Cumulus mediocris. Congestus can produce moderate showers but these are not as heavy or prolonged as those from it Cumulonimbus relative. How do you work out when a growing Cumulus has reached the congestus stage? Compare the cloud’s height to its elevation above the ground. When a Cumulus has grown taller than the height of its base above the surface, you can be confident it has reached the congestus stage. And what about distinguishing a Cumulus at the congestus stage from a fully-fledged Cumulonimbus cloud? This distinction is more subtle since congestus is the final stage of growth of a Cumulus cloud before it develops into the unruly Cumulonimbus beast. The point of change is all a matter of judgement and convention. The best rule of thumb is to pay attention to the cloud’s upper reaches. A Cumulus congestus may look tall and mighty, but its top still has crisp, well-defined edges. It is still like a huge version of a Cumulus. It is only considered to have changed into a Cumulonimbus when its upper region has ‘glaciated’. This is when all the droplets up there have frozen into ice crystals. When that happens, the edges of the cloud’s summit appear to soften. They begin to look much fluffier. This fluffy top is the sign the the mountain of cloud has transitioned into the mighty beast of the Cumulonimbus. Until that point, think of it as a Cumulus with a lust for power. Image: Spotted over Rosebery, Palmerston, Northern Territory, Australia by  rubylou75.",
+      "altitude": "Low or multi-level",
+      "precipitation": "Likely – moderate to heavy",
+      "reference_images": [
+        {
+          "filename": "84c2c63a07bb.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Congestus_William_A_Edmundson_Tullamore_Fulton_County_Georgia_United_States.jpg"
+        },
+        {
+          "filename": "c948b73118aa.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Congestus_mikeythrock_Phoenix_Arizona_United_States_.jpg"
+        },
+        {
+          "filename": "0bfccae73f75.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Congestus_CuBean_Flagstaff_Arizona_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "17b78d5e00e1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7572-1-394x700.jpg"
+        },
+        {
+          "filename": "6dbe8ff9b809.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+        },
+        {
+          "filename": "76bebeb36184.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6453-1-700x315.jpg"
+        },
+        {
+          "filename": "76759f97c046.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6298-2-525x700.jpeg"
+        },
+        {
+          "filename": "e27536145d36.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5262-2-700x525.jpeg"
+        },
+        {
+          "filename": "8a6fcd88d39b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4896-1-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "pileus",
+        "cumulonimbus-2",
+        "pyrocumulus",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "reflection-bow": {
+      "slug": "reflection-bow",
+      "name": "Reflection bow",
+      "url": "https://cloudappreciationsociety.org/cloud-library/reflection-bow/",
+      "description": "A reflection bow is a form of rainbow that appears between the primary and secondary rainbows and looks to be bent at an odd angle. Like the usual rainbows, this rare optical effect is formed by the reflection and refraction of sunlight shining from behind the viewer onto a shower of raindrops up ahead. But in the case of the reflection bow, the sunlight that forms it has been reflected up off a surface such as a smooth body of water behind the viewer. Thanks to the reflection, the bow appears at a different angle from the other rainbows since it is being formed as if by light shining from a Sun beneath, rather than above, the horizon. Should you are ever lucky enough to spot a reflection rainbow – and you’ll have to be rainbow spotting with a large body of water behind you – you’ll find that a reflection bow always meets its regular-rainbow counterpart at exactly the level of the horizon. Image: Spotted over Loch Dunvegan, Isle of Skye, Scotland by Mike Cullen.",
+      "altitude": "Can form when the Sun is < 42° from the horizon",
+      "precipitation": "Showers",
+      "reference_images": [
+        {
+          "filename": "3112a3274b6e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Reflection_bow_Mike_Cullen_Loch_Dunvegan_Isle_of_Skye_Scotland.jpg"
+        },
+        {
+          "filename": "27f135e6e5e4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Reflection_bow_ingodingo_Aure_Sykkylven_More_og_Romsdal_Norway.jpg"
+        },
+        {
+          "filename": "9ccf08d243e5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Reflection_bow_vincentmills_Auckland_New_Zealand.jpg"
+        }
+      ],
+      "gallery_images": [],
+      "linked_cloud_slugs": [
+        "rainbow",
+        "rainbow-wheel",
+        "supernumerary-bows"
+      ],
+      "label": "non-nlc"
+    },
+    "rainbow-wheel": {
+      "slug": "rainbow-wheel",
+      "name": "Rainbow wheel",
+      "url": "https://cloudappreciationsociety.org/cloud-library/rainbow-wheel/",
+      "description": "When a rainbow appears as if pierced with rays of light, the effect is called a rainbow wheel. This is because the rays can occasionally appear right around the whole arc of the bow. They are forms of anti-crepuscular rays, shadows cast from tall clouds in front of the Sun, which is shining from behind the viewer. These rays of light and shadow appear to converge as they recede towards the horizon. This is just perspective – they are in fact parallel to each other – and it means they seem to fan out from the ‘anti-solar point’, which is in the opposite direction from that of the Sun. A rainbow is always centred on the anti-solar point too, and so the rays appear within it like spokes of a bicycle wheel. A very hippy-looking bicycle wheel. Image: Spotted over Merewether Beach, New South Wales, Australia by Elizabeth Freihaut.",
+      "altitude": "Can appear when the Sun is < 42° above the horizon",
+      "precipitation": "Showers",
+      "reference_images": [
+        {
+          "filename": "74ac95a7eb97.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_Anjarama_Arnside_South_Lakeland_District_England.jpg"
+        },
+        {
+          "filename": "cde700e1827f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_Mr_Womby_Blackbushe_Hart_District_England.jpg"
+        },
+        {
+          "filename": "f2cdce4c2a46.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_nelly_Marton_North_Yorkshire_England.jpg"
+        },
+        {
+          "filename": "ae8dfec9acb9.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_wheel_specialk_Jutland_Union_Township_New_Jersey_United_States.jpg"
+        }
+      ],
+      "gallery_images": [],
+      "linked_cloud_slugs": [
+        "rainbow",
+        "reflection-bow",
+        "supernumerary-bows",
+        "crepuscular-rays",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "supernumerary-bows": {
+      "slug": "supernumerary-bows",
+      "name": "Supernumerary bows",
+      "url": "https://cloudappreciationsociety.org/cloud-library/supernumerary-bows/",
+      "description": "Supernumerary bows are repeating fringes of colours that can sometimes appear along the edge of a rainbow. They form at the inside of the primary rainbow. Where an outer, secondary bow is also present, faint supernumeraries can sometimes be seen along its outer edge. The fringes are caused by the interference of light waves emerging from the raindrops leading to brighter and darker bands. Supernumerary bows only appear bright like this when the raindrops are quite small and of consistent size. They are predominantly coloured purple, pink and green Image: Spotted over Setting Hen Butte in Valley Of The Gods, Utah, United States by Paul Martini.",
+      "altitude": "Can appear when the Sun is < 42° above the horizon",
+      "precipitation": "Showers",
+      "reference_images": [
+        {
+          "filename": "d9a2c3b88acd.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_margobe_Lupsingen_Basel-Landschaft_Switzerland.jpg"
+        },
+        {
+          "filename": "88b34b1722c0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_laconiclagomorph_Cosford_Rugby_District_England.jpg"
+        },
+        {
+          "filename": "d1062b1c0af2.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_ryanmyles_Fremantle_Western_Australia_Australia.jpg"
+        },
+        {
+          "filename": "51d74bf3bc56.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supernumerary_bows_Alicia_tejerizo_Horing_Flanders_Belgium.jpg"
+        }
+      ],
+      "gallery_images": [],
+      "linked_cloud_slugs": [
+        "rainbow",
+        "reflection-bow",
+        "rainbow-wheel",
+        "cumulonimbus-2",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "castellanus": {
+      "slug": "castellanus",
+      "name": "Castellanus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/castellanus/",
+      "description": "When a layer of cloud rises in distinct turrets with bumpy tops that resemble crenellations, it is of the species known as castellanus – and this one can give an early indication of unsettled weather to come later in the day. The turrets of castellanus can be found at all three cloud levels, but the ones that are hardest to identify are in the high clouds, Cirrocumulus and Cirrus. As much as anything, this is because the cloud elements are so far away that they appear tiny from the ground, making any observation of the subtle nature of their tops rather challenging. Luckily, these examples of castellanus are also the least indicative of unsettled weather. The low cloud Stratocumulus may be described as castellanus when at least some of the cauliflower mounds that form its upper surface have grown taller than they are wide. These rising turrets can sometimes continue to grow upwards and develop into rain-bearing Cumulus congestus, or even Cumulonimbus storm clouds. But it is in the mid-level cloud Altocumulus that the jagged crenellations of castellanus are most recognisable, and also where they best forecast unsettled weather. The vigorous turrets show that the air at the mid-cloud level is unstable. Any Cumulus that start to develop on thermals and build up from below will, upon reaching this mid-level, continue growing with extra vigour, and quite possibly develop into tall, stormy Cumulonimbus clouds. The castellanus term is never used to describe individual Cumulus clouds. When Cumulus grow tall like this, they are referred to as Cumulus congestus. Image: Spotted over Phoenix, Arizona, United States by Mike Lerch.",
+      "altitude": "Various",
+      "precipitation": "Likely coming soon",
+      "reference_images": [
+        {
+          "filename": "9a56e47e0085.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Castellanus_Sallie_Tisdale_Northwest_Oregon_United_States.jpg"
+        },
+        {
+          "filename": "148760aa220e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Castellanus_GavinPP_Somerton_Somerset_England.jpg"
+        },
+        {
+          "filename": "fd2de9366e1f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Castellanus_RendonLex_Anse_La_Raie_Mauritius.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "fffd8c38a1a8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/02/James-Cooper-700x398.jpg"
+        },
+        {
+          "filename": "e0d6a4c16964.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2014/08/HarryCastle-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "reflection-bow",
+        "cirrus",
+        "stratocumulus",
+        "altocumulus",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "lacunosus": {
+      "slug": "lacunosus",
+      "name": "Lacunosus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/lacunosus/",
+      "description": "A rare, fleeting formation, the lacunosus variety is identified in terms of the gaps between cloud elements, rather than the clouds themselves. It is when a cloud layer is composed of more or less regular holes, around which fringes of cloud form, like a net or rough honeycomb. Even though lacunosus forms at all three cloud levels, it is an elusive prize for any cloud collector, since it is so short-lived. The holes of this variety are formed by sinking pockets of air, and the cloud fringes around them by air rising up between the pockets to replace them. Such sinking can occur when a layer of cooler air finds itself over a warmer one. Being more dense, the cooler air sinks down through the warmer air. The appearance is similar to the rough honeycomb pattern you occasionally see on the surface of a hot cup of tea. As the tea on the surface cools and contracts, it sinks in pockets through the hotter tea below, which bubbles up in between to replace it. That said, no one is completely sure why sometimes the cool air sinks to form lacunosus, while other times the warm air rises in pockets to form the opposite arrangement of cloudlets with gaps between. Image: Spotted over Valladolid, Valladolid, Castille and León, Spain by Paco R Campo.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "f242589c965c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_sherry_Ivarea_Erie_County_Pennsylvania_United_States.jpg"
+        },
+        {
+          "filename": "e338cd28e352.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_Paco_R_Campo_Valladolid_Valladolid_Castille_and_Leon_Spain.jpg"
+        },
+        {
+          "filename": "da63f788a072.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_FranciscaF_Culemborg_Culemborg_Gelderland_Netherlands.jpg"
+        },
+        {
+          "filename": "7d3b61a73286.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Lacunosus_wangi_Rijken_Lichtervelde_Flanders_Belgium.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "6f24cac1879e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+        },
+        {
+          "filename": "6e31978d06bd.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7608-1-525x700.jpg"
+        },
+        {
+          "filename": "b30f2bdc4bd4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7300-1-700x467.jpg"
+        },
+        {
+          "filename": "16548f4ad53b.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7170-2-700x525.jpeg"
+        },
+        {
+          "filename": "bcc6acedcdaa.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7087-1-700x525.jpeg"
+        },
+        {
+          "filename": "14e490eb8765.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6659-1-700x394.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "asperitas",
+        "stratocumulus",
+        "cavum",
+        "altocumulus",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "cap-cloud": {
+      "slug": "cap-cloud",
+      "name": "Cap Cloud",
+      "url": "https://cloudappreciationsociety.org/cloud-library/cap-cloud/",
+      "description": "A cap cloud tends to look like an enormous hat, perched upon the mountain’s head. Sometimes it looks like a humble skullcap. Other times, it splays out in a full mother-in-law-at-a-wedding extravaganza. Occasionally, the mountain seems to be wearing one hat on top of another, which is surely a mountain fashion faux-pas. Whichever it is, a cap cloud forms as a stable airstream rises to pass over a peak, cooling as it does so. It is a particular example of a lenticularis cloud, in which the cloud lies over the mountaintop, rather than downwind from it. CloudSpotters should be careful not to add the wrong cloud to their collections. Clouds such as Stratus or Stratocumulus clinging to mountaintops won’t do. Only a smooth, jaunty cloud hat will count. Image: Spotted over San Cristóbal El Bajo, Sacatepéquez, Sacatepéquez, Guatemala by cloudsurfing.",
+      "altitude": "Low",
+      "precipitation": "Rarely",
+      "reference_images": [
+        {
+          "filename": "3495b7828a28.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_tryblinking_Valderhaug_Giske_More_og_Romsdal_Norway.jpg"
+        },
+        {
+          "filename": "09d2fa4a8655.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_Yukari_Hagiwara_Shizuoka_Japan.jpg"
+        },
+        {
+          "filename": "70fb9739fb5c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_Tom_Etridge_Las_Salinas_Formentera_Balearic_Islands_Spain.jpg"
+        },
+        {
+          "filename": "11a6c766b0e8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cap_Cloud_einna_Clackamas_County_Oregon_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "cac3795d39f5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5804-1-700x476.jpg"
+        },
+        {
+          "filename": "f2b3f56bf9b3.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1916-5-700x394.jpg"
+        },
+        {
+          "filename": "5f0c28815488.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/09/cloud-gallery-1464-2-525x700.jpeg"
+        },
+        {
+          "filename": "9bb190339f9f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/04/Russ-Hendricks-1200-586x700.jpg"
+        },
+        {
+          "filename": "a1f708dd07df.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/02/Kevin-Wesbroom-700x525.jpg"
+        },
+        {
+          "filename": "89c3c206cca6.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/10/Edward-Huijbens-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "lenticularis",
+        "fluctus",
+        "stratocumulus",
+        "pileus"
+      ],
+      "label": "non-nlc"
+    },
+    "distrail": {
+      "slug": "distrail",
+      "name": "Distrail",
+      "url": "https://cloudappreciationsociety.org/cloud-library/distrail/",
+      "description": "An aircraft dissipation trail, or distrail, is a specific example of the cloud hole known as a cavum, or fallstreak hole. In the case of a distrail, the cloud hole is formed by the passage of an aircraft through the cloud layer, and so it shaped more like a line than a circular hole. As with a regular cavum, a distrail forms when very cold droplets in a cloud layer start to freeze in one region and fall below as ice crystals. If these dissipate away in warmer, drier air below the cloud, all that is left is a hole – or in this case, a line. An aircraft can trigger this freezing process by the cooling that happens within its wing vortices or by the tiny particles in its exhaust acting as ‘freezing nuclei’. Airborne particles, whether natural ones like dust, ash or plant material or ones introduced artificially like this, serve as the tiny seeds onto which cloud droplets can begin to freeze. Without them droplets can stay in ‘supercooled’ liquid state at temperatures as low as –40°C (–40°F). Depending on whether or not the ice crystals evaporate in the air below, a distrail can appear as a completely clear line cut out of a cloud layer or one with a trail of ice falling crystals visible beneath it. Image: Spotted over Felsted, Uttlesford District, England by twinklespinalot.",
+      "altitude": "Mid/High",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "293bfda1de1f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_Jesper_Muiderberg_Muiden_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "2ccd7cba3767.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_ebloustein_Park_Slope_Kings_County_New_York_United_States.jpg"
+        },
+        {
+          "filename": "886b42d3db7e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_Lady_Grey_Zurich_Switzerland_.jpg"
+        },
+        {
+          "filename": "05af38312c7d.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Distrail_ebloustein_Prospect_Heights_Kings_County_New_York_United_States_.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "93a244dec3f1.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7430-1-700x525.jpeg"
+        },
+        {
+          "filename": "ed2fc178e8e8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7174-1-700x700.jpg"
+        },
+        {
+          "filename": "1f75b7730f93.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5522-1-700x525.jpg"
+        },
+        {
+          "filename": "d33e503a5dbd.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5203-2-525x700.jpg"
+        },
+        {
+          "filename": "e8eb1d91df99.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4258-1-700x403.jpeg"
+        },
+        {
+          "filename": "a5ade390d81d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/05/cloud-gallery-4064-1-700x456.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "reflection-bow",
+        "cavum",
+        "altostratus",
+        "altocumulus",
+        "contrail",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "fibratus": {
+      "slug": "fibratus",
+      "name": "Fibratus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/fibratus/",
+      "description": "The high, ice-crystal clouds of Cirrus and Cirrostratus are called fibratus when they have been drawn out by the wind into long, fine filaments. These close strands of cloud appear rather like hair run through with a comb. Such an orderly atmospheric hairstyle depends on high, continuous winds. These are more common up at Cirrus and Cirrostratus level, since the higher you climb through the troposphere, the faster the average wind speed becomes, and the less the wind is messed about by the influence of the ground. The way to distinguish fibratus from the other Cirrus species that can also have somewhat parallel filaments, floccus and uncinus, is to look at the ends of the strands. In fibratus, the filaments do not descend from the fluffy tufts of cloud found in floccus, nor do they curve down from thicker heads to give the hooked, comma-like appearance of uncinus. Fibratus are simply thin, delicate strands of high cloud. As expressions on the face of the sky, clouds can be indicators of the atmosphere’s moods, but not so in the case of fibratus clouds. Other than indicating high, continuous winds up at cloud level, they tell nothing of the weather in store. Perhaps they are just there to look nice. Image: Spotted over Somers, Victoria, Victoria, Australia by peterh.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "9528a5181558.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_de_jelt_Leusder-Kwartier_Amersfoort_Utrecht_Netherlands.jpg"
+        },
+        {
+          "filename": "3905d0a7fbb8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_William_A_Edmundson_Tullamore_Fulton_County_Georgia_United_States.jpg"
+        },
+        {
+          "filename": "2912dd212661.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_icumulus_Maitland_New_South_Wales_Australia.jpg"
+        },
+        {
+          "filename": "290a16938843.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fibratus_Astrid26_Obersetzen_Siegen_Germany.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "7e93d489e1d7.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5940-1-525x700.jpeg"
+        },
+        {
+          "filename": "7d0097a45733.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2724-3-525x700.jpeg"
+        },
+        {
+          "filename": "714e82a0d411.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/05/cloud-gallery-103-1-700x467.jpg"
+        },
+        {
+          "filename": "1fc95bdfacc2.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/05/Patrick-O-Sullivan-700x402.jpg"
+        },
+        {
+          "filename": "706a657d204c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/01/Linda-Field-525x700.jpg"
+        },
+        {
+          "filename": "cb7c27092da5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/04/Tom-Olson-700x394.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cirrus",
+        "reflection-bow",
+        "undulatus",
+        "radiatus",
+        "cirrostratus",
+        "contrail",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "floccus": {
+      "slug": "floccus",
+      "name": "Floccus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/floccus/",
+      "description": "THE floccus species is found in four of the ten cloud genera: Stratocumulus , Altocumulus , Cirrocumulus , and Cirrus . It is a hard formation to spot – not because it is rare or restricted to certain locations or times of year, but because its appearance is not especially distinctive, and so is easily confused with other forms of these clouds. But we all know cloudspotters love a challenge. Whether you are considering low, mid-level, or high clouds, identifying floccus is about examining the tops and the bases of the cloudlets. A cloud of the floccus species will have soft-edged, rounded tops, like a blurred version of the tops of Cumulus clouds. The bases of its cloudlets will look diffuse and ragged. That’s because this is a cloud in transition, shifting from one state to another. Clouds of the floccus species often have trails of ice crystals, known as virga , falling from their cloudlets. The droplets in the clouds are in the process of freezing into ice crystals – or in the case of Cirrus floccus have completely done so. The ice crystals give floccus softer-looking edges compared to clouds composed only of droplets and can soon grow large enough to start to fall from the cloud. In short, floccus have rounded, bumpy tops with softened edges and ragged, indistinct bases often with trails of virga. Image: Spotted over Les Chosalets, Chamonix, Rhône-Alpes, France by eystein.",
+      "altitude": "Mid/High",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "7ede26c98344.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_HansStocker_Bloemendaal_Bloemendaal_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "02d919e78981.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_kkausikan_Machu_Picchu_Machupicchu_Cusco_Peru.jpg"
+        },
+        {
+          "filename": "d345a08a951f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_HansStocker_Groenenhoek_Antwerp_Province_Flemish_Region_Belgium_.jpg"
+        },
+        {
+          "filename": "9d12854cfcaf.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Floccus_floccus1_Haukomvatnet_Haukomvatnet_Aust-Agder_county_Norway.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "0d133234dce8.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5728-3-525x700.jpeg"
+        },
+        {
+          "filename": "106006d94a38.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4494-1-700x525.jpeg"
+        },
+        {
+          "filename": "c0e4b487239a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/03/cloud-gallery-3194-1-525x700.jpg"
+        },
+        {
+          "filename": "6f37277fbd74.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1954-5-700x525.jpeg"
+        },
+        {
+          "filename": "172a214ab9a1.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-590-3-525x700.jpeg"
+        },
+        {
+          "filename": "a162c49854c1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/04/Moriah-Rivas-1000-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cirrus",
+        "reflection-bow",
+        "stratocumulus",
+        "uncinus",
+        "altocumulus",
+        "virga",
+        "cirrocumulus",
+        "cumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "uncinus": {
+      "slug": "uncinus",
+      "name": "Uncinus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/uncinus/",
+      "description": "Uncinus is a species of Cirrus where the streaks of the high cloud have a hooked appearance at one end. To be a true uncinus, these hooks should look like the handles of walking sticks, and should not take the form of rounded tufts or clumps. Those would be more likely to be the floccus form of Cirrus and trails of virga falling from Altocumulus. Described in maritime folklore as ‘mare’s tails’, uncinus have traditionally been associated with the arrival of unsettled weather. There is some truth to the phrase ‘mare’s tails and mackerel scales make tall ships carry low sails.’ The hooked ends of these clouds indicate that strong winds up at the high-cloud level vary greatly with altitude – being much faster above the cloud than they are below. Such ‘shearing’ wind conditions do indeed herald the arrival of a weather front. Image: Spotted over Glen Avon, New Plymouth District, Taranaki, New Zealand by Uncle G.",
+      "altitude": "High",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "ad5e84d8b8f4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_nmplaces_Vista_Encantada_Bernalillo_County_New_Mexico_United_States.jpg"
+        },
+        {
+          "filename": "21ed5da5441f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_marjoo3_Republique_Paris_Ile-de-France_France.jpg"
+        },
+        {
+          "filename": "280b04d1a607.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_Rosa_Bud_Rossmoyne_City_of_Canning_Western_Australia_Australia.jpg"
+        },
+        {
+          "filename": "2239a89490f1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_Bozmo_Winthrop_Melville_Western_Australia_Australia.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "cf752fc4dc49.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7486-1-700x525.jpg"
+        },
+        {
+          "filename": "ae119fd6643d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6896-1-394x700.jpeg"
+        },
+        {
+          "filename": "56672f3075b0.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6439-1-700x653.jpeg"
+        },
+        {
+          "filename": "cb29ae973d77.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5737-1-525x700.jpeg"
+        },
+        {
+          "filename": "c4c71c6931b6.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5344-1-700x700.jpg"
+        },
+        {
+          "filename": "4203465d8c4e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5260-1-700x700.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "floccus",
+        "cirrus",
+        "virga"
+      ],
+      "label": "non-nlc"
+    },
+    "volutus": {
+      "slug": "volutus",
+      "name": "Volutus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/volutus/",
+      "description": "This is a long, low tube of cloud, which can appear to extend horizontally from horizon to horizon. Known more generally as a roll cloud, it often has a very smooth, silky surface. At other times, it can appear quite rough and bumpy. Volutus can move at speeds of up to 35mph (55km/h), with the roll appearing to rotate as it travels along. The direction of rotation is not as it would be for a solid tube rolling along the ground. In fact, the roll cloud rotates against its direction of travel – the cloud surface lifting at the front and dropping down at the back. One famous volutus, the Morning Glory cloud, appears in Northern Queensland, Australia. This forms in a solitary wave of air and is caused by colliding sea breezes over the Cape York Peninsula. Volutus are often associated with sea breezes, and so they tend to be found in coastal waters. At other times, volutus are caused by storm systems. In this case they are rather like arcus, or shelf clouds, that have become detached from the storm system that produced them. As the storm dissipates, gusting winds of cold air can continue to spread out ahead of it, and form a roll of cloud that separates away from the rest of the storm. Image: Spotted over Pulaski, Lawrence County, Pennsylvania, United States by b2397.",
+      "altitude": "Low",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "e1677490a0a1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_laine_Achterheide_Antwerp_Province_Flanders_Belgium.jpg"
+        },
+        {
+          "filename": "50a661a31dbc.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_laura_moehrke_Charlestown_Beach_Washington_County_Rhode_Island_United_States.jpg"
+        },
+        {
+          "filename": "4b86002707b8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_cathietinn_Auchencrow_Scottish_Borders_Scotland.jpg"
+        },
+        {
+          "filename": "c7f9064b37e2.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Volutus_kowen84_Miami_Wijk_West_Flanders_Province_Flanders_Belgium.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "36ddffbfd012.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5144-2-700x527.jpg"
+        },
+        {
+          "filename": "521db63b21e1.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/08/cloud-gallery-1126-1-700x445.jpeg"
+        },
+        {
+          "filename": "34e857574b82.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-362-2-700x525.jpeg"
+        },
+        {
+          "filename": "0ec8241dd802.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-353-1-700x367.jpg"
+        },
+        {
+          "filename": "2915a7fb69ca.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-335-2-700x525.jpg"
+        },
+        {
+          "filename": "fb996b2995ac.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/01/John-Riedl-700x525.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cumulonimbus-2",
+        "arcus"
+      ],
+      "label": "non-nlc"
+    },
+    "murus": {
+      "slug": "murus",
+      "name": "Murus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/murus/",
+      "description": "The low block of cloud that can appear at the highly turbulent inflow region of a large storm is known as a murus, or wall cloud. The feature develops at the back of an advancing storm, like its rear bumper, or fender, marking the region where no precipitation is falling but instead strong updrafts of warm, moist air near the ground are being sucked up into the storm, fuelling its growth. With such a rush of up-flowing air, a wall cloud is liable to sprout ‘tubas’, rotating fingers of cloud that descend from its base when the airflows develop spin. The murus feature at the storm’s rear is therefore, the breeding ground for landspouts, waterspouts and fully-fledged tornadoes. Tail-gating this particular cloud is not recommended. Image: Spotted over Canberra, Australian Capital Territory, Australia by Wayde Margetts.",
+      "altitude": "Low",
+      "precipitation": "Heavy showers nearby",
+      "reference_images": [
+        {
+          "filename": "18d39eab28e4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_splodger_Seven_Hills_City_of_Blacktown_New_South_Wales_Australia.jpg"
+        },
+        {
+          "filename": "edb9f8fa56ba.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_CuBean_Flagstaff_Arizona_United_States.jpg"
+        },
+        {
+          "filename": "164b04ea1d6e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_alliebanks_Hereford_Weld_County_Colorado_United_States.jpg"
+        },
+        {
+          "filename": "24f9525de704.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_tryblinking_Skjong_Giske_More_og_Romsdal_Norway.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "3890acb86201.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-580-1-576x700.jpeg"
+        },
+        {
+          "filename": "c7e26232541b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/03/Keegan-Hodson-543x700.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cumulonimbus-2",
+        "tuba",
+        "arcus"
+      ],
+      "label": "non-nlc"
+    },
+    "pannus": {
+      "slug": "pannus",
+      "name": "Pannus",
+      "url": "https://cloudappreciationsociety.org/cloud-library/pannus/",
+      "description": "Don’t get too excited about adding pannus to your cloud collection. When you do spot one, you’re likely to be rather underwhelmed, for they aren’t good-lookers. Loitering in the saturated atmosphere just below rain clouds, they resemble some sort of cloud version of hoodies, killing time outside McDonald’s on a Saturday night. These dark shreds of cloud, strictly classified as a type of Stratus fractus, give the sky a threatening air. The atmosphere below a precipitating cloud can become very humid, on account of all the moisture falling through it. Only the slightest rising gust can then cool the air enough for some of this moisture to condense into tiny droplets, which hang around as wisps of thin cloud. If it is not raining or snowing when you notice dark shreds of pannus below a forbidding sky, you can be confident that it very soon will be. Pannus are the five-minute-precipitation warning of the cloud world. As with the kids on the High Street, the sinister appearance of pannus clouds owes a lot to their surroundings. The shreds of cloud need only be thick enough to block a little light for our eyes to register them as darker than the thick, dark rain clouds above. Away from their precipitous context, pannus would be seen for the weedy wisps that they are. The same could be said of the prepubescent 14-year-olds, once stripped of their mates and hoods. Image: Spotted over Lazonby, Cumbria, England by gina g.",
+      "altitude": "Low",
+      "precipitation": "Yes/Imminent",
+      "reference_images": [
+        {
+          "filename": "a7cca353171e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pannus_svente_Essen_North_Rhine-Westphalia_Germany.jpg"
+        },
+        {
+          "filename": "5e7e4c120d82.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pannus_anncherie49_Glenhaven_The_Hills_Shire_New_South_Wales_Australia.jpg"
+        },
+        {
+          "filename": "87a037eac06f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pannus_jutty1_Hatfield_Welwyn_Hatfield_England.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "3a0d8a697e37.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7314-1-700x525.jpeg"
+        },
+        {
+          "filename": "3bae7740b193.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5927-1-700x525.jpg"
+        },
+        {
+          "filename": "36ab8d9e92ef.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5505-2-700x525.jpeg"
+        },
+        {
+          "filename": "b8aa905e975b.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4975-1-525x700.jpeg"
+        },
+        {
+          "filename": "1ed0eff28175.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4718-1-700x527.jpg"
+        },
+        {
+          "filename": "2d0411f09de8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4693-1-700x315.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "fractus",
+        "cumulonimbus-2",
+        "nimbostratus",
+        "altostratus"
+      ],
+      "label": "non-nlc"
+    },
+    "sun-dog": {
+      "slug": "sun-dog",
+      "name": "Sun dog",
+      "url": "https://cloudappreciationsociety.org/cloud-library/sun-dog/",
+      "description": "Also known as ‘mock suns’ and ‘parhelia’, sun dogs are large spots of light that can appear on one or both sides of the Sun, and at the same level as it. The second most frequent halo phenomenon after the 22-degree halo, sun dogs appear on about 70 days of the year (over Western Europe). They are formed as sunlight is refracted through the ice crystals of thin layers of high clouds, such as Cirrus, Cirrostratus and Cirrocumulus, or those of the ground-level ice-crystal cloud, diamond dust. The distance from the Sun of both spots of light is equivalent to the outstretched span of a hand held up at arm’s length. Sun dogs are brightest when the Sun is low, and visible only when it’s below about 40˚ from the horizon. If the cloud isn’t in the right parts of the sky, just one sun dog appears. CloudSpotters should learn to recognise the sky that tends to produce sun dogs, as well as the other halo phenomena. Paying careful attention not to stare into the Sun, as it can damage your eyes, scan the blue for light effects when the sky first pales with the subtle veil of ice-crystal clouds. Once these high clouds have become white enough to be noticed by the riffraff, they’re generally too thick to produce sun dogs. Image: Spotted over Varsity, Alberta, Alberta, Canada by smokey.",
+      "altitude": "Can appear for all altitudes of the Sun/Moon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "5585572a8398.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_Kevin_Porter_North_Castine_Hancock_County_Maine_United_States.jpg"
+        },
+        {
+          "filename": "b51456f9e978.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_eystein_Chamonix_Mont_Blanc_Chamonix_Rhone-Alpes_France.jpg"
+        },
+        {
+          "filename": "e6740346a2b4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_Dolstad_Andover_Anoka_County_Minnesota_United_States.jpg"
+        },
+        {
+          "filename": "26378f79368a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_dog_dannylaps_Sint-Anna_Antwerp_Province_Flanders_Belgium.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "5cb30ce52b5d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+        },
+        {
+          "filename": "6964bd70d8f0.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6988-1-700x527.jpeg"
+        },
+        {
+          "filename": "be57f034c384.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5923-1-700x525.jpg"
+        },
+        {
+          "filename": "7f1327873770.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4630-1-525x700.jpeg"
+        },
+        {
+          "filename": "9d6c756b5145.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/04/cloud-gallery-3768-4-700x456.jpg"
+        },
+        {
+          "filename": "2744a228a1bb.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/03/cloud-gallery-3412-1-700x527.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "22-degree-halo",
+        "tangent-arc",
+        "cirrus",
+        "reflection-bow",
+        "parhelic-circle",
+        "iridescence",
+        "cavum",
+        "cirrostratus",
+        "cirrocumulus",
+        "circumzenithal-arc"
+      ],
+      "label": "non-nlc"
+    },
+    "circumzenithal-arc": {
+      "slug": "circumzenithal-arc",
+      "name": "Circumzenithal arc",
+      "url": "https://cloudappreciationsociety.org/cloud-library/circumzenithal-arc/",
+      "description": "The circumzenithal arc is a halo phenomenon that appears like a multicoloured smile in the sky. Photographs of it look as if some fool’s got a rainbow snap upside down, but this bow of colours actually appears in a totally different part of the sky from rainbows. On the 25 or so times a year that it appears (in Western Europe), it forms high up in the sky, like the fragment closest to the Sun of a circle around the zenith (the point directly above you). Whenever you notice the spots of light on either side of the Sun called Sun dogs, always look directly up because you might also be able to add this most beautiful of all halo phenomena to your collection of cloud optical effects, for it is produced by the same cloud ice crystals. It appears as sunlight is refracted by the ice crystals of thin layers of high clouds, such as Cirrus, Cirrostratus and Cirrocumulus, or the ground-level ice-crystal cloud, diamond dust. Image: Spotted over Bunker Hill, Los Angeles County, California, United States by Cali_fly.",
+      "altitude": "Can appear when Sun is < 32° above horizon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "dc0a6cd9b960.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "4ce478d7dd73.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_Mayfly_Middleton_South_Lakeland_District_England.jpg"
+        },
+        {
+          "filename": "481f476dfade.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_naoty_Miyayamacho_Osaka_Japan.jpg"
+        },
+        {
+          "filename": "55da984bffd2.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_Thorneyet_Smiljevaca_Licko-Senjska_Croatia.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "d0255d73b866.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7139-1-525x700.jpeg"
+        },
+        {
+          "filename": "3db8fa649fde.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6407-1-525x700.jpeg"
+        },
+        {
+          "filename": "06a872f3fd1a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6101-1-700x525.jpg"
+        },
+        {
+          "filename": "f818425159bf.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/05/cloud-gallery-3856-1-700x467.jpg"
+        },
+        {
+          "filename": "cb54e6cc8f8f.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2850-1-700x393.jpeg"
+        },
+        {
+          "filename": "8dafde481566.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2788-3-700x467.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "tangent-arc",
+        "rainbow",
+        "reflection-bow",
+        "cirrus",
+        "cavum",
+        "sun-dog",
+        "cirrostratus",
+        "cirrocumulus",
+        "supralateral-arc"
+      ],
+      "label": "non-nlc"
+    },
+    "22-degree-halo": {
+      "slug": "22-degree-halo",
+      "name": "22-degree halo",
+      "url": "https://cloudappreciationsociety.org/cloud-library/22-degree-halo/",
+      "description": "The 22-degree halo is the most frequent of the many halo phenomena that can appear as sunlight is refracted through the ice crystals of thin layers of high clouds, such as Cirrus, Cirrostratus and Cirrocumulus, or the ground-level ice-crystal cloud, diamond dust. Appearing on about 100 days of the year (in Western Europe), the 22-degree halo looks like a large ring around the sun or moon. Its inner edge generally has a reddish tinge to it, with the region of the sky between halo and sun appearing darker than that just outside the halo. When cloud cover is less than extensive, only parts of the halo appear. CloudSpotters observing a 22-degree halo for the first time will be surprised at how much larger it appears compared with photographs. This can present challenges when trying to photograph one on your phone. The distance from sun or moon to the edge of the ring is equivalent to the outstretched span of a hand held up at arm’s length. Though it’s worth two stars, a 22-degree halo is not worth screwing up your eyesight for, so take especial care never to stare directly at the sun. Be sure to photograph from the shade of a tree, lamppost or building in order to block out the sun itself, and reveal the part of the sky showing the halo. Image: Spotted over The Basin, Knox, Victoria, Australia by eight skies.",
+      "altitude": "Can appear for all altitudes of the Sun/Moon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "4010f3ddc85b.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_medzz_Kampung_Baru_Subang_Selangor_Selangor_Malaysia.jpg"
+        },
+        {
+          "filename": "a6e730b443e5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_Fallout_Catamaran_Tasmania_Australia.jpg"
+        },
+        {
+          "filename": "a8a0c89862bc.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_gillianevans_Merewether_Newcastle_New_South_Wales_Australia.jpg"
+        },
+        {
+          "filename": "12c36674aedf.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/22-degree_halo_Perle_Warnemunde_Rostock_Mecklenburg-Vorpommern_Germany.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "47b9955cee33.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7641-1-700x525.jpeg"
+        },
+        {
+          "filename": "2235d2394235.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7554-1-525x700.jpg"
+        },
+        {
+          "filename": "dad5fd361d7a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7407-1-700x525.jpeg"
+        },
+        {
+          "filename": "564989266d13.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7248-1-525x700.jpg"
+        },
+        {
+          "filename": "5cb30ce52b5d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+        },
+        {
+          "filename": "6964bd70d8f0.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6988-1-700x527.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "tangent-arc",
+        "cirrus",
+        "corona",
+        "reflection-bow",
+        "parhelic-circle",
+        "glory",
+        "sun-dog",
+        "cirrostratus",
+        "cirrocumulus",
+        "cloudbow"
+      ],
+      "label": "non-nlc"
+    },
+    "circumhorizon-arc": {
+      "slug": "circumhorizon-arc",
+      "name": "Circumhorizon arc",
+      "url": "https://cloudappreciationsociety.org/cloud-library/circumhorizon-arc/",
+      "description": "When you see what looks like a rainbow that has been flattened into a horizontal line, you have likely spotted a ‘circumhorizon arc’. The optical effect is caused by ice crystals in the sky acting as tiny prisms that refract the light, and it appears as a bright, flat band of colours parallel to the horizon. Ranging from red at the top to indigo at the base, it appears well below a Sun that is high in the sky. In fact, a circumhorizon arc can only form when the Sun is very high – at an angle of more than 58 degrees above the horizon. This means that it is a summer optical effect, and one that can only form in some parts of the world. Even in mid-summer, the Sun only rises high enough in the sky for a circumhorizon arc to be visible in latitudes below 55 degrees. As a result, this ‘flat rainbow’ that has nothing to do with rain is common in Nairobi, infrequent in Seattle, and unheard of in Copenhagen. Image: Spotted over Westport Point, Bristol County, Massachusetts, United States by pwalters.",
+      "altitude": "Can appear only when Sun is higher then about 60° from the horizon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "2bba7048a561.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_adria_s_hillman_eed_Mines_Town_of_Ancram_New_York_United_States.jpg"
+        },
+        {
+          "filename": "2bd5217d87e1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_Hans_Torrequebrada_Benalmadena_Andalusia_Spain.jpg"
+        },
+        {
+          "filename": "23d08af9867f.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_friedtomatoes_Moon_Township_Allegheny_County_Pennsylvania_United_States.jpg"
+        },
+        {
+          "filename": "1723da667ae2.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_ebloustein_Park_Slope_Kings_County_New_York_United_States.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "cef117087454.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/F22paxJR20Vl4zhEDOCoc8dLuo722025-04-24T16_04_28.902Z-1200-700x467.jpg"
+        },
+        {
+          "filename": "19dff957b678.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1746-2-327x700.jpeg"
+        },
+        {
+          "filename": "824a94e70140.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-409-1-700x525.jpeg"
+        },
+        {
+          "filename": "0ea1afc13a41.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/07/Henry-Kaplan-700x467.jpg"
+        },
+        {
+          "filename": "98174e459748.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/01/Tjaard-Heikens-700x467.jpg"
+        },
+        {
+          "filename": "4ebae1d63c69.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/08/Christa-Harbig-700x477.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "rainbow",
+        "reflection-bow",
+        "cirrus",
+        "parhelic-circle",
+        "cirrostratus",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "sun-pillar": {
+      "slug": "sun-pillar",
+      "name": "Sun pillar",
+      "url": "https://cloudappreciationsociety.org/cloud-library/sun-pillar/",
+      "description": "A sun pillar is a vertical streak of light that appears above or below a low Sun that is shining through clouds made of ice crystals, such as Cirrus, Cirrostratus and Cirrocumulus, or the ground-level ice-crystal fog, diamond dust. At night, they are known as ‘moon pillars’. These halo phenomena, which appear on about 25 days of the year (in Western Europe), are due to sunlight reflecting off the surfaces of ice crystals, not shining through them like most of the other halo phenomena. Sun pillars are akin to ‘glitter paths’ that shine on the rippled surface of the sea. The pillar extending above the Sun, formed by reflections off the underside of the ice crystals, appears brightest when the Sun is just below the horizon. Most other halo phenomena look best when the clouds’ crystals are optically pure, regularly shaped and neatly aligned, but this is not the case for Sun pillars. Since the light needs only to glance off a surface, the crystals can be rough, irregular and jumbled. The poor man’s halo phenomena, they often appear when cloud crystals aren’t quite right for the more refined arcs, rings and spots of light to form. Image: Spotted over Alpine, North Slope Borough, Alaska, United States by JamesH.",
+      "altitude": "Can appear when the Sun/Moon is < 5° above or below the horizon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "a1abdaf2427e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_verpaele_Rooigem_East_Flanders_Province_Flanders_Belgium.jpg"
+        },
+        {
+          "filename": "d616d42c61ba.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_marksmith_Gemaal_De_Ronde_Venen_Utrecht_Netherlands.jpg"
+        },
+        {
+          "filename": "9435bff69b70.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_chridevo_Darwin_Northern_Territory_Australia.jpg"
+        },
+        {
+          "filename": "3355dd57a30e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_errlBreezy_.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "5cb30ce52b5d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+        },
+        {
+          "filename": "bad733cefa9c.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5497-1-700x467.jpg"
+        },
+        {
+          "filename": "6163ff37b461.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/05/cloud-gallery-3915-1-700x525.jpeg"
+        },
+        {
+          "filename": "7c4eee25f21f.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1559-1-700x525.jpeg"
+        },
+        {
+          "filename": "033c3996e2bb.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-707-1-700x314.jpg"
+        },
+        {
+          "filename": "a7bbf96e1af8.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/02/Paulo_Bardelli_01-700x467.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "tangent-arc",
+        "cirrus",
+        "reflection-bow",
+        "cirrostratus",
+        "crepuscular-rays",
+        "cirrocumulus"
+      ],
+      "label": "non-nlc"
+    },
+    "horseshoe-vortex": {
+      "slug": "horseshoe-vortex",
+      "name": "Horseshoe vortex",
+      "url": "https://cloudappreciationsociety.org/cloud-library/horseshoe-vortex/",
+      "description": "What a subtle little wisp of cloud the horseshoe vortex is! It is easily missed by anyone other than the most keen-eyed cloudspotter, intent on adding it to their collection. The rare and fleeting horseshoe vortex cloud appears for just a few minutes before breaking up or evaporating away. Anyone lucky enough to spot one must take a photo if they want to be believed by their cloud-collecting friends. This cloud forms in a region of rotating air, or vortex. While the familiar orientation for a vortex is vertical (see tuba ), they can occasionally develop on a horizontal axis. This is when the gently rotating crescent of the horseshoe vortex cloud can form. The movement of air seems to result from a thermal updraught that is sent into a spin as it reaches a horizontal crosswinds overhead. Rarely are conditions right for a cloud to appear within the vortex but, when they are, the rotating air cools enough to develop a twisting crescent of cloud. It starts out mostly horizontal, but it is soon distorted into a curve as the thermal below continues to push upwards. It lifts the middle of the rotating tube of cloud more than the sides and – hey presto! – the horseshoe shape is formed. This beautiful little cloud may not lead to any precipitation, but it will rain down luck upon anyone fortunate enough to spot it. Image: Spotted over Salo Corner, Saint Louis County, Minnesota, United States by Suzanne Winckler.",
+      "altitude": "Various",
+      "precipitation": "None",
+      "reference_images": [
+        {
+          "filename": "ac4cb0073886.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_Jesper_Burgemeesterswijk_Gemeente_Arnhem_Gelderland_Netherlands.jpg"
+        },
+        {
+          "filename": "760a008f0167.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_robard_Wonga_Cairns_Queensland_Australia_.jpg"
+        },
+        {
+          "filename": "ea498de8774a.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_lillian_Wood_Green_Haringey_England.jpg"
+        },
+        {
+          "filename": "872c3373b110.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Horseshoe_vortex_nicesaraht_La_Baume_Castellane_Provence-Alpes-Cote_d_Azur_France.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "806365ff2c84.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7566-2-525x700.jpeg"
+        },
+        {
+          "filename": "9d7e0236ba3d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7406-1-624x700.jpeg"
+        },
+        {
+          "filename": "0832f61f537a.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7358-1-700x525.jpeg"
+        },
+        {
+          "filename": "c23532d7b517.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6323-1-525x700.jpg"
+        },
+        {
+          "filename": "5a662d75dd1e.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6152-1-525x700.jpeg"
+        },
+        {
+          "filename": "ef1c2558c93f.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-5048-1-525x700.jpeg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "cumulonimbus-2",
+        "tuba"
+      ],
+      "label": "non-nlc"
+    },
+    "tangent-arc": {
+      "slug": "tangent-arc",
+      "name": "Tangent arc",
+      "url": "https://cloudappreciationsociety.org/cloud-library/tangent-arc/",
+      "description": "Some halo phenomena like the tangent arc vary in shape depending on the elevation of the Sun. Tangent arcs tend to form about once a month in the skies over temperate regions, so they are relatively common. They can appear either above or below the Sun, always positioned so that the centre of the arc is just touching that most common of halo phenomena, the 22-degree halo. So if a 22-degree halo around the Sun is visible at the same time the tangent arc will be touching it tangentially. When the Sun is low on the horizon the tangent arc is shaped like a ‘V’. As the Sun climbs higher in the sky it has a more flattened shape, its edges curving more and more around the Sun. Tangent arcs below the Sun are usually only seen from elevated positions like a mountainside or an aircraft. When the angle of the Sun above the horizon is 30° or higher, the ends of the upper and lower tangent arcs will have curved around the Sun so much that they appear to join together to form a continuous oval shape. These joined upper and lower tangent arcs are then known as a ‘circumscribed halo’. Are you all paying attention at the back of the class? Image: Spotted over Fossum Terrasse, Eiksmarka, Bærum, Akershus, Norway by Monica Nitteberg.",
+      "altitude": "Can appear when the Sun is < 30° from the horizon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "62e191105416.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_Monica_Nitteberg_Eiksmarka_Baerum_Akershus_Norway.jpg"
+        },
+        {
+          "filename": "cf6356fc7503.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_anncherie49_Glenhaven_The_Hills_Shire_New_South_Wales_Australia.jpg"
+        },
+        {
+          "filename": "d388bc3f6abf.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_dmalpas_Summit_Camp_Ostgronland_Greenland.jpg"
+        },
+        {
+          "filename": "4587fb187427.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_Jero_Malec_Plzensky_Czechia.jpg"
+        },
+        {
+          "filename": "aec4c623e787.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_John_Callender_Grindelwald_Switzerland.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "5cb30ce52b5d.jpeg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+        },
+        {
+          "filename": "e54ab29b3e17.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/09/Tracy-Hindle-700x467.jpg"
+        },
+        {
+          "filename": "9edb0d0a2dd1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/02/Malin-Redvall-700x525.jpg"
+        },
+        {
+          "filename": "b63f3bf10ed5.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2018/12/Ed-Hilinski-700x501.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "22-degree-halo",
+        "reflection-bow",
+        "cirrus",
+        "parhelic-circle",
+        "sun-pillar",
+        "sun-dog",
+        "cirrostratus",
+        "cirrocumulus",
+        "circumzenithal-arc",
+        "supralateral-arc"
+      ],
+      "label": "non-nlc"
+    },
+    "parhelic-circle": {
+      "slug": "parhelic-circle",
+      "name": "Parhelic circle",
+      "url": "https://cloudappreciationsociety.org/cloud-library/parhelic-circle/",
+      "description": "A parhelic circle is a white band light that runs parallel to the horizon. Caused by sunlight passing through, and reflecting off, the sides of tiny hexagonal plate-shaped ice crystals, the light effect always appears at the same height in the sky as the Sun. Though it usually only appears in patches of the sky, it can occasionally extend 360° around the whole sky. When the Sun is high, this appears as a broad ring centred on the zenith. When the sun is lower, it appears more as more of a horizontal band encircling the sky. The parhelic circle tends to be a very fleeting optical effect, rarely lasting for long. It is most frequently observed as one or more extensions running between the Sun and the spots of light known as parhelia, or sun dogs, that give the effect its name. Image: Spotted over Telford, Shropshire, United Kingdom by John Morgan.",
+      "altitude": "Can appear at all elevations of the Sun",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "3418439c4529.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle_issa_forever__Woodside_Hills_Buncombe_County_North_Carolina_United_States.jpg"
+        },
+        {
+          "filename": "66a0685cbe23.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle__joostvanekeris_Stadle_St._Anton_am_Arlberg_Tyrol_Austria.jpg"
+        },
+        {
+          "filename": "1c286e197bda.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle__HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+        },
+        {
+          "filename": "c70abe2a64a6.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle_betsybeaneo_.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "a6273b9c1b1e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-5739-4-700x525.jpg"
+        },
+        {
+          "filename": "1041e421be28.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/09/Ronna-Friend-700x700.jpg"
+        },
+        {
+          "filename": "c19839387a45.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2017/03/Mazi-700x394.jpg"
+        },
+        {
+          "filename": "a38380ee0dc0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2016/08/Angela-Moore-700x396.jpg"
+        },
+        {
+          "filename": "2adea017c635.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2014/12/DSC_9667ValerianoPerteghella-700x463.jpg"
+        },
+        {
+          "filename": "b086d7734ab3.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2014/04/LaurenParhelic-700x506.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "22-degree-halo",
+        "tangent-arc",
+        "cirrus",
+        "reflection-bow",
+        "sun-dog",
+        "cirrostratus",
+        "cirrocumulus",
+        "circumhorizon-arc"
+      ],
+      "label": "non-nlc"
+    },
+    "supralateral-arc": {
+      "slug": "supralateral-arc",
+      "name": "Supralateral arc",
+      "url": "https://cloudappreciationsociety.org/cloud-library/supralateral-arc/",
+      "description": "The high, up-turned bow of the ice-crystal optical effect called a circumzenital arc is on rare occasions joined by a fainter and much rarer light effect. Known as a supralateral arc, this is the far broader bow than that circumzenithal arc, and it curves downwards rather than up. It only tends to appear about once a year over mainland Europe, according Claudia and Wolfgang Hinz of the German halo observation network Arbeitskreis Meteore, compared to the average of six occurrences of circumzenithal arcs. The supralateral arc has the potential to be a very broad arc of colour stretching across a lot of the sky, and so a particularly dramatic example will have ends that extend down into people’s normal field of vision. But it will only be that broad when just the right sort of ice crystals are distributed over enough of the sky. More typically, just a central segment of the arc appears up high in the sky above, positioned at a tangent to a circumzenithal arc. You are only likely therefore to spot a supralateral if you choose to pay attention to what happens up in the sky high above your head. The rare supralateral arc, like its circumzenithal arc sister, is a treasure hiding in plain sight from all but those with their heads in the clouds. Image: Spotted over South Pole Station, Antarctica by LCdr Heather Moe.",
+      "altitude": "Can form when the Sun is < 32° above the horizon",
+      "precipitation": "Unrelated",
+      "reference_images": [
+        {
+          "filename": "9bd607ab2ae0.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_LCdr_Heather_Moe_South_Pole_Station_Antarctica.jpg"
+        },
+        {
+          "filename": "a82a07724bc4.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_joostvanekeris_Stadle_St._Anton_am_Arlberg_Tyrol_Austria.jpg"
+        },
+        {
+          "filename": "d2de14184772.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_Monica_Nitteberg_Eiksmarka_Baerum_Akershus_Norway.jpg"
+        },
+        {
+          "filename": "9c9fca6cc907.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Supralateral_arc_HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+        }
+      ],
+      "gallery_images": [
+        {
+          "filename": "a6273b9c1b1e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-5739-4-700x525.jpg"
+        },
+        {
+          "filename": "e54ab29b3e17.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/09/Tracy-Hindle-700x467.jpg"
+        },
+        {
+          "filename": "9edb0d0a2dd1.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/02/Malin-Redvall-700x525.jpg"
+        },
+        {
+          "filename": "291fd721b06e.jpg",
+          "url": "https://cloudappreciationsociety.org/wp-content/uploads/2018/05/Anthony-Skellern-700x467.jpg"
+        }
+      ],
+      "linked_cloud_slugs": [
+        "tangent-arc",
+        "cirrus",
+        "reflection-bow",
+        "cirrostratus",
+        "cirrocumulus",
+        "circumzenithal-arc"
+      ],
+      "label": "non-nlc"
+    }
+  }
+}

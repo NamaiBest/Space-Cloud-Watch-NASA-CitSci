@@ -1,0 +1,55 @@
+{
+  "slug": "congestus",
+  "name": "Congestus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/congestus/",
+  "description": "Congestus is a towering Cumulus cloud – one that has developed in unstable atmospheric conditions and is well on its way to turning into a Cumulonimbus storm cloud. It is th largest of the three Cumulus species that describe the cloud’s size, the other two being the small Cumulus humilis and the medium sized Cumulus mediocris. Congestus can produce moderate showers but these are not as heavy or prolonged as those from it Cumulonimbus relative. How do you work out when a growing Cumulus has reached the congestus stage? Compare the cloud’s height to its elevation above the ground. When a Cumulus has grown taller than the height of its base above the surface, you can be confident it has reached the congestus stage. And what about distinguishing a Cumulus at the congestus stage from a fully-fledged Cumulonimbus cloud? This distinction is more subtle since congestus is the final stage of growth of a Cumulus cloud before it develops into the unruly Cumulonimbus beast. The point of change is all a matter of judgement and convention. The best rule of thumb is to pay attention to the cloud’s upper reaches. A Cumulus congestus may look tall and mighty, but its top still has crisp, well-defined edges. It is still like a huge version of a Cumulus. It is only considered to have changed into a Cumulonimbus when its upper region has ‘glaciated’. This is when all the droplets up there have frozen into ice crystals. When that happens, the edges of the cloud’s summit appear to soften. They begin to look much fluffier. This fluffy top is the sign the the mountain of cloud has transitioned into the mighty beast of the Cumulonimbus. Until that point, think of it as a Cumulus with a lust for power. Image: Spotted over Rosebery, Palmerston, Northern Territory, Australia by  rubylou75.",
+  "altitude": "Low or multi-level",
+  "precipitation": "Likely – moderate to heavy",
+  "reference_images": [
+    {
+      "filename": "84c2c63a07bb.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Congestus_William_A_Edmundson_Tullamore_Fulton_County_Georgia_United_States.jpg"
+    },
+    {
+      "filename": "c948b73118aa.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Congestus_mikeythrock_Phoenix_Arizona_United_States_.jpg"
+    },
+    {
+      "filename": "0bfccae73f75.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Congestus_CuBean_Flagstaff_Arizona_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "17b78d5e00e1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7572-1-394x700.jpg"
+    },
+    {
+      "filename": "6dbe8ff9b809.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7363-1-700x525.jpeg"
+    },
+    {
+      "filename": "76bebeb36184.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6453-1-700x315.jpg"
+    },
+    {
+      "filename": "76759f97c046.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6298-2-525x700.jpeg"
+    },
+    {
+      "filename": "e27536145d36.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5262-2-700x525.jpeg"
+    },
+    {
+      "filename": "8a6fcd88d39b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4896-1-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "pileus",
+    "cumulonimbus-2",
+    "pyrocumulus",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

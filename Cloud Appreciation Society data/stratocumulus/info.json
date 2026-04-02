@@ -1,0 +1,55 @@
+{
+  "slug": "stratocumulus",
+  "name": "Stratocumulus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/stratocumulus/",
+  "description": "The most widespread of all cloud types, Stratocumulus is a low layer or patch of cloud that has a well-defined, clumpy base. The patches are either joined up, or have gaps in between. When the sky is overcast, and the cloud base appears to be low, with tones from white to dark grey, cloudspotters can confidently add Stratocumulus to their cloud collections. High Stratocumulus that have cloudlets with gaps in between – a variety known as perlucidus – can be confused with the mid-level cloud Altocumulus. But Stratocumulus is usually less orderly in appearance and its cloudlets are bigger (appearing larger than the width of three fingers, held at arm’s length, when they are more than 30˚ above the horizon). Due to its sun-blocking tendencies, Stratocumulus may not be the most popular cloud, but it is one of the most varied. Image: Spotted over Nassau County, Florida, United States by puffy.",
+  "altitude": "Low",
+  "precipitation": "None/Light",
+  "reference_images": [
+    {
+      "filename": "72a1ce943083.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_Keith_Owens_Napton_on_the_Hill_Stratford-on-Avon_District_England.jpg"
+    },
+    {
+      "filename": "0ce5400f718f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_gvpreo_Middle_Village_Queens_New_York_United_States.jpg"
+    },
+    {
+      "filename": "c69ac41d3500.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_CuBean_San_Juan_Utah_United_States.jpg"
+    },
+    {
+      "filename": "245b17d83e28.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratocumulus_urbanswine_March_Fenland_District_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "db0e38ef543b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7214-1-700x525.jpg"
+    },
+    {
+      "filename": "525f316dac8f.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6976-1-700x525.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "anti-crepuscular-rays",
+    "lenticularis",
+    "crepuscular-rays",
+    "asperitas",
+    "castellanus",
+    "stratus",
+    "undulatus",
+    "radiatus",
+    "glory",
+    "lacunosus",
+    "fluctus",
+    "altocumulus",
+    "cap-cloud",
+    "virga",
+    "mamma",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

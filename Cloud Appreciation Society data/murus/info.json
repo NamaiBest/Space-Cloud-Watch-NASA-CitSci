@@ -1,0 +1,42 @@
+{
+  "slug": "murus",
+  "name": "Murus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/murus/",
+  "description": "The low block of cloud that can appear at the highly turbulent inflow region of a large storm is known as a murus, or wall cloud. The feature develops at the back of an advancing storm, like its rear bumper, or fender, marking the region where no precipitation is falling but instead strong updrafts of warm, moist air near the ground are being sucked up into the storm, fuelling its growth. With such a rush of up-flowing air, a wall cloud is liable to sprout ‘tubas’, rotating fingers of cloud that descend from its base when the airflows develop spin. The murus feature at the storm’s rear is therefore, the breeding ground for landspouts, waterspouts and fully-fledged tornadoes. Tail-gating this particular cloud is not recommended. Image: Spotted over Canberra, Australian Capital Territory, Australia by Wayde Margetts.",
+  "altitude": "Low",
+  "precipitation": "Heavy showers nearby",
+  "reference_images": [
+    {
+      "filename": "18d39eab28e4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_splodger_Seven_Hills_City_of_Blacktown_New_South_Wales_Australia.jpg"
+    },
+    {
+      "filename": "edb9f8fa56ba.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_CuBean_Flagstaff_Arizona_United_States.jpg"
+    },
+    {
+      "filename": "164b04ea1d6e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_alliebanks_Hereford_Weld_County_Colorado_United_States.jpg"
+    },
+    {
+      "filename": "24f9525de704.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Murus_tryblinking_Skjong_Giske_More_og_Romsdal_Norway.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "3890acb86201.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-580-1-576x700.jpeg"
+    },
+    {
+      "filename": "c7e26232541b.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/03/Keegan-Hodson-543x700.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "cumulonimbus-2",
+    "tuba",
+    "arcus"
+  ],
+  "label": "non-nlc"
+}

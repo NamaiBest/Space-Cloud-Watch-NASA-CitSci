@@ -78,20 +78,18 @@ def display_prediction_result(result, image_path: str) -> None:
         bar = "█" * int(prob * 20) + "░" * (20 - int(prob * 20))
         print(f"      {label}: {bar} {prob:.1%}")
     
-    # NLC Types (if NLC detected)
-    if result.predicted_class == 1 and hasattr(result, 'nlc_types'):
-        print(f"\n  🏷️  NLC Types Detected:")
-        if result.nlc_types:
-            for t in result.nlc_types:
-                print(f"      ✓ {t}")
-        else:
-            print(f"      (No specific type detected)")
-        
-        print(f"\n  📊 Type Probabilities:")
+    # NLC Types (always shown)
+    if hasattr(result, 'nlc_type_probabilities') and result.nlc_type_probabilities:
+        print(f"\n  🏷️  NLC Type Probabilities:")
         for type_name, prob in result.nlc_type_probabilities.items():
             bar = "█" * int(prob * 20) + "░" * (20 - int(prob * 20))
             marker = "✓" if prob > 0.5 else " "
             print(f"    {marker} {type_name}: {bar} {prob:.1%}")
+        if result.predicted_class == 1:
+            if result.nlc_types:
+                print(f"\n  🏷️  Detected Types: {', '.join(result.nlc_types)}")
+            else:
+                print(f"\n  🏷️  Detected Types: (none above threshold)")
     
     # Uncertainty metrics
     print(f"\n  🔍 Uncertainty Metrics:")
@@ -161,7 +159,7 @@ Additional outputs for each prediction:
 ├─────────────────────────────────────────────────────────────┤
 │  Architecture: EfficientNet-B0 (pretrained on ImageNet)     │
 │  Training: Multi-task learning (detection + type)           │
-│  Training Data: ~219 citizen science observations           │
+│  Training Data: 890 observations (3 sources)              │
 │  Train/Test Split: 80/20 stratified                         │
 │  Input Size: 224x224 pixels                                 │
 └─────────────────────────────────────────────────────────────┘
@@ -223,6 +221,13 @@ def main():
                     status = "🌌 NLC" if result.predicted_class == 1 else "❌ No NLC"
                     review = "⚠️ Review" if result.needs_review else "✅ Auto"
                     print(f"    {status} | Confidence: {result.confidence:.1%} | {review}")
+                    if result.predicted_class == 1 and result.nlc_type_probabilities:
+                        types_str = ", ".join(
+                            f"{t}: {p:.0%}" for t, p in result.nlc_type_probabilities.items()
+                        )
+                        detected = ", ".join(result.nlc_types) if result.nlc_types else "none above threshold"
+                        print(f"    Types detected: {detected}")
+                        print(f"    Probabilities: {types_str}")
                 except Exception as e:
                     print(f"    ❌ Error: {str(e)[:50]}")
             

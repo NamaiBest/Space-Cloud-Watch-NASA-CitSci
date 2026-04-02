@@ -1,0 +1,63 @@
+{
+  "slug": "parhelic-circle",
+  "name": "Parhelic circle",
+  "url": "https://cloudappreciationsociety.org/cloud-library/parhelic-circle/",
+  "description": "A parhelic circle is a white band light that runs parallel to the horizon. Caused by sunlight passing through, and reflecting off, the sides of tiny hexagonal plate-shaped ice crystals, the light effect always appears at the same height in the sky as the Sun. Though it usually only appears in patches of the sky, it can occasionally extend 360° around the whole sky. When the Sun is high, this appears as a broad ring centred on the zenith. When the sun is lower, it appears more as more of a horizontal band encircling the sky. The parhelic circle tends to be a very fleeting optical effect, rarely lasting for long. It is most frequently observed as one or more extensions running between the Sun and the spots of light known as parhelia, or sun dogs, that give the effect its name. Image: Spotted over Telford, Shropshire, United Kingdom by John Morgan.",
+  "altitude": "Can appear at all elevations of the Sun",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "3418439c4529.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle_issa_forever__Woodside_Hills_Buncombe_County_North_Carolina_United_States.jpg"
+    },
+    {
+      "filename": "66a0685cbe23.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle__joostvanekeris_Stadle_St._Anton_am_Arlberg_Tyrol_Austria.jpg"
+    },
+    {
+      "filename": "1c286e197bda.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle__HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "c70abe2a64a6.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Parhelic_circle_betsybeaneo_.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "a6273b9c1b1e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-5739-4-700x525.jpg"
+    },
+    {
+      "filename": "1041e421be28.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/09/Ronna-Friend-700x700.jpg"
+    },
+    {
+      "filename": "c19839387a45.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2017/03/Mazi-700x394.jpg"
+    },
+    {
+      "filename": "a38380ee0dc0.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2016/08/Angela-Moore-700x396.jpg"
+    },
+    {
+      "filename": "2adea017c635.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2014/12/DSC_9667ValerianoPerteghella-700x463.jpg"
+    },
+    {
+      "filename": "b086d7734ab3.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2014/04/LaurenParhelic-700x506.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "22-degree-halo",
+    "tangent-arc",
+    "cirrus",
+    "reflection-bow",
+    "sun-dog",
+    "cirrostratus",
+    "cirrocumulus",
+    "circumhorizon-arc"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "stratus",
+  "name": "Stratus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/stratus/",
+  "description": "The lowest-forming of all the cloud types, Stratus can give you a strangely claustrophobic feeling, even though you’re outside. It is a featureless, grey overcast layer, which lurks around with its base generally no higher than 1,500ft from the ground. This is much lower than its equally charisma-free cousin, the Altostratus cloud. Stratus can sometimes obscure the tops of tall buildings. When a cloud like this forms so low that it is at ground level, it is known as fog or mist. Since fog can sometimes form in a different way from airborne Stratus, it has a page of its own. One way that Stratus forms is when moist air cools as it blows over a relatively cold surface, such as a cold sea or land covered in thawing snow (‘advection fog’ is formed in the same way when winds are gentler). Another is when air cools as it rises. This might be as it blows up the lower slopes of a mountainside or as warmer air slowly rides up over a region of colder (denser) air. Finally, Stratus can appear when fog, which has formed overnight, lifts from the ground as it is stirred by a freshening wind. Image: Spotted over ukovník, Plzeňský Kraj, Plzeňský Kraj, Czechia by Jero.",
+  "altitude": "Low",
+  "precipitation": "None/Light",
+  "reference_images": [
+    {
+      "filename": "7237ecce90f7.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_William_A_Edmundson_Coniston_South_Lakeland_District_England.jpg"
+    },
+    {
+      "filename": "e51885a8acca.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_cara147m_Clevedon_England.jpg"
+    },
+    {
+      "filename": "67f572431752.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_unkai_Roppongi_Japan_.jpg"
+    },
+    {
+      "filename": "5040b7e7c29c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Stratus_Judithkate_Englefield_Green_Runnymede_District_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "1c5edd23f839.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+    },
+    {
+      "filename": "7fa93f8f2ce8.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7339-1-700x525.jpeg"
+    },
+    {
+      "filename": "16548f4ad53b.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7170-2-700x525.jpeg"
+    },
+    {
+      "filename": "4bb51d6921de.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7121-1-700x394.jpg"
+    },
+    {
+      "filename": "ea6a73529c0b.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7022-1-700x525.jpeg"
+    },
+    {
+      "filename": "5cb30ce52b5d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "nimbostratus",
+    "corona",
+    "stratocumulus",
+    "undulatus",
+    "glory",
+    "fractus",
+    "fluctus",
+    "altostratus",
+    "fog",
+    "cirrostratus",
+    "cloudbow"
+  ],
+  "label": "non-nlc"
+}

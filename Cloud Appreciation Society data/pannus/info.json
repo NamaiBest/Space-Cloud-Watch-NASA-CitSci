@@ -1,0 +1,55 @@
+{
+  "slug": "pannus",
+  "name": "Pannus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/pannus/",
+  "description": "Don’t get too excited about adding pannus to your cloud collection. When you do spot one, you’re likely to be rather underwhelmed, for they aren’t good-lookers. Loitering in the saturated atmosphere just below rain clouds, they resemble some sort of cloud version of hoodies, killing time outside McDonald’s on a Saturday night. These dark shreds of cloud, strictly classified as a type of Stratus fractus, give the sky a threatening air. The atmosphere below a precipitating cloud can become very humid, on account of all the moisture falling through it. Only the slightest rising gust can then cool the air enough for some of this moisture to condense into tiny droplets, which hang around as wisps of thin cloud. If it is not raining or snowing when you notice dark shreds of pannus below a forbidding sky, you can be confident that it very soon will be. Pannus are the five-minute-precipitation warning of the cloud world. As with the kids on the High Street, the sinister appearance of pannus clouds owes a lot to their surroundings. The shreds of cloud need only be thick enough to block a little light for our eyes to register them as darker than the thick, dark rain clouds above. Away from their precipitous context, pannus would be seen for the weedy wisps that they are. The same could be said of the prepubescent 14-year-olds, once stripped of their mates and hoods. Image: Spotted over Lazonby, Cumbria, England by gina g.",
+  "altitude": "Low",
+  "precipitation": "Yes/Imminent",
+  "reference_images": [
+    {
+      "filename": "a7cca353171e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pannus_svente_Essen_North_Rhine-Westphalia_Germany.jpg"
+    },
+    {
+      "filename": "5e7e4c120d82.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pannus_anncherie49_Glenhaven_The_Hills_Shire_New_South_Wales_Australia.jpg"
+    },
+    {
+      "filename": "87a037eac06f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Pannus_jutty1_Hatfield_Welwyn_Hatfield_England.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "3a0d8a697e37.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7314-1-700x525.jpeg"
+    },
+    {
+      "filename": "3bae7740b193.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5927-1-700x525.jpg"
+    },
+    {
+      "filename": "36ab8d9e92ef.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5505-2-700x525.jpeg"
+    },
+    {
+      "filename": "b8aa905e975b.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/08/cloud-gallery-4975-1-525x700.jpeg"
+    },
+    {
+      "filename": "1ed0eff28175.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4718-1-700x527.jpg"
+    },
+    {
+      "filename": "2d0411f09de8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/07/cloud-gallery-4693-1-700x315.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "fractus",
+    "cumulonimbus-2",
+    "nimbostratus",
+    "altostratus"
+  ],
+  "label": "non-nlc"
+}

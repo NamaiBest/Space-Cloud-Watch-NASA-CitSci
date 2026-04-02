@@ -1,0 +1,64 @@
+{
+  "slug": "fluctus",
+  "name": "Fluctus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/fluctus/",
+  "description": "The fluctus cloud, also known as the Kelvin-Helmholtz wave cloud, looks just like a series of enormous waves breaking on the shore. It is rare, fleeting and the favourite of surfing CloudSpotters. A well-defined fluctus is the crown jewel in many a cloud collection, for it requires the CloudSpotter to be blessed with eagle-eyed sky awareness and sheer blind luck. In one spotting alone, this cloud can help observers overtake their fiercest cloud-collecting rivals. It appears at all three cloud levels, and can be thought of as a very specific example of the undulatus cloud variety, tending to be found in Stratocumulus, Altocumulus or Cirrus clouds. The distinctive curling waves can also sometimes be spotted along the top edge of a lenticularis cloud, a small Cumulus or even a layer of fog. In all cases, the formation lasts no more than a minute or two. The breaking-wave appearance is caused by wind shear. When cloud develops at an abrupt boundary between layers of colder air below and warmer air above, and the upper layer is moving more rapidly than the lower one, undulations can develop along its upper surface. If the amount of shearing is just right, these undulations can roll up into a succession of vortices. The mechanism is rather different from that of ocean breakers, but fluctus cloud do look like a cloudspotting surfer’s idea of heaven. Image: Spotted over Gunbarrel, Boulder County, Colorado, United States by beiyou.",
+  "altitude": "Various",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "e6984ee158d2.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_Jelte_Futrikelv_Tromso_Troms_Norway.jpg"
+    },
+    {
+      "filename": "5e17b1218669.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_ugmug000_Wedekind_Washoe_County_Nevada_United_States.jpg"
+    },
+    {
+      "filename": "65feb1efc6bf.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_Andreas_Berger_Cape_Town_Western_Cape_South_Africa_.jpg"
+    },
+    {
+      "filename": "e235b86a5f97.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Fluctus_sorenhauge_Aarhus_Central_Jutland_Denmark.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "7fa93f8f2ce8.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7339-1-700x525.jpeg"
+    },
+    {
+      "filename": "9b00d99f2c83.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6946-1-700x524.jpg"
+    },
+    {
+      "filename": "bf83dd3dea96.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6885-4-525x700.jpeg"
+    },
+    {
+      "filename": "19991d0457c4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6753-1-700x525.jpg"
+    },
+    {
+      "filename": "5a1ad0525394.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6481-1-700x560.jpg"
+    },
+    {
+      "filename": "42c5afa34d62.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6330-1-700x394.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "lenticularis",
+    "cirrus",
+    "stratus",
+    "stratocumulus",
+    "undulatus",
+    "fog",
+    "altocumulus",
+    "cap-cloud",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

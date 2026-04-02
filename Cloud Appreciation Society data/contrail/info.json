@@ -1,0 +1,63 @@
+{
+  "slug": "contrail",
+  "name": "Contrail",
+  "url": "https://cloudappreciationsociety.org/cloud-library/contrail/",
+  "description": "Before the start of the First World War and the advent of high-altitude flight, our skies appeared very different from the way they do today – there were no condensation trails, or contrails, which form in the exhaust of aircraft. There’s no confusing these man-made clouds with the natural ones. Following the aircraft’s path, contrails tend to appear as long, straight slashes of white across the blue. In the vicinity of airports, however, they can sometimes form large loops, due to the stacking formation of aircraft waiting to land. The length of time contrails remain in the sky – or indeed whether they form at all – varies greatly depending on the air conditions up at cruising altitude. When it’s cold enough and moist enough, the water vapour contained in the plane’s hot exhaust gases mixes with the very cold air to condense and form ice crystals. In some conditions, these soon evaporate. In others, they can persist for hours, the ice crystals absorbing water vapour from the surrounding air to grow in size and spread out in the high winds. In this way, contrails often encourage the formation of Cirrus, Cirrocumulus and Cirrostratus ice-crystal clouds. Image: Spotted over Churánov, Jihočeský, Jihočeský, Czechia by Jero.",
+  "altitude": "High",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "ddc6643b4085.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_lucky_blaze_Bernal_Heights_San_Francisco_County_California_United_States.jpg"
+    },
+    {
+      "filename": "d38b51111cb1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_jentedeschepper_Rumst_Flemish_Belgium.jpg"
+    },
+    {
+      "filename": "c92b879ecdab.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_mercy_Sint-Anna_Antwerp_Province_Flanders_Belgium.jpg"
+    },
+    {
+      "filename": "b0dec91e1cad.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Contrail_William_A_Edmundson_Tullamore_Fulton_County_Georgia_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "a704612fef90.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/04/cloud-gallery-7647-1-700x466.jpg"
+    },
+    {
+      "filename": "dad5fd361d7a.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7407-1-700x525.jpeg"
+    },
+    {
+      "filename": "ed2fc178e8e8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7174-1-700x700.jpg"
+    },
+    {
+      "filename": "eda8daceb8a9.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7135-1-700x525.jpeg"
+    },
+    {
+      "filename": "a6273b9c1b1e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-5739-4-700x525.jpg"
+    },
+    {
+      "filename": "bc6bf8caae3c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6598-1-700x447.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "distrail",
+    "cirrus",
+    "reflection-bow",
+    "fibratus",
+    "radiatus",
+    "cirrostratus",
+    "tuba",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -59,7 +59,13 @@ Examples:
     
     # Train command
     train_parser = subparsers.add_parser('train', help='Train the model')
-    train_parser.add_argument('--csv', required=True, help='Path to CSV file')
+    train_parser.add_argument('--csv', required=True, help='Path to primary CSV file')
+    train_parser.add_argument('--extra-csv', nargs='+', metavar='CSV',
+                             help='Additional CSV files to combine with primary (e.g. scraped data)')
+    train_parser.add_argument('--cas-dir', default='',
+                             help='Path to Cloud Appreciation Society data folder (hard negatives)')
+    train_parser.add_argument('--gallery-csv', default='',
+                             help='Path to spaceweather gallery CSV (NLC positives)')
     train_parser.add_argument('--model', choices=['efficientnet_b0', 'vit_small'],
                              default='efficientnet_b0', help='Model architecture')
     train_parser.add_argument('--epochs', type=int, default=30, help='Number of epochs')
@@ -88,6 +94,12 @@ Examples:
                              help='Confidence threshold for required review')
     batch_parser.add_argument('--device', choices=['auto', 'cuda', 'mps', 'cpu'],
                              default='auto', help='Device to use')
+    
+    # Portal command
+    portal_parser = subparsers.add_parser('portal', help='Launch the web portal')
+    portal_parser.add_argument('--port', type=int, default=5001, help='Port number')
+    portal_parser.add_argument('--host', default='127.0.0.1', help='Host address')
+    portal_parser.add_argument('--debug', action='store_true', help='Enable debug mode')
     
     return parser
 
@@ -182,17 +194,88 @@ def cmd_train(args):
     print(f"  Device: {config.get_device()}")
     print("-" * 40)
     
-    # Train
-    model, results = train_nlc_classifier(
-        args.csv,
-        config,
-        resume_from=args.resume
-    )
+    # Check if multi-source training is requested
+    cas_dir = getattr(args, 'cas_dir', '') or ''
+    gallery_csv = getattr(args, 'gallery_csv', '') or ''
+    use_multi = bool(cas_dir or gallery_csv)
+    
+    if use_multi:
+        # Multi-source training: merge CAS, gallery, and SCW data
+        from nlc_classifier.data_sources import build_unified_dataset
+        from nlc_classifier.data import create_dataloaders_multi
+        from nlc_classifier.models import create_model
+        from nlc_classifier.train import Trainer
+        import os
+        
+        print("\n📊 Multi-source training mode")
+        if cas_dir:
+            print(f"  CAS folder:    {cas_dir}")
+        if gallery_csv:
+            print(f"  Gallery CSV:   {gallery_csv}")
+        print(f"  SCW CSV:       {args.csv}")
+        
+        unified_df = build_unified_dataset(
+            cas_dir=cas_dir if cas_dir else None,
+            gallery_csv=gallery_csv if gallery_csv else None,
+            scw_csv=args.csv,
+            image_columns=config.data.image_columns,
+        )
+        
+        config.setup_directories()
+        device = config.get_device()
+        print(f"Using device: {device}")
+        
+        train_loader, val_loader, stats = create_dataloaders_multi(unified_df, config)
+        model = create_model(config.model, device)
+        trainer = Trainer(model, config, train_loader, val_loader, device)
+        
+        if args.resume:
+            print(f"Resuming from {args.resume}")
+            trainer.load_checkpoint(args.resume)
+        
+        results = trainer.train()
+        
+        # Load best model
+        best_path = os.path.join(config.training.checkpoint_dir, 'best_model.pt')
+        if os.path.exists(best_path):
+            checkpoint = torch.load(best_path, map_location=device, weights_only=False)
+            model.load_state_dict(checkpoint['model_state_dict'])
+    else:
+        # Legacy single-CSV training path
+        csv_path = args.csv
+        if getattr(args, 'extra_csv', None):
+            import pandas as pd, tempfile, os
+            dfs = [pd.read_csv(args.csv)]
+            for extra in args.extra_csv:
+                print(f"  Merging extra CSV: {extra}")
+                dfs.append(pd.read_csv(extra))
+            combined = pd.concat(dfs, ignore_index=True)
+            tmp = tempfile.NamedTemporaryFile(mode='w', suffix='.csv', delete=False)
+            combined.to_csv(tmp.name, index=False)
+            tmp.close()
+            csv_path = tmp.name
+            print(f"  Combined dataset: {len(combined)} rows → {csv_path}")
+
+        model, results = train_nlc_classifier(
+            csv_path,
+            config,
+            resume_from=args.resume
+        )
     
     print("\nTraining complete!")
     print(f"Best model saved to: {args.checkpoint_dir}/best_model.pt")
     
     return model, results
+
+
+def cmd_portal(args):
+    """Launch the web portal."""
+    from portal.app import create_app
+    
+    app = create_app()
+    print(f"\n🌐 Launching NLC Portal at http://{args.host}:{args.port}")
+    print("   Press Ctrl+C to stop.\n")
+    app.run(host=args.host, port=args.port, debug=args.debug)
 
 
 def cmd_predict(args):
@@ -325,6 +408,8 @@ def main():
         cmd_predict(args)
     elif args.command == 'batch-predict':
         cmd_batch_predict(args)
+    elif args.command == 'portal':
+        cmd_portal(args)
     else:
         parser.print_help()
         sys.exit(1)

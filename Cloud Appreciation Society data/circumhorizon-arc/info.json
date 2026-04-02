@@ -1,0 +1,61 @@
+{
+  "slug": "circumhorizon-arc",
+  "name": "Circumhorizon arc",
+  "url": "https://cloudappreciationsociety.org/cloud-library/circumhorizon-arc/",
+  "description": "When you see what looks like a rainbow that has been flattened into a horizontal line, you have likely spotted a ‘circumhorizon arc’. The optical effect is caused by ice crystals in the sky acting as tiny prisms that refract the light, and it appears as a bright, flat band of colours parallel to the horizon. Ranging from red at the top to indigo at the base, it appears well below a Sun that is high in the sky. In fact, a circumhorizon arc can only form when the Sun is very high – at an angle of more than 58 degrees above the horizon. This means that it is a summer optical effect, and one that can only form in some parts of the world. Even in mid-summer, the Sun only rises high enough in the sky for a circumhorizon arc to be visible in latitudes below 55 degrees. As a result, this ‘flat rainbow’ that has nothing to do with rain is common in Nairobi, infrequent in Seattle, and unheard of in Copenhagen. Image: Spotted over Westport Point, Bristol County, Massachusetts, United States by pwalters.",
+  "altitude": "Can appear only when Sun is higher then about 60° from the horizon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "2bba7048a561.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_adria_s_hillman_eed_Mines_Town_of_Ancram_New_York_United_States.jpg"
+    },
+    {
+      "filename": "2bd5217d87e1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_Hans_Torrequebrada_Benalmadena_Andalusia_Spain.jpg"
+    },
+    {
+      "filename": "23d08af9867f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_friedtomatoes_Moon_Township_Allegheny_County_Pennsylvania_United_States.jpg"
+    },
+    {
+      "filename": "1723da667ae2.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumhorizon_arc_ebloustein_Park_Slope_Kings_County_New_York_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "cef117087454.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/F22paxJR20Vl4zhEDOCoc8dLuo722025-04-24T16_04_28.902Z-1200-700x467.jpg"
+    },
+    {
+      "filename": "19dff957b678.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1746-2-327x700.jpeg"
+    },
+    {
+      "filename": "824a94e70140.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/06/cloud-gallery-409-1-700x525.jpeg"
+    },
+    {
+      "filename": "0ea1afc13a41.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/07/Henry-Kaplan-700x467.jpg"
+    },
+    {
+      "filename": "98174e459748.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/01/Tjaard-Heikens-700x467.jpg"
+    },
+    {
+      "filename": "4ebae1d63c69.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/08/Christa-Harbig-700x477.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "rainbow",
+    "reflection-bow",
+    "cirrus",
+    "parhelic-circle",
+    "cirrostratus",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "cumulonimbus-2",
+  "name": "Cumulonimbus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/cumulonimbus-2/",
+  "description": "No cloud collection is complete without the big one, the boss, the King or Queen of Clouds: Cumulonimbus. This enormous storm cloud, which often spreads out at the top to resemble a blacksmith’s anvil, can form individually or co-ordinate with neighbours to form multicell and supercell storms. CloudSpotters should note that the cloud’s anvil shape is visible only when spotting it from many miles away. It develops from a very large Cumulus, known as Cumulus congestus, and has officially grown into a Cumulonimbus only once its summit has ‘glaciated’, meaning that its particles have changed from droplets to ice crystals. This is revealed by the cloud top developing softer edges. Below a Cumulonimbus, you will see just its dark, ragged underside, which (being so low) appears to cover the whole sky. In this case, you can distinguish it from similar-looking Nimbostratus by the fact that its precipitation is in the form of sudden, heavy showers and the fact that it produces thunder, lightning and often hail. Cumulonimbus also gives rise to a whole range of distinctive cloud features, such as incus, mamma, pileus, velum, shelf clouds, roll clouds and tuba. Image: Spotted over Østerby, Frederikshavn Kommune, North Denmark, Denmark by Yalla.",
+  "altitude": "Multiple",
+  "precipitation": "Heavy",
+  "reference_images": [
+    {
+      "filename": "56e057d1b653.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Watto_Lee_Point_Darwin_Northern_Territory_Australia_.jpg"
+    },
+    {
+      "filename": "8a5f335ba93f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_fbdiniz_Curitiba_Parana_Brazil.jpg"
+    },
+    {
+      "filename": "fe6cf6218a96.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Fallout_Catamaran_Tasmania_Australia.jpg"
+    },
+    {
+      "filename": "6f60958becf9.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Ulli_Proske_Michelago_Cooma-Monaro_New_South_Wales_Australia.jpg"
+    },
+    {
+      "filename": "ff667223e00e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cumulonimbus_Lyrah_Den_Duivel_Flemish_Belgium.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "76a8727f9d2e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/04/cloud-gallery-7646-1-700x525.jpg"
+    },
+    {
+      "filename": "230c1395d573.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7625-1-700x467.jpg"
+    },
+    {
+      "filename": "6f24cac1879e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7607-5-700x525.jpeg"
+    },
+    {
+      "filename": "c3aca6ae7829.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7577-1-700x525.jpeg"
+    },
+    {
+      "filename": "5a5cb2019b0e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7532-1-700x525.jpeg"
+    },
+    {
+      "filename": "0f804cb74757.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7389-1-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "anti-crepuscular-rays",
+    "horseshoe-vortex",
+    "cumulus",
+    "rainbow",
+    "arcus",
+    "pyrocumulus",
+    "murus",
+    "pileus",
+    "virga",
+    "crepuscular-rays",
+    "tuba",
+    "congestus",
+    "pannus",
+    "velum",
+    "asperitas",
+    "reflection-bow",
+    "nimbostratus",
+    "rainbow-wheel",
+    "supernumerary-bows",
+    "volutus",
+    "mamma"
+  ],
+  "label": "non-nlc"
+}

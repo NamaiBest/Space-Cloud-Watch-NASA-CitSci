@@ -1,0 +1,61 @@
+{
+  "slug": "sun-pillar",
+  "name": "Sun pillar",
+  "url": "https://cloudappreciationsociety.org/cloud-library/sun-pillar/",
+  "description": "A sun pillar is a vertical streak of light that appears above or below a low Sun that is shining through clouds made of ice crystals, such as Cirrus, Cirrostratus and Cirrocumulus, or the ground-level ice-crystal fog, diamond dust. At night, they are known as ‘moon pillars’. These halo phenomena, which appear on about 25 days of the year (in Western Europe), are due to sunlight reflecting off the surfaces of ice crystals, not shining through them like most of the other halo phenomena. Sun pillars are akin to ‘glitter paths’ that shine on the rippled surface of the sea. The pillar extending above the Sun, formed by reflections off the underside of the ice crystals, appears brightest when the Sun is just below the horizon. Most other halo phenomena look best when the clouds’ crystals are optically pure, regularly shaped and neatly aligned, but this is not the case for Sun pillars. Since the light needs only to glance off a surface, the crystals can be rough, irregular and jumbled. The poor man’s halo phenomena, they often appear when cloud crystals aren’t quite right for the more refined arcs, rings and spots of light to form. Image: Spotted over Alpine, North Slope Borough, Alaska, United States by JamesH.",
+  "altitude": "Can appear when the Sun/Moon is < 5° above or below the horizon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "a1abdaf2427e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_verpaele_Rooigem_East_Flanders_Province_Flanders_Belgium.jpg"
+    },
+    {
+      "filename": "d616d42c61ba.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_marksmith_Gemaal_De_Ronde_Venen_Utrecht_Netherlands.jpg"
+    },
+    {
+      "filename": "9435bff69b70.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_chridevo_Darwin_Northern_Territory_Australia.jpg"
+    },
+    {
+      "filename": "3355dd57a30e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Sun_pillar_errlBreezy_.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "5cb30ce52b5d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+    },
+    {
+      "filename": "bad733cefa9c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5497-1-700x467.jpg"
+    },
+    {
+      "filename": "6163ff37b461.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/05/cloud-gallery-3915-1-700x525.jpeg"
+    },
+    {
+      "filename": "7c4eee25f21f.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1559-1-700x525.jpeg"
+    },
+    {
+      "filename": "033c3996e2bb.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/07/cloud-gallery-707-1-700x314.jpg"
+    },
+    {
+      "filename": "a7bbf96e1af8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/02/Paulo_Bardelli_01-700x467.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "tangent-arc",
+    "cirrus",
+    "reflection-bow",
+    "cirrostratus",
+    "crepuscular-rays",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

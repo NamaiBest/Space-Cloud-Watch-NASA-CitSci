@@ -1,0 +1,60 @@
+{
+  "slug": "glory",
+  "name": "Glory",
+  "url": "https://cloudappreciationsociety.org/cloud-library/glory/",
+  "description": "CloudSpotters must gain some elevation to add a glory to their collection of cloud optical effects, for this striking phenomenon is seen only with the Sun directly behind you, as it casts your shadow on to a layer of cloud. The glory, which looks like a series of rainbow rings around the shadow, is produced by cloud droplets reflecting, refracting and diffracting sunlight, although the exact optics are still not fully understood. One of the easiest places to spot a glory is from that great cloudspotting location, the window of a plane. It can sometimes appear around the plane’s shadow, cast on to a nearby layer of cloud or fog. When the cloud’s some distance away, the shadow is absent and you just see the coloured rings. The most eerie form of glory, the ‘Brocken spectre’, is when the rings appear around your own shadow as you look at cloud from a mountain ridge. The perspective can make the legs of your shadow flare out. What with the multicoloured halo, it looks like a ghost from the 1970s. Image: Spotted over New South Wales, Australia by Jessica.",
+  "altitude": "Can appear for all altitudes of the Sun, when shadow is cast onto cloud",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "5e167c930950.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_futurshox_Kemp_Bryan_County_Oklahoma_United_States.jpg"
+    },
+    {
+      "filename": "d111a25c6056.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_lillian_Matlock_Derbyshire_Dales_District_England.jpg"
+    },
+    {
+      "filename": "751d435cebb7.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_leeatkin_Wythburn_Allerdale_District_England.jpg"
+    },
+    {
+      "filename": "a839c73e1383.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Glory_cannoncat_Shipile_Shanghai_China.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "69b77366b2e9.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4350-1-700x525.jpeg"
+    },
+    {
+      "filename": "7cbd81f83bdb.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1902-1-525x700.jpeg"
+    },
+    {
+      "filename": "4bf6dd013a9e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1762-1-662x700.jpeg"
+    },
+    {
+      "filename": "afd11cada162.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/03/Paul-Hodkiewicz-525x700.jpg"
+    },
+    {
+      "filename": "f029b99d3167.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2023/03/Harvey-Madison-700x700.jpg"
+    },
+    {
+      "filename": "b4794e785843.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/12/Stefano-Poli-525x700.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "22-degree-halo",
+    "corona",
+    "stratus",
+    "stratocumulus",
+    "fog"
+  ],
+  "label": "non-nlc"
+}

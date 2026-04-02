@@ -1,0 +1,59 @@
+{
+  "slug": "cloudbow",
+  "name": "Cloudbow",
+  "url": "https://cloudappreciationsociety.org/cloud-library/cloudbow/",
+  "description": "Cloudbows are like rainbows, but with much paler colours. In fact, they often don’t show any discernible colours at all – looking like albino rainbows, or the ghosts of rainbows past. They appear as the sunlight is reflected and refracted by the tiny droplets that make up low and mid-level clouds, rather than the much larger raindrops that produce rainbows. In order to see a cloudbow, you have to be looking towards cloud droplets on to which the Sun is shining from directly behind your line of vision. Such a viewpoint is possible only from above clouds, which is why cloudbows are usually seen from a plane, or a mountaintop. These are the same conditions in which to see the multicoloured ring around your shadow, called a glory. If you see one, look for the other. CloudSpotters wanting to add an albino rainbow to their collection, without taking to the air, should seek ‘fogbows’. These are exactly the same, but appear in fog or mist. Cloud/fogbow colours are pale or absent because, at less than 0.1mm across, cloud droplets diffract sunlight more efficiently than larger raindrops, causing the colours to overlap and blur into each other more than those of a rainbow. Image: Spotted over Mountainaire, Coconino County, Arizona, United States by CuBean.",
+  "altitude": "Can appear when Sun is < 42° above horizon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "8285d83852b5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_Shorticus_.jpg"
+    },
+    {
+      "filename": "855ca4d467ce.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_teralligator_SeaTac_King_County_Washington_United_States.jpg"
+    },
+    {
+      "filename": "0d6ddd2a0340.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_margweb_Fort_Preble_Cumberland_County_Maine_United_States.jpg"
+    },
+    {
+      "filename": "da3f204b276d.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Cloudbow_margobe_.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "8d28f1917119.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6526-1-700x467.jpeg"
+    },
+    {
+      "filename": "9514d8b63017.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6231-1-700x700.jpg"
+    },
+    {
+      "filename": "69b77366b2e9.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4350-1-700x525.jpeg"
+    },
+    {
+      "filename": "3136aedd3046.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4298-2-700x467.jpg"
+    },
+    {
+      "filename": "21756a3e4171.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/12/cloud-gallery-2596-1-700x467.jpg"
+    },
+    {
+      "filename": "22748c9e3033.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2024/10/cloud-gallery-1658-1-700x626.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "rainbow",
+    "22-degree-halo",
+    "stratus",
+    "fog"
+  ],
+  "label": "non-nlc"
+}

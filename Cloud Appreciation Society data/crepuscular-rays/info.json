@@ -1,0 +1,63 @@
+{
+  "slug": "crepuscular-rays",
+  "name": "Crepuscular rays",
+  "url": "https://cloudappreciationsociety.org/cloud-library/crepuscular-rays/",
+  "description": "Even if they don’t know the name, most CloudSpotters will have plenty of opportunities to add crepuscular rays to their collection of cloud optical effects. They’re the familiar Sunbeams that appear to burst from behind a Cumulus cloud, or shine down through a hole in a Stratocumulus. Crepuscular rays appear when the path of sunlight is made visible by tiny atmospheric particles, too scarce to appear as cloud, but plentiful enough to scatter the light noticeably. Like fingers through a torch beam, the cloud shadows give edges to the rays. In spite of being almost parallel, these rays seem to radiate outwards from behind the cloud. This is just the same perspective effect as railway tracks seeming to widen as they get nearer. Whenever you notice crepuscular rays from a low Sun, look to the opposite horizon for the far less obvious ‘anti-crepuscular rays’. Appearing to emanate from a point directly opposite the Sun, these are the shadows cast by clouds behind you, like the shadow of someone shuffling behind you in a dusty cinema. Perspective makes them appear to converge in the distance. Few people ever notice anti-crepuscular rays – except vampire CloudSpotters, eager for the arrival of night. Image: Spotted over Morey, Boulder County, Colorado, United States by packyman.",
+  "altitude": "Can appear for all altitudes of the Sun",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "ea05666798af.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_shan_jay_.jpg"
+    },
+    {
+      "filename": "3e3063773d37.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_suzielillyvet_.jpg"
+    },
+    {
+      "filename": "8e18bb217e4e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_TizianoB91_Montegambero_Rieti_Latium_Italy.jpg"
+    },
+    {
+      "filename": "6c9771b75637.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Crepuscular_rays_JohnF_Arnisdale_Highland_Scotland.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "17b78d5e00e1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7572-1-394x700.jpg"
+    },
+    {
+      "filename": "1c5edd23f839.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7458-1-394x700.jpg"
+    },
+    {
+      "filename": "64fa895893ed.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7186-1-700x394.jpeg"
+    },
+    {
+      "filename": "525f316dac8f.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6976-1-700x525.jpeg"
+    },
+    {
+      "filename": "a4dff23dec54.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6964-1-700x395.jpg"
+    },
+    {
+      "filename": "800167c07b19.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6305-1-700x525.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "anti-crepuscular-rays",
+    "rainbow-wheel",
+    "stratocumulus",
+    "sun-pillar",
+    "fog",
+    "altocumulus",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

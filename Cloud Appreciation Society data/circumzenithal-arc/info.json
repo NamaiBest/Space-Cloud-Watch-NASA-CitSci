@@ -1,0 +1,64 @@
+{
+  "slug": "circumzenithal-arc",
+  "name": "Circumzenithal arc",
+  "url": "https://cloudappreciationsociety.org/cloud-library/circumzenithal-arc/",
+  "description": "The circumzenithal arc is a halo phenomenon that appears like a multicoloured smile in the sky. Photographs of it look as if some fool’s got a rainbow snap upside down, but this bow of colours actually appears in a totally different part of the sky from rainbows. On the 25 or so times a year that it appears (in Western Europe), it forms high up in the sky, like the fragment closest to the Sun of a circle around the zenith (the point directly above you). Whenever you notice the spots of light on either side of the Sun called Sun dogs, always look directly up because you might also be able to add this most beautiful of all halo phenomena to your collection of cloud optical effects, for it is produced by the same cloud ice crystals. It appears as sunlight is refracted by the ice crystals of thin layers of high clouds, such as Cirrus, Cirrostratus and Cirrocumulus, or the ground-level ice-crystal cloud, diamond dust. Image: Spotted over Bunker Hill, Los Angeles County, California, United States by Cali_fly.",
+  "altitude": "Can appear when Sun is < 32° above horizon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "dc0a6cd9b960.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_HansStocker_Bloemendaal_North_Holland_Netherlands.jpg"
+    },
+    {
+      "filename": "4ce478d7dd73.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_Mayfly_Middleton_South_Lakeland_District_England.jpg"
+    },
+    {
+      "filename": "481f476dfade.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_naoty_Miyayamacho_Osaka_Japan.jpg"
+    },
+    {
+      "filename": "55da984bffd2.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Circumzenithal_arc_Thorneyet_Smiljevaca_Licko-Senjska_Croatia.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "d0255d73b866.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7139-1-525x700.jpeg"
+    },
+    {
+      "filename": "3db8fa649fde.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6407-1-525x700.jpeg"
+    },
+    {
+      "filename": "06a872f3fd1a.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/11/cloud-gallery-6101-1-700x525.jpg"
+    },
+    {
+      "filename": "f818425159bf.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/05/cloud-gallery-3856-1-700x467.jpg"
+    },
+    {
+      "filename": "cb54e6cc8f8f.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2850-1-700x393.jpeg"
+    },
+    {
+      "filename": "8dafde481566.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/01/cloud-gallery-2788-3-700x467.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "tangent-arc",
+    "rainbow",
+    "reflection-bow",
+    "cirrus",
+    "cavum",
+    "sun-dog",
+    "cirrostratus",
+    "cirrocumulus",
+    "supralateral-arc"
+  ],
+  "label": "non-nlc"
+}

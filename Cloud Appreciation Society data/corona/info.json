@@ -1,0 +1,68 @@
+{
+  "slug": "corona",
+  "name": "Corona",
+  "url": "https://cloudappreciationsociety.org/cloud-library/corona/",
+  "description": "Look towards the Sun shining through thin cloud and you might find that it is surrounded by a corona. This is a bluish-white disc of light with a ruddy outer edge, often surrounded by rings of iridescent colours. CloudSpotters should be careful to protect their eyes by blocking the Sun with a hand. Coronae can be seen less painfully when clouds drift in front of a bright Moon. Closely related to cloud iridescence, coronae are caused when the light is diffracted as it passes around a cloud’s particles. Only if these are all very small and the cloud layer is thin will the colours of the corona appear distinct around the central bright disc. The smaller the cloud droplets, the larger the corona. CloudSpotters should take care not to confuse a corona with a 22-degree halo. Not only is the corona much smaller (the outer edge usually being less than 5˚ from the Sun or Moon – the width of three fingers, at arm’s length), it also has a bright central disc, or ‘aureole’, while the halo is just a ring of light. Nor should they confuse it with a glory, which appears in the opposite direction, looking away from the Sun. Coronae can also be seen around car headlights viewed through a windscreen misted up with condensation. Anyone claiming credit for this is a terrible cheat. Image: Spotted over Unterwand, Großarl, Salzburg, Austria by GillesPieters.",
+  "altitude": "Can appear for all altitudes of the Sun/Moon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "86835d1171eb.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_packyman_Morey_Boulder_County_Colorado_United_States.jpg"
+    },
+    {
+      "filename": "6f49785e9eab.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_terenciano_Jundiai_Jundiai_Sao_Paulo_Brazil_.jpg"
+    },
+    {
+      "filename": "32f3760c1f51.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_LiziWai_Blackpool_Auckland_Auckland_New_Zealand.jpg"
+    },
+    {
+      "filename": "b179ea885c53.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_TyFLy_London_England.jpg"
+    },
+    {
+      "filename": "28cf29f46335.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Corona_wayvie_Elbe_Washington_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "1d3b6ed9a6c5.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7447-1-700x525.jpeg"
+    },
+    {
+      "filename": "38ded4fff85d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7395-2-700x394.jpeg"
+    },
+    {
+      "filename": "ed2fc178e8e8.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7174-1-700x700.jpg"
+    },
+    {
+      "filename": "3dd7d1f401be.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6761-1-525x700.jpg"
+    },
+    {
+      "filename": "d2a3beebb178.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/06/cloud-gallery-4285-1-700x503.jpg"
+    },
+    {
+      "filename": "dc524cca3f06.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/03/cloud-gallery-3219-1-700x393.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "22-degree-halo",
+    "reflection-bow",
+    "stratus",
+    "glory",
+    "iridescence",
+    "cirrostratus",
+    "altocumulus",
+    "fog",
+    "cirrocumulus"
+  ],
+  "label": "non-nlc"
+}

@@ -17,6 +17,16 @@ class DataConfig:
     train_split: float = 0.8  # 80% training, 20% validation
     random_seed: int = 42
     
+    # Multi-source paths (optional — used by multi-source training)
+    cas_dir: str = ""          # Cloud Appreciation Society data folder
+    gallery_csv: str = ""      # Spaceweather gallery CSV
+    
+    # Hard-negative cloud types (CAS subfolder names visually similar to NLCs)
+    hard_negative_types: List[str] = field(default_factory=lambda: [
+        "cirrus", "cirrostratus", "cirrocumulus", "nacreous",
+        "undulatus", "fibratus", "contrail", "crepuscular-rays", "sun-pillar",
+    ])
+    
     # Relevant CSV columns
     label_column: str = "did you see nlc?"  # Primary label: Yes/No
     nlc_types_column: str = "types of nlc"  # Multi-label: Type 1-4

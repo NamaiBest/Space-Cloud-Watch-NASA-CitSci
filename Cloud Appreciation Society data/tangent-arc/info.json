@@ -1,0 +1,61 @@
+{
+  "slug": "tangent-arc",
+  "name": "Tangent arc",
+  "url": "https://cloudappreciationsociety.org/cloud-library/tangent-arc/",
+  "description": "Some halo phenomena like the tangent arc vary in shape depending on the elevation of the Sun. Tangent arcs tend to form about once a month in the skies over temperate regions, so they are relatively common. They can appear either above or below the Sun, always positioned so that the centre of the arc is just touching that most common of halo phenomena, the 22-degree halo. So if a 22-degree halo around the Sun is visible at the same time the tangent arc will be touching it tangentially. When the Sun is low on the horizon the tangent arc is shaped like a ‘V’. As the Sun climbs higher in the sky it has a more flattened shape, its edges curving more and more around the Sun. Tangent arcs below the Sun are usually only seen from elevated positions like a mountainside or an aircraft. When the angle of the Sun above the horizon is 30° or higher, the ends of the upper and lower tangent arcs will have curved around the Sun so much that they appear to join together to form a continuous oval shape. These joined upper and lower tangent arcs are then known as a ‘circumscribed halo’. Are you all paying attention at the back of the class? Image: Spotted over Fossum Terrasse, Eiksmarka, Bærum, Akershus, Norway by Monica Nitteberg.",
+  "altitude": "Can appear when the Sun is < 30° from the horizon",
+  "precipitation": "Unrelated",
+  "reference_images": [
+    {
+      "filename": "62e191105416.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_Monica_Nitteberg_Eiksmarka_Baerum_Akershus_Norway.jpg"
+    },
+    {
+      "filename": "cf6356fc7503.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_anncherie49_Glenhaven_The_Hills_Shire_New_South_Wales_Australia.jpg"
+    },
+    {
+      "filename": "d388bc3f6abf.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_dmalpas_Summit_Camp_Ostgronland_Greenland.jpg"
+    },
+    {
+      "filename": "4587fb187427.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_Jero_Malec_Plzensky_Czechia.jpg"
+    },
+    {
+      "filename": "aec4c623e787.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Tangent_arc_John_Callender_Grindelwald_Switzerland.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "5cb30ce52b5d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7010-1-700x525.jpeg"
+    },
+    {
+      "filename": "e54ab29b3e17.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/09/Tracy-Hindle-700x467.jpg"
+    },
+    {
+      "filename": "9edb0d0a2dd1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2021/02/Malin-Redvall-700x525.jpg"
+    },
+    {
+      "filename": "b63f3bf10ed5.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2018/12/Ed-Hilinski-700x501.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "22-degree-halo",
+    "reflection-bow",
+    "cirrus",
+    "parhelic-circle",
+    "sun-pillar",
+    "sun-dog",
+    "cirrostratus",
+    "cirrocumulus",
+    "circumzenithal-arc",
+    "supralateral-arc"
+  ],
+  "label": "non-nlc"
+}

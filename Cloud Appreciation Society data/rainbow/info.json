@@ -1,0 +1,67 @@
+{
+  "slug": "rainbow",
+  "name": "Rainbow",
+  "url": "https://cloudappreciationsociety.org/cloud-library/rainbow/",
+  "description": "We all love rainbows, but don’t expect to win any awards for spotting one because they’re just too easy to notice. How ironic that rainbows, appearing on average about ten times a year (over Western Europe), are actually less frequent than some halo phenomena (caused by cloud ice crystals, rather than raindrops) that most people never even notice. To see a rainbow, look towards a rain shower with your back to the sun, which must be no higher than 42˚ above the horizon (unless you are looking down onto rain, say from a mountain or high building). Passing into each raindrop and reflecting off the back inner surface, the sunlight is refracted as it enters and leaves each drop. The paths of its constituent wavelengths are bent by different amounts, separating out the colours. Convection clouds like Cumulus and Cumulonimbus are the best sort for making rainbows, as they’re more likely to produce showers when the sky around is clear, allowing direct sunlight to shine on them. Besides the primary bow, a larger, fainter secondary bow can appear – the darker sky between the two being known as ‘Alexander’s dark band’. Within the primary bow, there are sometimes faint coloured fringes, called ‘supernumerary bows’. Image: Spotted over Sun Valley, Blaine County, Idaho, United States by robbietopo.",
+  "altitude": "Can appear when Sun is < 42° above horizon",
+  "precipitation": "Showers",
+  "reference_images": [
+    {
+      "filename": "4cf8f61e1682.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_Peglet_Illgen_City_Lake_County_Minnesota_United_States_.jpg"
+    },
+    {
+      "filename": "95abf0ff915c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow__ilsjepilsje_Oudehaske_Skarsterlan_Friesland_Netherlands.jpg"
+    },
+    {
+      "filename": "4fca143aee0e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_helenahigwig_Appersett_Richmondshire_District_England.jpg"
+    },
+    {
+      "filename": "e3af4b18d610.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_Gindylow_Muckross_Abbey_Munster_Munster_Ireland.jpg"
+    },
+    {
+      "filename": "e50771dca63c.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Rainbow_Suzanne_Winckler_Embarrass_Minnesota_United_States.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "76a8727f9d2e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/04/cloud-gallery-7646-1-700x525.jpg"
+    },
+    {
+      "filename": "5a5cb2019b0e.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7532-1-700x525.jpeg"
+    },
+    {
+      "filename": "df87c91685ca.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/02/cloud-gallery-7054-1-700x525.jpeg"
+    },
+    {
+      "filename": "2a5741b9debb.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-7011-1-700x410.jpeg"
+    },
+    {
+      "filename": "fbb25d552346.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6703-1-700x364.jpeg"
+    },
+    {
+      "filename": "17ca4ff74a61.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6567-1-700x525.jpeg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "reflection-bow",
+    "circumhorizon-arc",
+    "rainbow-wheel",
+    "supernumerary-bows",
+    "circumzenithal-arc",
+    "cloudbow",
+    "cumulonimbus-2",
+    "cumulus"
+  ],
+  "label": "non-nlc"
+}

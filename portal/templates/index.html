@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLC Detection Pipeline — Space Cloud Watch</title>
+    <meta name="description" content="Noctilucent Cloud classification pipeline dashboard for NASA Space Cloud Watch citizen science.">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span class="logo-icon">🌌</span>
+            <div>
+                <h1>NLC Pipeline</h1>
+                <p class="subtitle">NASA Space Cloud Watch</p>
+            </div>
+        </div>
+        <nav>
+            <button class="nav-btn active" data-tab="dashboard">Dashboard</button>
+            <button class="nav-btn" data-tab="predict">Predict</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Dashboard Tab -->
+        <section id="tab-dashboard" class="tab active">
+            <h2 class="section-title">Dataset Overview</h2>
+            <div id="stats-loading" class="loading-spinner">Loading data…</div>
+            <div id="stats-grid" class="stats-grid" style="display:none;"></div>
+
+            <h2 class="section-title" style="margin-top:2rem;">Source Breakdown</h2>
+            <div id="source-breakdown" class="card" style="display:none;">
+                <div class="breakdown-row">
+                    <div class="breakdown-item">
+                        <span class="label">Spaceweather Gallery</span>
+                        <span id="gallery-count" class="value accent">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">CAS Noctilucent</span>
+                        <span id="cas-nlc-count" class="value accent">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">Space Cloud Watch (NLC)</span>
+                        <span id="scw-nlc-count" class="value accent">—</span>
+                    </div>
+                </div>
+                <div class="breakdown-row" style="margin-top:1rem;">
+                    <div class="breakdown-item">
+                        <span class="label">CAS Hard Negatives</span>
+                        <span id="cas-hard-neg" class="value warn">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">CAS Easy Negatives</span>
+                        <span id="cas-easy-neg" class="value">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">SCW No-NLC</span>
+                        <span id="scw-no-count" class="value">—</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Model Status -->
+            <h2 class="section-title" style="margin-top:2rem;">Model Status</h2>
+            <div id="model-status" class="card" style="display:none;">
+                <div class="breakdown-row">
+                    <div class="breakdown-item">
+                        <span class="label">Status</span>
+                        <span id="model-state" class="value accent">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">Best Accuracy</span>
+                        <span id="model-acc" class="value accent">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">Best F1</span>
+                        <span id="model-f1" class="value accent">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="label">Best Epoch</span>
+                        <span id="model-epoch" class="value">—</span>
+                    </div>
+                </div>
+            </div>
+            <!-- How Classification Works -->
+            <h2 class="section-title" style="margin-top:2rem;">How Classification Works</h2>
+            <div class="card explainer">
+                <div class="explainer-intro">
+                    <p>Each image is run through <strong>EfficientNet-B0</strong>, a convolutional neural network pretrained on ImageNet and fine-tuned on 890 sky images from three citizen science sources. The model outputs two things simultaneously:</p>
+                </div>
+
+                <div class="explainer-grid">
+                    <!-- Task 1 -->
+                    <div class="explainer-block">
+                        <div class="explainer-block-title">Step 1 — NLC Detection</div>
+                        <p class="explainer-desc">The binary head answers one question: <em>are there noctilucent clouds in this image?</em></p>
+                        <div class="class-row">
+                            <span class="class-badge nlc">NLC Present</span>
+                            <span class="class-desc">Noctilucent clouds detected above the mesosphere (~80 km altitude), typically blue/silver in colour at twilight.</span>
+                        </div>
+                        <div class="class-row">
+                            <span class="class-badge no-nlc">No NLC</span>
+                            <span class="class-desc">Ordinary clouds, clear sky, starfield, aurora, or any scene without noctilucent clouds.</span>
+                        </div>
+                    </div>
+
+                    <!-- Task 2 -->
+                    <div class="explainer-block">
+                        <div class="explainer-block-title">Step 2 — NLC Type Classification</div>
+                        <p class="explainer-desc">When NLC is detected, the type head identifies which of the four morphological types are present. Multiple types can appear in the same image.</p>
+                        <div class="type-grid">
+                            <div class="type-card">
+                                <span class="type-num">Type 1</span>
+                                <span class="type-name">Veil</span>
+                                <span class="type-desc">Faint, featureless sheet — a thin, uniform luminous layer with no visible structure.</span>
+                            </div>
+                            <div class="type-card">
+                                <span class="type-num">Type 2</span>
+                                <span class="type-name">Bands</span>
+                                <span class="type-desc">Long parallel streaks running roughly horizontally across the display.</span>
+                            </div>
+                            <div class="type-card">
+                                <span class="type-num">Type 3</span>
+                                <span class="type-name">Waves</span>
+                                <span class="type-desc">Short, closely spaced wave-like undulations — ripples perpendicular to the bands.</span>
+                            </div>
+                            <div class="type-card">
+                                <span class="type-num">Type 4</span>
+                                <span class="type-name">Whirls</span>
+                                <span class="type-desc">Partial or complete circular rings and swirl patterns caused by wind shear.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Confidence & Review -->
+                <div class="confidence-explainer">
+                    <div class="explainer-block-title" style="margin-bottom:.75rem;">Confidence & Review Flag</div>
+                    <div class="conf-bands">
+                        <div class="conf-band high">
+                            <span class="conf-range">≥ 85%</span>
+                            <span class="conf-label">High confidence</span>
+                            <span class="conf-meaning">Auto-accepted — still logged for audit</span>
+                        </div>
+                        <div class="conf-band mid">
+                            <span class="conf-range">65 – 85%</span>
+                            <span class="conf-label">Medium confidence</span>
+                            <span class="conf-meaning">Flagged — human review recommended</span>
+                        </div>
+                        <div class="conf-band low">
+                            <span class="conf-range">&lt; 65%</span>
+                            <span class="conf-label">Low confidence</span>
+                            <span class="conf-meaning">Priority review — model is uncertain</span>
+                        </div>
+                    </div>
+                    <p class="explainer-note">Entropy (a measure of prediction spread across classes) is also reported. High entropy (&gt; 0.9) indicates the model may be seeing an out-of-distribution image — such as aurora, light pollution, or extreme lens flare.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Predict Tab -->
+        <section id="tab-predict" class="tab">
+            <h2 class="section-title">Predict Image</h2>
+            <div class="card">
+                <div class="predict-input-row">
+                    <input type="text" id="image-path" placeholder="Enter local image path…" class="path-input">
+                    <button class="btn-primary" onclick="runPrediction()">Classify</button>
+                </div>
+                <p class="hint">Or drag &amp; drop an image below</p>
+                <div id="drop-zone" class="drop-zone">
+                    <span>📷 Drop image here</span>
+                </div>
+            </div>
+
+            <div id="prediction-result" class="card result-card" style="display:none; margin-top:1.5rem;">
+                <h3>Result</h3>
+                <div class="result-grid">
+                    <div class="result-main">
+                        <span id="pred-label" class="pred-label">—</span>
+                        <span id="pred-confidence" class="pred-confidence">—</span>
+                    </div>
+                    <div class="result-details">
+                        <div><span class="label">Entropy</span><span id="pred-entropy" class="value">—</span></div>
+                        <div><span class="label">Review</span><span id="pred-review" class="value">—</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+    /* Tab switching */
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+        });
+    });
+
+    /* Hard-negative cloud types */
+    const HARD_NEG_TYPES = new Set([
+        'cirrus','cirrostratus','cirrocumulus','nacreous',
+        'undulatus','fibratus','contrail','crepuscular-rays','sun-pillar'
+    ]);
+
+    /* Load dashboard stats */
+    async function loadStats() {
+        try {
+            const res = await fetch('/api/dataset-stats');
+            const d = await res.json();
+            document.getElementById('stats-loading').style.display = 'none';
+
+            const grid = document.getElementById('stats-grid');
+            grid.style.display = 'grid';
+            grid.innerHTML = `
+                <div class="stat-card positive"><div class="stat-number">${d.total_positives}</div><div class="stat-label">NLC Positives</div></div>
+                <div class="stat-card negative"><div class="stat-number">${d.total_negatives}</div><div class="stat-label">Non-NLC Samples</div></div>
+                <div class="stat-card neutral"><div class="stat-number">${d.total_positives + d.total_negatives}</div><div class="stat-label">Total Samples</div></div>
+                <div class="stat-card neutral"><div class="stat-number">${Object.keys(d.cas.types).length}</div><div class="stat-label">Cloud Types (CAS)</div></div>
+            `;
+
+            // Source breakdown
+            const sb = document.getElementById('source-breakdown');
+            sb.style.display = 'block';
+            document.getElementById('gallery-count').textContent = d.gallery.count;
+            document.getElementById('cas-nlc-count').textContent = d.cas.nlc;
+            document.getElementById('scw-nlc-count').textContent = d.scw.nlc;
+            document.getElementById('scw-no-count').textContent = d.scw.no_nlc;
+
+            let hardCount = 0, easyCount = 0;
+            for (const [t, c] of Object.entries(d.cas.types)) {
+                if (t === 'noctilucent') continue;
+                if (HARD_NEG_TYPES.has(t)) hardCount += c; else easyCount += c;
+            }
+            document.getElementById('cas-hard-neg').textContent = hardCount;
+            document.getElementById('cas-easy-neg').textContent = easyCount;
+
+            // Model status
+            const ms = document.getElementById('model-status');
+            ms.style.display = 'block';
+            document.getElementById('model-state').textContent = d.has_model ? '✅ Trained' : '⚠️ Not trained';
+            document.getElementById('model-state').className = 'value ' + (d.has_model ? 'accent' : 'warn');
+            if (d.training_metrics && d.training_metrics.best_accuracy) {
+                document.getElementById('model-acc').textContent = (d.training_metrics.best_accuracy * 100).toFixed(1) + '%';
+                document.getElementById('model-f1').textContent = (d.training_metrics.best_f1 * 100).toFixed(1) + '%';
+                document.getElementById('model-epoch').textContent = d.training_metrics.best_epoch + '/' + d.training_metrics.total_epochs;
+            }
+        } catch (e) {
+            document.getElementById('stats-loading').textContent = 'Error loading stats: ' + e.message;
+        }
+    }
+    loadStats();
+
+    /* Prediction */
+    async function runPrediction() {
+        const path = document.getElementById('image-path').value.trim();
+        if (!path) { alert('Enter an image path'); return; }
+        try {
+            const res = await fetch('/api/predict', {
+                method: 'POST',
+                headers: {'Content-Type':'application/json'},
+                body: JSON.stringify({image_path: path})
+            });
+            const d = await res.json();
+            if (d.error) { alert(d.error); return; }
+            showResult(d);
+        } catch (e) { alert('Prediction failed: ' + e.message); }
+    }
+
+    function showResult(d) {
+        const rc = document.getElementById('prediction-result');
+        rc.style.display = 'block';
+        document.getElementById('pred-label').textContent = d.predicted_label;
+        document.getElementById('pred-label').className = 'pred-label ' + (d.predicted_class === 1 ? 'nlc' : 'no-nlc');
+        document.getElementById('pred-confidence').textContent = (d.confidence * 100).toFixed(1) + '% confidence';
+        document.getElementById('pred-entropy').textContent = d.entropy.toFixed(3);
+        document.getElementById('pred-review').textContent = d.needs_review ? '⚠️ Review needed' : '✅ Auto-accepted';
+        document.getElementById('pred-review').className = 'value ' + (d.needs_review ? 'warn' : 'accent');
+    }
+
+    /* Drag & drop */
+    const dz = document.getElementById('drop-zone');
+    dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag-active'); });
+    dz.addEventListener('dragleave', () => dz.classList.remove('drag-active'));
+    dz.addEventListener('drop', async e => {
+        e.preventDefault();
+        dz.classList.remove('drag-active');
+        const file = e.dataTransfer.files[0];
+        if (!file) return;
+        const fd = new FormData();
+        fd.append('image', file);
+        try {
+            const res = await fetch('/api/predict', {method:'POST', body: fd});
+            const d = await res.json();
+            if (d.error) { alert(d.error); return; }
+            showResult(d);
+        } catch (ex) { alert('Upload failed'); }
+    });
+    </script>
+</body>
+</html>

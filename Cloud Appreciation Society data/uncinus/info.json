@@ -1,0 +1,58 @@
+{
+  "slug": "uncinus",
+  "name": "Uncinus",
+  "url": "https://cloudappreciationsociety.org/cloud-library/uncinus/",
+  "description": "Uncinus is a species of Cirrus where the streaks of the high cloud have a hooked appearance at one end. To be a true uncinus, these hooks should look like the handles of walking sticks, and should not take the form of rounded tufts or clumps. Those would be more likely to be the floccus form of Cirrus and trails of virga falling from Altocumulus. Described in maritime folklore as ‘mare’s tails’, uncinus have traditionally been associated with the arrival of unsettled weather. There is some truth to the phrase ‘mare’s tails and mackerel scales make tall ships carry low sails.’ The hooked ends of these clouds indicate that strong winds up at the high-cloud level vary greatly with altitude – being much faster above the cloud than they are below. Such ‘shearing’ wind conditions do indeed herald the arrival of a weather front. Image: Spotted over Glen Avon, New Plymouth District, Taranaki, New Zealand by Uncle G.",
+  "altitude": "High",
+  "precipitation": "None",
+  "reference_images": [
+    {
+      "filename": "ad5e84d8b8f4.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_nmplaces_Vista_Encantada_Bernalillo_County_New_Mexico_United_States.jpg"
+    },
+    {
+      "filename": "21ed5da5441f.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_marjoo3_Republique_Paris_Ile-de-France_France.jpg"
+    },
+    {
+      "filename": "280b04d1a607.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_Rosa_Bud_Rossmoyne_City_of_Canning_Western_Australia_Australia.jpg"
+    },
+    {
+      "filename": "2239a89490f1.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2022/10/Uncinus_Bozmo_Winthrop_Melville_Western_Australia_Australia.jpg"
+    }
+  ],
+  "gallery_images": [
+    {
+      "filename": "cf752fc4dc49.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/03/cloud-gallery-7486-1-700x525.jpg"
+    },
+    {
+      "filename": "ae119fd6643d.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2026/01/cloud-gallery-6896-1-394x700.jpeg"
+    },
+    {
+      "filename": "56672f3075b0.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/12/cloud-gallery-6439-1-700x653.jpeg"
+    },
+    {
+      "filename": "cb29ae973d77.jpeg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/10/cloud-gallery-5737-1-525x700.jpeg"
+    },
+    {
+      "filename": "c4c71c6931b6.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5344-1-700x700.jpg"
+    },
+    {
+      "filename": "4203465d8c4e.jpg",
+      "url": "https://cloudappreciationsociety.org/wp-content/uploads/2025/09/cloud-gallery-5260-1-700x700.jpg"
+    }
+  ],
+  "linked_cloud_slugs": [
+    "floccus",
+    "cirrus",
+    "virga"
+  ],
+  "label": "non-nlc"
+}
