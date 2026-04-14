@@ -78,18 +78,17 @@ def display_prediction_result(result, image_path: str) -> None:
         bar = "█" * int(prob * 20) + "░" * (20 - int(prob * 20))
         print(f"      {label}: {bar} {prob:.1%}")
     
-    # NLC Types (always shown)
-    if hasattr(result, 'nlc_type_probabilities') and result.nlc_type_probabilities:
+    # NLC Types (only shown when NLC is detected)
+    if result.predicted_class == 1 and hasattr(result, 'nlc_type_probabilities') and result.nlc_type_probabilities:
         print(f"\n  🏷️  NLC Type Probabilities:")
         for type_name, prob in result.nlc_type_probabilities.items():
             bar = "█" * int(prob * 20) + "░" * (20 - int(prob * 20))
             marker = "✓" if prob > 0.5 else " "
             print(f"    {marker} {type_name}: {bar} {prob:.1%}")
-        if result.predicted_class == 1:
-            if result.nlc_types:
-                print(f"\n  🏷️  Detected Types: {', '.join(result.nlc_types)}")
-            else:
-                print(f"\n  🏷️  Detected Types: (none above threshold)")
+        if result.nlc_types:
+            print(f"\n  🏷️  Detected Types: {', '.join(result.nlc_types)}")
+        else:
+            print(f"\n  🏷️  Detected Types: (none above threshold)")
     
     # Uncertainty metrics
     print(f"\n  🔍 Uncertainty Metrics:")
@@ -110,7 +109,7 @@ def display_prediction_result(result, image_path: str) -> None:
 def explain_model():
     """Explain what the model predicts."""
     print("\n" + "=" * 60)
-    print("📚 WHAT DOES THIS MODEL PREDICT?")
+    print("WHAT DOES THIS MODEL PREDICT?")
     print("=" * 60)
     print("""
 The NLC (Noctilucent Cloud) Classifier is a vision-only multi-task model that:
@@ -137,21 +136,21 @@ The NLC (Noctilucent Cloud) Classifier is a vision-only multi-task model that:
 
 Additional outputs for each prediction:
 
-  📊 CONFIDENCE SCORE (0-100%)
+  CONFIDENCE SCORE (0-100%)
      How certain the model is about NLC presence/absence.
      > 85% = High confidence (auto-accept)
      65-85% = Medium confidence (may need review)
      < 65% = Low confidence (needs human review)
 
-  🏷️  NLC TYPE PROBABILITIES
+  NLC TYPE PROBABILITIES
      Per-type probability (threshold: 50% to include)
      Images can have multiple types detected
 
-  📈 ENTROPY
+  ENTROPY
      Uncertainty measure based on probability distribution
      Lower entropy = model is more certain
 
-  👤 REVIEW FLAG
+  REVIEW FLAG
      Whether the prediction should be reviewed by a human
 
 ┌─────────────────────────────────────────────────────────────┐

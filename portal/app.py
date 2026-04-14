@@ -157,6 +157,10 @@ def create_app(project_root: str | None = None) -> Flask:
                 "probabilities": result.probabilities,
                 "needs_review": result.needs_review,
                 "review_reason": getattr(result, "review_reason", ""),
+                "nlc_types": getattr(result, "nlc_types", []),
+                "nlc_type_probabilities": {
+                    k: round(v, 4) for k, v in getattr(result, "nlc_type_probabilities", {}).items()
+                },
             })
         except Exception as exc:
             return jsonify({"error": str(exc)}), 500

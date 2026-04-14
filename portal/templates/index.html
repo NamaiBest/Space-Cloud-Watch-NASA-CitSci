@@ -187,6 +187,12 @@
                         <div><span class="label">Review</span><span id="pred-review" class="value">—</span></div>
                     </div>
                 </div>
+                <!-- NLC Type Probabilities (shown only when NLC detected) -->
+                <div id="type-probs-section" style="display:none; margin-top:1.25rem; border-top:1px solid var(--glass-border); padding-top:1.25rem;">
+                    <div style="font-size:.8rem; font-weight:600; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); margin-bottom:.75rem;">NLC Type Probabilities</div>
+                    <div id="type-probs-bars"></div>
+                    <div id="detected-types" style="margin-top:.75rem; font-size:.85rem;"></div>
+                </div>
             </div>
         </section>
     </main>
@@ -281,6 +287,35 @@
         document.getElementById('pred-entropy').textContent = d.entropy.toFixed(3);
         document.getElementById('pred-review').textContent = d.needs_review ? '⚠️ Review needed' : '✅ Auto-accepted';
         document.getElementById('pred-review').className = 'value ' + (d.needs_review ? 'warn' : 'accent');
+
+        /* NLC Type probabilities — only shown when NLC is detected */
+        const typeSection = document.getElementById('type-probs-section');
+        const typeBars = document.getElementById('type-probs-bars');
+        const detectedEl = document.getElementById('detected-types');
+
+        if (d.predicted_class === 1 && d.nlc_type_probabilities && Object.keys(d.nlc_type_probabilities).length) {
+            typeSection.style.display = 'block';
+            typeBars.innerHTML = '';
+            for (const [name, prob] of Object.entries(d.nlc_type_probabilities)) {
+                const pct = (prob * 100).toFixed(1);
+                const isDetected = prob > 0.5;
+                typeBars.innerHTML += `
+                    <div style="display:flex; align-items:center; gap:.6rem; margin-bottom:.45rem;">
+                        <span style="min-width:120px; font-size:.8rem; color:${isDetected ? 'var(--positive)' : 'var(--text-dim)'};">${isDetected ? '✓' : '&nbsp;&nbsp;'} ${name}</span>
+                        <div style="flex:1; height:8px; background:rgba(255,255,255,.08); border-radius:4px; overflow:hidden;">
+                            <div style="height:100%; width:${pct}%; background:${isDetected ? 'var(--positive)' : 'var(--accent)'}; border-radius:4px; transition:width .4s;"></div>
+                        </div>
+                        <span style="min-width:48px; text-align:right; font-size:.8rem; font-weight:600; color:var(--text);">${pct}%</span>
+                    </div>`;
+            }
+            if (d.nlc_types && d.nlc_types.length) {
+                detectedEl.innerHTML = '<span style="color:var(--text-dim); font-size:.8rem;">🏷️ Detected Types:</span> <strong style="color:var(--positive);">' + d.nlc_types.join(', ') + '</strong>';
+            } else {
+                detectedEl.innerHTML = '<span style="color:var(--text-dim); font-size:.8rem;">🏷️ Detected Types: (none above 50% threshold)</span>';
+            }
+        } else {
+            typeSection.style.display = 'none';
+        }
     }
 
     /* Drag & drop */

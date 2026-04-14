@@ -270,12 +270,27 @@ def cmd_train(args):
 
 def cmd_portal(args):
     """Launch the web portal."""
+    import socket
     from portal.app import create_app
     
     app = create_app()
-    print(f"\n🌐 Launching NLC Portal at http://{args.host}:{args.port}")
+    port = args.port
+    
+    # Try up to 10 ports if the requested one is busy
+    for attempt in range(10):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            if s.connect_ex((args.host, port)) != 0:
+                break  # port is free
+            if attempt == 0:
+                print(f"⚠️  Port {port} is in use, trying next…")
+            port += 1
+    else:
+        print(f"❌ Could not find a free port in range {args.port}–{port}.")
+        sys.exit(1)
+    
+    print(f"\n🌐 Launching NLC Portal at http://{args.host}:{port}")
     print("   Press Ctrl+C to stop.\n")
-    app.run(host=args.host, port=args.port, debug=args.debug)
+    app.run(host=args.host, port=port, debug=args.debug)
 
 
 def cmd_predict(args):
