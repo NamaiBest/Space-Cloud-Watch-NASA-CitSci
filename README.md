@@ -1,6 +1,6 @@
 # NLC (Noctilucent Cloud) Image Classification Pipeline
 
-## NASA Citizen Science — Space Cloud Watch
+## NASA Citizen Science - Space Cloud Watch
 
 A deep learning pipeline for classifying noctilucent clouds (NLCs) in citizen science sky imagery, with built-in human-in-the-loop support.
 
@@ -8,7 +8,7 @@ A deep learning pipeline for classifying noctilucent clouds (NLCs) in citizen sc
 
 ## 🌐 Live Demo
 
-Try the model directly in your browser — no setup required:
+Try the model directly in your browser - no setup required:
 
 **[➜ Launch NLC Detector on Hugging Face Spaces](https://huggingface.co/spaces/Namai123/nlc-detector)**
 
@@ -18,11 +18,11 @@ Upload any sky photograph and the model will tell you whether noctilucent clouds
 
 ## Key Features
 
-- **Binary Classification** — Detects NLC presence vs. absence with calibrated confidence scores
-- **Multi-Label Type Classification** — Identifies NLC types (Veil, Bands, Waves, Whirls) when present
-- **Human-in-the-Loop** — Automatic flagging of uncertain predictions for expert review
-- **Multi-Source Training** — Combines three independent datasets for robust generalisation
-- **Web Portal** — Local dashboard for training, prediction, and dataset exploration
+- **Binary Classification** - Detects NLC presence vs. absence with calibrated confidence scores
+- **Multi-Label Type Classification** - Identifies NLC types (Veil, Bands, Waves, Whirls) when present
+- **Human-in-the-Loop** - Automatic flagging of uncertain predictions for expert review
+- **Multi-Source Training** - Combines three independent datasets for robust generalisation
+- **Web Portal** - Local dashboard for training, prediction, and dataset exploration
 
 ---
 
@@ -30,7 +30,7 @@ Upload any sky photograph and the model will tell you whether noctilucent clouds
 
 ### Current Model (Multi-Source, v2)
 
-Trained on **890 images** from three sources with non-NLC cloud types as strong negatives.
+Trained on **890 images** from three sources with non-NLC cloud types as strong negatives. The model also identifies specific NLC types when present, including **Veil, Bands, Waves, and Whirls**.
 
 | Metric | Value |
 |---|---|
@@ -58,9 +58,9 @@ _*100% accuracy with 0.0 F1 indicates degenerate predictions (model predicted a 
 
 The single-source model was unusable: it overfit on a tiny, imbalanced dataset and failed to distinguish NLCs from other clouds. The multi-source model fixes this by:
 
-1. **Balanced classes** — 445 NLC-positive vs 445 non-NLC samples
-2. **Hard negatives** — Cirrus, nacreous, contrails, and other visually similar clouds force the model to learn NLC-specific features
-3. **Diverse positives** — NLC images from both professional galleries and citizen science observations
+1. **Balanced classes** - 445 NLC-positive vs 445 non-NLC samples
+2. **Hard negatives** - Cirrus, nacreous, contrails, and other visually similar clouds force the model to learn NLC-specific features
+3. **Diverse positives** - NLC images from both professional galleries and citizen science observations
 
 ---
 
@@ -210,10 +210,7 @@ python main.py batch-predict --high-threshold 0.80 --low-threshold 0.60 ...
 
 | Issue | Why | Mitigation |
 |---|---|---|
-| Cirrus confusion | Similar wispy appearance | Hard-negative training helps, but edge cases remain |
 | Aurora co-occurrence | Can appear alongside NLCs | Check for colour differences |
-| Light pollution | Similar blue/white tones | Geographic context helps |
-| Overexposed images | Washes out NLC detail | Flag for review via entropy |
 
 ### Geographic and Temporal Bias
 
