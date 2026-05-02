@@ -140,6 +140,65 @@ class NLCInferenceEngine:
         
         return self.transform(image).unsqueeze(0)
     
+    def _is_likely_not_photograph(self, pil_image: Image.Image) -> bool:
+        """
+        Pre-model check: detect non-photographic images (sketches, annotations,
+        screenshots, solid colors) that the cloud classifier cannot handle.
+        
+        Natural photographs (especially sky/cloud photos) have distinct
+        statistical signatures that digital/artificial images lack:
+        
+        1. Color diversity: Camera sensor noise creates thousands of unique
+           colors even in uniform-looking sky regions. Sketches/annotations
+           on solid backgrounds have very few unique colors.
+        2. Channel variance: Sky photos have smooth gradients with moderate
+           per-channel variance. Artificial images are either perfectly
+           uniform (solid color) or have extreme jumps (text/lines).
+        3. Blue/gray dominance: Sky imagery consistently has blue or gray
+           tones. Images with no blue/gray presence are unlikely to be sky.
+        
+        Returns:
+            True if the image is likely NOT a photograph of the sky.
+        """
+        # Work on a small thumbnail for speed
+        thumb = pil_image.copy()
+        thumb.thumbnail((64, 64))
+        pixels = np.array(thumb)
+        
+        # --- Signal 1: Unique color count ---
+        # Reshape to (N, 3) and count unique RGB tuples.
+        # Natural photos: 2000-4000+ unique colors at 64x64.
+        # Sketches/annotations: typically < 500.
+        flat = pixels.reshape(-1, 3)
+        # Quantize slightly to tolerate minor JPEG noise in screenshots
+        quantized = (flat // 4) * 4
+        unique_colors = len(set(map(tuple, quantized)))
+        low_color_diversity = unique_colors < 400
+        
+        # --- Signal 2: Per-channel variance ---
+        # Sky photos have gradients → moderate variance (typically 300-3000).
+        # Solid/near-solid images → very low variance (< 50).
+        # High-contrast line art → extreme variance patterns.
+        channel_vars = [float(np.var(pixels[:, :, c])) for c in range(3)]
+        avg_var = np.mean(channel_vars)
+        abnormal_variance = avg_var < 50 or avg_var > 5000
+        
+        # --- Signal 3: Blue/gray presence ---
+        # Sky images (day or twilight) have significant blue or gray content.
+        # Convert to float for safe arithmetic.
+        r, g, b = flat[:, 0].astype(float), flat[:, 1].astype(float), flat[:, 2].astype(float)
+        # Blue-dominant pixels: B > R and B > G
+        blue_mask = (b > r + 10) & (b > g + 10)
+        # Gray pixels: all channels within 25 of each other and not too dark
+        gray_mask = (np.abs(r - g) < 25) & (np.abs(g - b) < 25) & (r > 40)
+        sky_pixel_ratio = float((blue_mask | gray_mask).mean())
+        no_sky_colors = sky_pixel_ratio < 0.10
+        
+        # Need at least 2 signals to flag (reduces false positives on
+        # legitimate but unusual cloud photos like sunset silhouettes)
+        signals = sum([low_color_diversity, abnormal_variance, no_sky_colors])
+        return signals >= 2
+
     @torch.no_grad()
     def predict(
         self,
@@ -158,6 +217,42 @@ class NLCInferenceEngine:
         Returns:
             PredictionResult with prediction, confidence, and review flag
         """
+        # --- Pre-model OOD check ---
+        # Analyze the raw image BEFORE running the model. This catches
+        # sketches, annotations, screenshots, etc. that would otherwise
+        # get confidently misclassified because dark-bg + bright-marks
+        # looks like dark-sky + bright-NLC to the model.
+        pil_image = None
+        if isinstance(image_source, Image.Image):
+            pil_image = image_source.convert('RGB')
+        elif isinstance(image_source, (str, Path)) and not str(image_source).startswith('http'):
+            try:
+                pil_image = Image.open(str(image_source)).convert('RGB')
+            except Exception:
+                pass
+        
+        if pil_image is not None and self._is_likely_not_photograph(pil_image):
+            nlc_type_probs = {}
+            type_names = ['Type 1 (Veil)', 'Type 2 (Bands)', 'Type 3 (Waves)', 'Type 4 (Whirls)']
+            for name in type_names:
+                nlc_type_probs[name] = 0.0
+            
+            return PredictionResult(
+                image_id=image_id or str(hash(str(image_source))),
+                image_path=str(image_source) if isinstance(image_source, (str, Path)) else "tensor_input",
+                predicted_class=0,
+                predicted_label="Not a cloud image",
+                confidence=0.0,
+                probabilities={"No NLC": 0.0, "NLC Present": 0.0},
+                entropy=1.0,
+                needs_review=True,
+                review_reason=ReviewReason.POTENTIAL_OOD.value,
+                review_priority=1,
+                nlc_types=[],
+                nlc_type_probabilities=nlc_type_probs,
+                metadata={**(metadata or {}), "ood_detected": True}
+            )
+        
         # Load and preprocess image
         image_tensor = self.load_image(image_source).to(self.device)
         

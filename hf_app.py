@@ -194,10 +194,12 @@ main{max-width:760px;margin:0 auto;padding:2.5rem 1.2rem 5rem;}
 }
 .verdict.nlc{background:rgba(52,211,153,.1);border:1px solid rgba(52,211,153,.3);}
 .verdict.no-nlc{background:rgba(248,113,113,.1);border:1px solid rgba(248,113,113,.25);}
+.verdict.ood{background:rgba(251,191,36,.1);border:1px solid rgba(251,191,36,.25);}
 .verdict-icon{font-size:2rem;line-height:1;}
 .verdict-label{font-size:1.4rem;font-weight:700;}
 .verdict.nlc .verdict-label{color:var(--green);}
 .verdict.no-nlc .verdict-label{color:var(--red);}
+.verdict.ood .verdict-label{color:var(--warn);}
 .verdict-conf{font-size:.85rem;color:var(--dim);margin-top:.15rem;}
 
 /* Metrics row */
@@ -252,6 +254,13 @@ main{max-width:760px;margin:0 auto;padding:2.5rem 1.2rem 5rem;}
   border-radius:10px;padding:1rem 1.2rem;font-size:.88rem;color:var(--red);
 }
 
+/* Usage note */
+.usage-note{
+  margin-top:.85rem;padding:.6rem .9rem;
+  background:rgba(91,164,245,.05);border:1px solid rgba(91,164,245,.12);
+  border-radius:8px;font-size:.73rem;color:var(--dim);line-height:1.55;
+}
+
 /* Footer */
 footer{text-align:center;padding:2rem;font-size:.75rem;color:var(--dim);}
 footer a{color:var(--accent);text-decoration:none;}
@@ -282,6 +291,7 @@ footer a{color:var(--accent);text-decoration:none;}
       <span class="spinner" id="spinner"></span>
       <span id="btn-text">Classify Image</span>
     </button>
+    <div class="usage-note">For best results, upload photographs of the sky or clouds taken with a camera. The model is trained on natural sky imagery and may not produce reliable results for screenshots, sketches, or non-sky images.</div>
   </div>
 
   <!-- Result card -->
@@ -440,8 +450,29 @@ function showError(msg) {
 
 function showResult(d) {
   const isNLC   = d.predicted_class === 1;
+  const isOOD   = d.predicted_label === 'Not a cloud image';
   const confPct = (d.confidence * 100).toFixed(1);
   const reviewOk = !d.needs_review;
+
+  /* OOD: not a cloud image at all */
+  if (isOOD) {
+    let html = `
+      <div class="verdict ood">
+        <div class="verdict-icon">⚠</div>
+        <div>
+          <div class="verdict-label">Not a Cloud Image</div>
+          <div class="verdict-conf">This image does not appear to contain clouds or sky</div>
+        </div>
+      </div>
+      <div class="review-box">
+        <span class="review-icon">ℹ</span>
+        <span>The model is trained exclusively on cloud and sky imagery. Please upload a photograph of the sky for NLC detection.</span>
+      </div>`;
+    resultInner.innerHTML = html;
+    resultCard.style.display = 'block';
+    resultCard.scrollIntoView({behavior:'smooth',block:'start'});
+    return;
+  }
 
   /* Verdict */
   let html = `
