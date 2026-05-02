@@ -21,6 +21,7 @@
         <nav>
             <button class="nav-btn active" data-tab="dashboard">Dashboard</button>
             <button class="nav-btn" data-tab="predict">Predict</button>
+            <button class="nav-btn" data-tab="info">Info</button>
         </nav>
     </header>
 
@@ -157,6 +158,172 @@
                         </div>
                     </div>
                     <p class="explainer-note">Entropy (a measure of prediction spread across classes) is also reported. High entropy (&gt; 0.9) indicates the model may be seeing an out-of-distribution image — such as aurora, light pollution, or extreme lens flare.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Tab -->
+        <section id="tab-info" class="tab">
+            <h2 class="section-title">Technical Details</h2>
+
+            <!-- Model -->
+            <div class="card" style="margin-bottom:1.5rem;">
+                <div class="explainer-block-title" style="margin-bottom:1rem;">Model Architecture</div>
+                <div class="breakdown-row" style="flex-wrap:wrap; gap:.75rem;">
+                    <div class="breakdown-item"><span class="label">Backbone</span><span class="value accent">EfficientNet-B0</span></div>
+                    <div class="breakdown-item"><span class="label">Parameters</span><span class="value accent">5.3 M</span></div>
+                    <div class="breakdown-item"><span class="label">Pretrained On</span><span class="value">ImageNet</span></div>
+                    <div class="breakdown-item"><span class="label">Input Size</span><span class="value">224 × 224 RGB</span></div>
+                    <div class="breakdown-item"><span class="label">Framework</span><span class="value">timm 1.0.24 / PyTorch 2.10</span></div>
+                </div>
+                <div style="margin-top:1rem;">
+                    <div style="font-size:.8rem; color:var(--text-dim); margin-bottom:.5rem; text-transform:uppercase; letter-spacing:.05em;">Multi-task heads</div>
+                    <div style="display:flex; gap:.75rem; flex-wrap:wrap;">
+                        <div class="type-card" style="flex:1; min-width:200px;">
+                            <span class="type-num">Head 1</span>
+                            <span class="type-name">Binary Classifier</span>
+                            <span class="type-desc">NLC Present vs No NLC — cross-entropy loss, weighted for class imbalance.</span>
+                        </div>
+                        <div class="type-card" style="flex:1; min-width:200px;">
+                            <span class="type-num">Head 2</span>
+                            <span class="type-name">NLC Type Classifier</span>
+                            <span class="type-desc">4-way multi-label: Veil / Bands / Waves / Whirls — binary cross-entropy, loss weight 0.5.</span>
+                        </div>
+                    </div>
+                    <p style="font-size:.82rem; color:var(--text-dim); margin-top:.75rem;">Shared layer: feature dim → Dropout(0.3) → Linear(256) → ReLU → Dropout(0.15) → output heads.</p>
+                </div>
+            </div>
+
+            <!-- Training -->
+            <div class="card" style="margin-bottom:1.5rem;">
+                <div class="explainer-block-title" style="margin-bottom:1rem;">Training Configuration</div>
+                <div class="breakdown-row" style="flex-wrap:wrap; gap:.75rem;">
+                    <div class="breakdown-item"><span class="label">Optimizer</span><span class="value">AdamW</span></div>
+                    <div class="breakdown-item"><span class="label">Learning Rate</span><span class="value">1 × 10⁻⁴</span></div>
+                    <div class="breakdown-item"><span class="label">Scheduler</span><span class="value">Cosine annealing</span></div>
+                    <div class="breakdown-item"><span class="label">Warmup</span><span class="value">3 epochs</span></div>
+                    <div class="breakdown-item"><span class="label">Batch Size</span><span class="value">16</span></div>
+                    <div class="breakdown-item"><span class="label">Epochs</span><span class="value">30 (early stop patience 7)</span></div>
+                    <div class="breakdown-item"><span class="label">Weight Decay</span><span class="value">1 × 10⁻⁴</span></div>
+                    <div class="breakdown-item"><span class="label">Mixed Precision</span><span class="value">AMP enabled</span></div>
+                    <div class="breakdown-item"><span class="label">Augmentation</span><span class="value">Strong (flip, rotate, colour jitter, blur)</span></div>
+                    <div class="breakdown-item"><span class="label">Train / Val split</span><span class="value">80 / 20, stratified</span></div>
+                    <div class="breakdown-item"><span class="label">Normalisation</span><span class="value">ImageNet mean &amp; std</span></div>
+                    <div class="breakdown-item"><span class="label">Hardware</span><span class="value">CPU (Apple M-series)</span></div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div class="card" style="margin-bottom:1.5rem;">
+                <div class="explainer-block-title" style="margin-bottom:1rem;">Latest Training Results <span style="font-size:.75rem; color:var(--text-dim); font-weight:400;">(best epoch 28 / 30)</span></div>
+                <div class="breakdown-row" style="flex-wrap:wrap; gap:.75rem;">
+                    <div class="breakdown-item"><span class="label">Val Accuracy</span><span class="value accent">91.0 %</span></div>
+                    <div class="breakdown-item"><span class="label">Val F1</span><span class="value accent">90.7 %</span></div>
+                    <div class="breakdown-item"><span class="label">Precision</span><span class="value">90.4 %</span></div>
+                    <div class="breakdown-item"><span class="label">Recall / Sensitivity</span><span class="value">84.3 %</span></div>
+                    <div class="breakdown-item"><span class="label">Specificity</span><span class="value">91.0 %</span></div>
+                    <div class="breakdown-item"><span class="label">Avg Confidence</span><span class="value">97.8 %</span></div>
+                    <div class="breakdown-item"><span class="label">Training Time</span><span class="value">~17 min (CPU)</span></div>
+                </div>
+                <div style="margin-top:1rem;">
+                    <div style="font-size:.8rem; color:var(--text-dim); margin-bottom:.5rem; text-transform:uppercase; letter-spacing:.05em;">NLC Type Accuracy</div>
+                    <div style="display:flex; gap:.5rem; flex-wrap:wrap;">
+                        <span class="class-badge nlc" style="font-size:.78rem;">Veil — 70.0 %</span>
+                        <span class="class-badge nlc" style="font-size:.78rem;">Bands — 65.0 %</span>
+                        <span class="class-badge nlc" style="font-size:.78rem;">Waves — 72.5 %</span>
+                        <span class="class-badge nlc" style="font-size:.78rem;">Whirls — 72.5 %</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Sources -->
+            <div class="card" style="margin-bottom:1.5rem;">
+                <div class="explainer-block-title" style="margin-bottom:1rem;">Data Sources</div>
+                <table style="width:100%; border-collapse:collapse; font-size:.85rem;">
+                    <thead>
+                        <tr style="border-bottom:1px solid var(--glass-border);">
+                            <th style="text-align:left; padding:.5rem .25rem; color:var(--text-dim); font-weight:500;">Source</th>
+                            <th style="text-align:right; padding:.5rem .25rem; color:var(--text-dim); font-weight:500;">Images</th>
+                            <th style="text-align:left; padding:.5rem .5rem; color:var(--text-dim); font-weight:500;">Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,.04);">
+                            <td style="padding:.55rem .25rem;">NASA CitSci CSV (NLC Yes)</td>
+                            <td style="text-align:right; padding:.55rem .25rem; color:var(--positive); font-weight:600;">214</td>
+                            <td style="padding:.55rem .5rem; color:var(--text-dim);">Positive class</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,.04);">
+                            <td style="padding:.55rem .25rem;">Spaceweather Gallery</td>
+                            <td style="text-align:right; padding:.55rem .25rem; color:var(--positive); font-weight:600;">225</td>
+                            <td style="padding:.55rem .5rem; color:var(--text-dim);">Positive class (NLC photos)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,.04);">
+                            <td style="padding:.55rem .25rem;">CAS — Hard Negatives</td>
+                            <td style="text-align:right; padding:.55rem .25rem; color:var(--warn); font-weight:600;">~180</td>
+                            <td style="padding:.55rem .5rem; color:var(--text-dim);">Cirrus, nacreous, undulatus, contrail, fibratus… (visually similar)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,.04);">
+                            <td style="padding:.55rem .25rem;">CAS — Other Cloud Types</td>
+                            <td style="text-align:right; padding:.55rem .25rem; font-weight:600;">~265</td>
+                            <td style="padding:.55rem .5rem; color:var(--text-dim);">Easy negatives (cumulus, stratus, cumulonimbus…)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:.55rem .25rem;">NASA CitSci CSV (NLC No)</td>
+                            <td style="text-align:right; padding:.55rem .25rem; font-weight:600;">159</td>
+                            <td style="padding:.55rem .5rem; color:var(--text-dim);">Easy negatives (observer-labelled)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="margin-top:1rem;">
+                    <div style="font-size:.8rem; color:var(--text-dim); margin-bottom:.4rem; text-transform:uppercase; letter-spacing:.05em;">Hard Negative Cloud Types</div>
+                    <div style="display:flex; gap:.4rem; flex-wrap:wrap;">
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Cirrus</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Cirrostratus</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Cirrocumulus</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Nacreous</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Undulatus</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Fibratus</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Contrail</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Crepuscular Rays</span>
+                        <span class="class-badge no-nlc" style="font-size:.75rem;">Sun Pillar</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Inference Routing -->
+            <div class="card" style="margin-bottom:1.5rem;">
+                <div class="explainer-block-title" style="margin-bottom:1rem;">Inference Routing</div>
+                <div class="conf-bands">
+                    <div class="conf-band high">
+                        <span class="conf-range">≥ 85 %</span>
+                        <span class="conf-label">Auto-accepted</span>
+                        <span class="conf-meaning">High confidence — logged for audit, no human needed</span>
+                    </div>
+                    <div class="conf-band mid">
+                        <span class="conf-range">65 – 85 %</span>
+                        <span class="conf-label">Flagged for review</span>
+                        <span class="conf-meaning">Medium confidence — human review recommended</span>
+                    </div>
+                    <div class="conf-band low">
+                        <span class="conf-range">&lt; 65 %</span>
+                        <span class="conf-label">Priority review</span>
+                        <span class="conf-meaning">Low confidence — model uncertain, must be reviewed</span>
+                    </div>
+                </div>
+                <p style="font-size:.82rem; color:var(--text-dim); margin-top:.75rem;">OOD flag: normalised entropy &gt; 0.9 triggers an out-of-distribution warning (aurora, lens flare, extreme glare).</p>
+            </div>
+
+            <!-- Stack -->
+            <div class="card">
+                <div class="explainer-block-title" style="margin-bottom:1rem;">Software Stack</div>
+                <div class="breakdown-row" style="flex-wrap:wrap; gap:.75rem;">
+                    <div class="breakdown-item"><span class="label">PyTorch</span><span class="value">2.10.0</span></div>
+                    <div class="breakdown-item"><span class="label">torchvision</span><span class="value">0.25.0</span></div>
+                    <div class="breakdown-item"><span class="label">timm</span><span class="value">1.0.24</span></div>
+                    <div class="breakdown-item"><span class="label">scikit-learn</span><span class="value">stratified splits, weighted sampler, metrics</span></div>
+                    <div class="breakdown-item"><span class="label">Flask</span><span class="value">portal (this UI)</span></div>
+                    <div class="breakdown-item"><span class="label">Python</span><span class="value">3.13 (venv)</span></div>
                 </div>
             </div>
         </section>

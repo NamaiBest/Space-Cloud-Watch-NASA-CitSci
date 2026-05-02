@@ -62,3 +62,6 @@ logs/
 
 # Model predictions
 predictions/
+
+# Secrets and Tokens
+hf_token.txt
