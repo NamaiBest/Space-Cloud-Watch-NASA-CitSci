@@ -65,3 +65,6 @@ predictions/
 
 # Secrets and Tokens
 hf_token.txt
+
+# Hugging Face deployment folder (separate git repo)
+hf-deploy/

@@ -6,6 +6,16 @@ A deep learning pipeline for classifying noctilucent clouds (NLCs) in citizen sc
 
 ---
 
+## 🌐 Live Demo
+
+Try the model directly in your browser — no setup required:
+
+**[➜ Launch NLC Detector on Hugging Face Spaces](https://huggingface.co/spaces/Namai123/nlc-detector)**
+
+Upload any sky photograph and the model will tell you whether noctilucent clouds are present, along with NLC type classification (Veil, Bands, Waves, Whirls) and confidence scores.
+
+---
+
 ## Key Features
 
 - **Binary Classification** — Detects NLC presence vs. absence with calibrated confidence scores

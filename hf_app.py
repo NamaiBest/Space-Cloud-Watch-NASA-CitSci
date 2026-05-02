@@ -77,7 +77,35 @@ header h1 span{background:linear-gradient(135deg,var(--accent),var(--accent2));-
 header p{color:var(--dim);font-size:.95rem;max-width:520px;margin:0 auto;}
 
 /* ── Main ── */
-main{max-width:760px;margin:0 auto;padding:2.5rem 1.2rem 5rem;}
+main{max-width:1080px;margin:0 auto;padding:2.5rem 1.2rem 5rem;}
+
+/* ── Two-column layout ── */
+.layout{display:grid;grid-template-columns:280px 1fr;gap:1.5rem;align-items:start;}
+@media(max-width:720px){.layout{grid-template-columns:1fr;}}
+
+/* ── Specs sidebar ── */
+.specs-card{
+  background:var(--surface);backdrop-filter:blur(16px);
+  border:1px solid var(--border);border-radius:var(--r);padding:1.4rem;
+  position:sticky;top:80px;
+}
+.specs-title{
+  font-size:.7rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--accent);margin-bottom:1rem;
+}
+.spec-row{
+  display:flex;flex-direction:column;gap:.1rem;
+  padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.05);
+}
+.spec-row:last-child{border-bottom:none;}
+.spec-label{font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--dim);}
+.spec-value{font-size:.88rem;font-weight:500;color:var(--text);}
+.spec-value.highlight{color:var(--green);}
+.spec-divider{
+  margin:1rem 0 .75rem;
+  font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--accent2);font-weight:700;
+}
 
 /* ── Upload card ── */
 .card{
@@ -208,6 +236,82 @@ footer a{color:var(--accent);text-decoration:none;}
 </header>
 
 <main>
+<div class="layout">
+
+  <!-- LEFT: Model Specs sidebar -->
+  <aside class="specs-card">
+    <div class="specs-title">Model Specs</div>
+
+    <div class="spec-row">
+      <span class="spec-label">Architecture</span>
+      <span class="spec-value">EfficientNet-B0</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Parameters</span>
+      <span class="spec-value">5.3M</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Input Size</span>
+      <span class="spec-value">224 × 224 px</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Backbone</span>
+      <span class="spec-value">ImageNet pretrained</span>
+    </div>
+
+    <div class="spec-divider">Performance</div>
+    <div class="spec-row">
+      <span class="spec-label">Val Accuracy</span>
+      <span class="spec-value highlight">91.0%</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">F1 Score</span>
+      <span class="spec-value highlight">0.907</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Precision</span>
+      <span class="spec-value">0.940</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Recall</span>
+      <span class="spec-value">0.876</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Best Epoch</span>
+      <span class="spec-value">28 / 30</span>
+    </div>
+
+    <div class="spec-divider">Training Data</div>
+    <div class="spec-row">
+      <span class="spec-label">Total Images</span>
+      <span class="spec-value">890</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">NLC Positive</span>
+      <span class="spec-value">445</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Non-NLC</span>
+      <span class="spec-value">445</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Sources</span>
+      <span class="spec-value">3 (SCW, Gallery, CAS)</span>
+    </div>
+
+    <div class="spec-divider">Tasks</div>
+    <div class="spec-row">
+      <span class="spec-label">Task 1</span>
+      <span class="spec-value">NLC Detection (binary)</span>
+    </div>
+    <div class="spec-row">
+      <span class="spec-label">Task 2</span>
+      <span class="spec-value">NLC Type (4-class multi-label)</span>
+    </div>
+  </aside>
+
+  <!-- RIGHT: Upload + results -->
+  <div>
   <!-- Upload card -->
   <div class="card">
     <div class="card-title">Upload Image</div>
@@ -232,10 +336,11 @@ footer a{color:var(--accent);text-decoration:none;}
 
     <div id="result-inner"></div>
   </div>
+  </div><!-- end right column -->
+</div><!-- end layout -->
 </main>
 
-<footer>
-  Built for <a href="https://www.zooniverse.org/projects/nasa/space-cloud-watch" target="_blank">NASA Space Cloud Watch</a>
+<footer>Built for NASA Space Cloud Watch
   &nbsp;·&nbsp; Model trained on 890 images (EfficientNet-B0, 91% accuracy)
 </footer>
 
